@@ -148,7 +148,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
 			sym.$("InputA_"+i).children("input").each(function(){
 			ValorTemp = sym.getVariable("Respuesta_"+i);
 			if($(this).is(":checked")){
-			if(ValorTemp==1){
+			/*if(ValorTemp==1){
 			//console.log("esta chequeado "+($(this).attr("id"))+" y el valor temporal es "+ValorTemp+" correcto");;
 			sym.$("ok"+i).css({top: y, left: x});
 			sym.$("ok"+i).show();
@@ -157,7 +157,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
 			errores=errores+1
 			sym.$("bad"+i).css({top: y, left: x});
 			sym.$("bad"+i).show();
-			}
+			}*/
 			}else{
 			var radioBCheck= $("#radioB_"+i).is(":checked");
 			if (radioBCheck){
