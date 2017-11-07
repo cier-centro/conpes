@@ -190,6 +190,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
 			//setTimeout('$("#Stage_resp_correcta").fadeOut("slow");', 2500);
 			}
 			Cookies.set('S02_03_score',(5-errores)+'');
+			
 			console.log(Cookies.get('S02_03_score'));
          //document.cookie = "S02_03_score="+(5-errores)+";path=/"; //Asumiendo que todos los bloques tenen 5 preguntas         
 		 //console.log(document.cookie);
