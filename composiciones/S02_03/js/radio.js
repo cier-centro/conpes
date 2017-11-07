@@ -189,7 +189,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
 			sym.$("success")[0].muted = false;
 			//setTimeout('$("#Stage_resp_correcta").fadeOut("slow");', 2500);
 			}
-         
+         document.cookie = "S02_03_score="+(5-errores); //Asumiendo que todos los bloques tenen 5 preguntas         
          });
          //BOTÓN SOLUCIÓN
          sym.$('hotspot_solucion').click(function(){
