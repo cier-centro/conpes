@@ -61,7 +61,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 2000, function(sym, e) {
         sym.stop();
         slideCount = 3;
-        $("#Stage_slide_"+(slideCount-1)).children().remove();
+        //$("#Stage_slide_"+(slideCount-1)).children().remove();
         $(sym.lookupSelector("textCount")).html("2 - 2");
          //cargar actividad-reemplazar la carpeta según el código - cambiar el simbolo de acuerdo a donde carga
         //$( "#Stage_slide_3" ).append( "<iframe src='composiciones/S02_02/index.html' width='1366px' height='768px' frameborder='0' scrolling='no'></iframe>" );

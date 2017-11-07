@@ -188,7 +188,7 @@ var symbols = {
                     fill: ['rgba(0,0,0,0)', 'images/contenido.png', '0px', '0px']
                 },
                 {
-                    rect: ['0px', '-13px', '1366px', '768px', 'auto', 'auto'],
+                    rect: ['0px', '-17px', '1366px', '768px', 'auto', 'auto'],
                     type: 'image',
                     id: 'contenido2Copy2',
                     display: 'none',
@@ -196,7 +196,7 @@ var symbols = {
                     fill: ['rgba(0,0,0,0)', 'images/contenido.png', '0px', '0px']
                 },
                 {
-                    rect: ['0px', '-18px', '1366px', '768px', 'auto', 'auto'],
+                    rect: ['0px', '-24px', '1366px', '768px', 'auto', 'auto'],
                     type: 'image',
                     id: 'contenido2Copy',
                     display: 'none',
@@ -204,7 +204,7 @@ var symbols = {
                     fill: ['rgba(0,0,0,0)', 'images/contenido.png', '0px', '0px']
                 },
                 {
-                    rect: ['0px', '-7px', '1366px', '768px', 'auto', 'auto'],
+                    rect: ['0px', '-9px', '1366px', '768px', 'auto', 'auto'],
                     type: 'image',
                     id: 'contenido2Copy3',
                     display: 'none',
@@ -269,7 +269,7 @@ var symbols = {
                 ["style", "left", '0px']
             ],
             "${_contenido2Copy2}": [
-                ["style", "top", '-13px'],
+                ["style", "top", '-17px'],
                 ["style", "display", 'none'],
                 ["style", "opacity", '0'],
                 ["style", "clip", [523.53125,1366,608.3125,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
@@ -292,7 +292,7 @@ var symbols = {
                 ["style", "width", '200px']
             ],
             "${_contenido2Copy3}": [
-                ["style", "top", '-7px'],
+                ["style", "top", '-9px'],
                 ["style", "display", 'none'],
                 ["style", "opacity", '0'],
                 ["style", "clip", [438.6015625,1366,518.5625,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
@@ -312,7 +312,7 @@ var symbols = {
                 ["style", "display", 'none']
             ],
             "${_contenido2Copy}": [
-                ["style", "top", '-18px'],
+                ["style", "top", '-24px'],
                 ["style", "display", 'none'],
                 ["style", "opacity", '0'],
                 ["style", "clip", [608.265625,1366,691.640625,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
