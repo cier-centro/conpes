@@ -63,15 +63,12 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
         slideCount = 3;
         //$("#Stage_slide_"+(slideCount-1)).children().remove();
         $(sym.lookupSelector("textCount")).html("2 - 2");
+        
          //cargar actividad-reemplazar la carpeta según el código - cambiar el simbolo de acuerdo a donde carga
         //$( "#Stage_slide_3" ).append( "<iframe src='composiciones/S02_02/index.html' width='1366px' height='768px' frameborder='0' scrolling='no'></iframe>" );
         
         
-        //textos
-        //$(sym.lookupSelector("momento")).html("Desarrollo");
-        //$(sym.lookupSelector("num_actividad")).html("Actividad 1");
-        //$(sym.lookupSelector("descripcion")).html("Lorem ipsum dolor sit amet, consectetur");
-        //$(sym.lookupSelector("instruccion")).html("Lorem ipsum dolor sit amet, consectetur");
+        
 
       });
       //Edge binding end
@@ -646,6 +643,9 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
 
       Symbol.bindElementAction(compId, symbolName, "${_volver}", "click", function(sym, e) {
          sym.stop("slide_3");
+         console.log("ya cice click");
+         
+         
 
       });
       //Edge binding end
