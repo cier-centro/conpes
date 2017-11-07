@@ -1048,7 +1048,7 @@ var symbols = {
                     fill: ['rgba(255,255,255,0)']
                 },
                 {
-                    rect: ['882px', '350px', '289px', '155px', 'auto', 'auto'],
+                    rect: ['884px', '350px', '289px', '155px', 'auto', 'auto'],
                     display: 'none',
                     type: 'rect',
                     id: 'hotspot_3',
@@ -1172,12 +1172,10 @@ var symbols = {
         },
     states: {
         "Base State": {
-            "${_check_2}": [
-                ["style", "top", '359px'],
-                ["transform", "scaleY", '0.09751'],
-                ["transform", "scaleX", '0.09751'],
-                ["style", "opacity", '0'],
-                ["style", "left", '441px']
+            "${_brillo_6}": [
+                ["style", "top", '-1px'],
+                ["style", "left", '-53px'],
+                ["style", "clip", [0,340.265625,155,47.9296875], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
             ],
             "${_Rectangle2}": [
                 ["style", "top", '349px'],
@@ -1206,13 +1204,11 @@ var symbols = {
                 ["style", "opacity", '0'],
                 ["style", "left", '59px']
             ],
-            "${_Rectangle1}": [
-                ["style", "top", '349px'],
-                ["style", "border-bottom-right-radius", [20,20], {valueTemplate:'@@0@@px @@1@@px'} ],
+            "${_hotspot_2}": [
+                ["style", "top", '369px'],
                 ["style", "display", 'none'],
-                ["color", "background-color", 'rgba(255,255,255,0.00)'],
-                ["style", "left", '119px'],
-                ["style", "border-top-right-radius", [20,20], {valueTemplate:'@@0@@px @@1@@px'} ]
+                ["style", "cursor", 'pointer'],
+                ["style", "left", '501px']
             ],
             "${_check_4}": [
                 ["style", "top", '542px'],
@@ -1221,22 +1217,66 @@ var symbols = {
                 ["style", "opacity", '0'],
                 ["style", "left", '59px']
             ],
-            "${_brillo_1}": [
-                ["style", "top", '-1px'],
-                ["style", "left", '-53px'],
-                ["style", "clip", [0,341.34375,155,53.171875], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+            "${_check_2}": [
+                ["style", "top", '359px'],
+                ["transform", "scaleY", '0.09751'],
+                ["transform", "scaleX", '0.09751'],
+                ["style", "opacity", '0'],
+                ["style", "left", '441px']
             ],
             "${_hotspot_3}": [
                 ["style", "top", '350px'],
                 ["style", "display", 'none'],
                 ["style", "cursor", 'pointer'],
-                ["style", "left", '882px']
+                ["style", "left", '884px']
+            ],
+            "${_Rectangle1}": [
+                ["style", "top", '349px'],
+                ["style", "border-bottom-right-radius", [20,20], {valueTemplate:'@@0@@px @@1@@px'} ],
+                ["style", "display", 'none'],
+                ["color", "background-color", 'rgba(255,255,255,0.00)'],
+                ["style", "left", '119px'],
+                ["style", "border-top-right-radius", [20,20], {valueTemplate:'@@0@@px @@1@@px'} ]
+            ],
+            "${_contenidoCopy3}": [
+                ["style", "top", '9px'],
+                ["style", "left", '1275px'],
+                ["style", "clip", [508.109375,1366,685.9140625,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+            ],
+            "${_brillo_3}": [
+                ["style", "top", '-1px'],
+                ["style", "left", '-53px'],
+                ["style", "clip", [0,340.7265625,155,51.7734375], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+            ],
+            "${_hotspot_6}": [
+                ["style", "top", '528px'],
+                ["style", "display", 'none'],
+                ["style", "left", '886px'],
+                ["style", "cursor", 'pointer']
+            ],
+            "${_Rectangle4}": [
+                ["color", "background-color", 'rgba(255,255,255,0.00)'],
+                ["style", "border-bottom-right-radius", [20,20], {valueTemplate:'@@0@@px @@1@@px'} ],
+                ["style", "display", 'none'],
+                ["style", "top", '529px'],
+                ["style", "border-top-right-radius", [20,20], {valueTemplate:'@@0@@px @@1@@px'} ],
+                ["style", "left", '119px']
+            ],
+            "${_brillo_1}": [
+                ["style", "top", '-1px'],
+                ["style", "left", '-53px'],
+                ["style", "clip", [0,341.34375,155,53.171875], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
             ],
             "${_hotspot_5}": [
                 ["style", "top", '528px'],
                 ["style", "display", 'none'],
                 ["style", "left", '501px'],
                 ["style", "cursor", 'pointer']
+            ],
+            "${_brillo_5}": [
+                ["style", "top", '-1px'],
+                ["style", "left", '-53px'],
+                ["style", "clip", [0,340.890625,155,50.125], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
             ],
             "${_s02_02_7}": [
                 ["style", "left", '0px'],
@@ -1255,55 +1295,15 @@ var symbols = {
                 ["style", "opacity", '0'],
                 ["style", "left", '441px']
             ],
-            "${_Rectangle4}": [
-                ["color", "background-color", 'rgba(255,255,255,0.00)'],
-                ["style", "border-bottom-right-radius", [20,20], {valueTemplate:'@@0@@px @@1@@px'} ],
-                ["style", "display", 'none'],
-                ["style", "top", '529px'],
-                ["style", "border-top-right-radius", [20,20], {valueTemplate:'@@0@@px @@1@@px'} ],
-                ["style", "left", '119px']
-            ],
             "${_brillo_4}": [
                 ["style", "top", '-1px'],
                 ["style", "left", '-53px'],
                 ["style", "clip", [0,338.28125,155,52.375], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
             ],
-            "${_brillo_6}": [
-                ["style", "top", '-1px'],
-                ["style", "left", '-53px'],
-                ["style", "clip", [0,340.265625,155,47.9296875], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
-            ],
-            "${_brillo_5}": [
-                ["style", "top", '-1px'],
-                ["style", "left", '-53px'],
-                ["style", "clip", [0,340.890625,155,50.125], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
-            ],
             "${_brillo_2}": [
                 ["style", "top", '-1px'],
                 ["style", "left", '-53px'],
                 ["style", "clip", [0,340.640625,155,51.5859375], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
-            ],
-            "${_contenido}": [
-                ["style", "top", '-243px'],
-                ["style", "left", '0px'],
-                ["style", "clip", [74.265625,1366,226.0546875,781.8828125], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
-            ],
-            "${_hotspot_6}": [
-                ["style", "top", '528px'],
-                ["style", "display", 'none'],
-                ["style", "left", '886px'],
-                ["style", "cursor", 'pointer']
-            ],
-            "${_brillo_3}": [
-                ["style", "top", '-1px'],
-                ["style", "left", '-53px'],
-                ["style", "clip", [0,340.7265625,155,51.7734375], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
-            ],
-            "${_hotspot_1}": [
-                ["style", "top", '369px'],
-                ["style", "display", 'none'],
-                ["style", "left", '119px'],
-                ["style", "cursor", 'pointer']
             ],
             "${_Rectangle6}": [
                 ["style", "top", '529px'],
@@ -1313,9 +1313,10 @@ var symbols = {
                 ["style", "left", '881px'],
                 ["style", "border-top-right-radius", [20,20], {valueTemplate:'@@0@@px @@1@@px'} ]
             ],
-            "${symbolSelector}": [
-                ["style", "height", '768px'],
-                ["style", "width", '1366px']
+            "${_contenido}": [
+                ["style", "top", '-243px'],
+                ["style", "left", '0px'],
+                ["style", "clip", [74.265625,1366,226.0546875,781.8828125], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
             ],
             "${_Rectangle3}": [
                 ["style", "top", '349px'],
@@ -1332,10 +1333,11 @@ var symbols = {
                 ["style", "opacity", '0'],
                 ["style", "left", '822px']
             ],
-            "${_contenidoCopy3}": [
-                ["style", "top", '9px'],
-                ["style", "left", '1275px'],
-                ["style", "clip", [508.109375,1366,685.9140625,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+            "${_hotspot_1}": [
+                ["style", "top", '369px'],
+                ["style", "display", 'none'],
+                ["style", "left", '119px'],
+                ["style", "cursor", 'pointer']
             ],
             "${_Rectangle5}": [
                 ["style", "top", '529px'],
@@ -1345,11 +1347,9 @@ var symbols = {
                 ["style", "border-top-right-radius", [20,20], {valueTemplate:'@@0@@px @@1@@px'} ],
                 ["color", "background-color", 'rgba(255,255,255,0.00)']
             ],
-            "${_hotspot_2}": [
-                ["style", "top", '369px'],
-                ["style", "display", 'none'],
-                ["style", "cursor", 'pointer'],
-                ["style", "left", '501px']
+            "${symbolSelector}": [
+                ["style", "height", '768px'],
+                ["style", "width", '1366px']
             ],
             "${_contenidoCopy}": [
                 ["style", "top", '0px'],
@@ -3921,15 +3921,15 @@ var symbols = {
     content: {
             dom: [
                 {
-                    type: 'rect',
+                    rect: ['2px', '0px', '1366px', '768px', 'auto', 'auto'],
                     id: 'contenedor',
                     stroke: [0, 'rgb(0, 0, 0)', 'none'],
-                    rect: ['2px', '0px', '1366px', '768px', 'auto', 'auto'],
+                    type: 'rect',
                     fill: ['rgba(192,192,192,0)']
                 },
                 {
-                    type: 'rect',
                     rect: ['1298px', '79px', '55px', '55px', 'auto', 'auto'],
+                    type: 'rect',
                     id: 'cerrar',
                     stroke: [0, 'rgba(0,0,0,1)', 'none'],
                     cursor: ['pointer'],
