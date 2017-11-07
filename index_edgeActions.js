@@ -635,10 +635,11 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_menu}", "click", function(sym, e) {
-         slideCount = 1;
-         sym.getComposition().getStage().stop("slide_1");
-         sym.getComposition().getStage().getSymbol("slide_1").play(1);
-         sym.$("guia_usuario").fadeOut("slow");
+         //slideCount = 1;
+         //sym.getComposition().getStage().stop("slide_1");
+         //sym.getComposition().getStage().getSymbol("slide_1").play(1);
+         //sym.$("guia_usuario").fadeOut("slow");
+         location.reload(true);
 
       });
       //Edge binding end
