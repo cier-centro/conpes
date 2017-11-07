@@ -53,6 +53,9 @@ if(document.addEventListener ){
       { load: "edge_includes/jquery-2.0.3.min.js"},
       { load: "edge_includes/edge.4.0.1.min.js"},
       { load: "js/radio.js", user: true },
+      { load: "js/angular.min.js", user: true },
+      { load: "js/angular-cookies.min.js", user: true },
+      { load: "js/js.cookie.js", user: true },
       { load: "index_edge.js"},
       { load: "index_edgeActions.js"}];
 
