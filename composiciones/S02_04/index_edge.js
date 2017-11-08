@@ -31,15 +31,13 @@ var symbols = {
             {
                 id: 'bt_solucion',
                 type: 'rect',
-                rect: ['992px', '696px','auto','auto','auto', 'auto'],
-                opacity: 0
+                rect: ['992px', '696px','auto','auto','auto', 'auto']
             },
             {
                 id: 'hotspot_solucion',
                 type: 'rect',
                 rect: ['992px', '696px','67px','63px','auto', 'auto'],
                 cursor: ['pointer'],
-                opacity: 0,
                 fill: ["rgba(192,192,192,0.00)"],
                 stroke: [0,"rgba(0,0,0,1)","none"]
             },
@@ -357,66 +355,25 @@ var symbols = {
                 ["color", "background-color", 'rgba(192,192,192,0.00)'],
                 ["style", "top", '696px'],
                 ["style", "height", '60px'],
-                ["style", "left", '1025px'],
                 ["style", "cursor", 'pointer'],
+                ["style", "left", '1025px'],
                 ["style", "width", '66px']
             ],
             "${_hotspot_validar}": [
                 ["color", "background-color", 'rgba(192,192,192,0.00)'],
                 ["style", "top", '696px'],
                 ["style", "height", '61px'],
-                ["style", "left", '950px'],
                 ["style", "cursor", 'pointer'],
+                ["style", "left", '950px'],
                 ["style", "width", '66px']
             ],
             "${_InputB_4}": [
                 ["color", "background-color", 'rgba(150,150,150,0.00)'],
                 ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
                 ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "border-style", 'none'],
+                ["style", "opacity", '1'],
                 ["style", "left", '1001px'],
-                ["style", "opacity", '1'],
-                ["style", "cursor", 'pointer'],
-                ["style", "width", '35px'],
-                ["style", "top", '508px'],
-                ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "border-width", '1px'],
-                ["style", "height", '35px'],
-                ["style", "display", 'none'],
-                ["color", "border-color", 'rgba(139,139,139,0.50)'],
-                ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "border-style", 'none']
-            ],
-            "${_InputA_4}": [
-                ["color", "background-color", 'rgba(150,150,150,0.00)'],
-                ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "border-width", '1px'],
-                ["style", "border-style", 'none'],
-                ["style", "cursor", 'pointer'],
-                ["style", "width", '35px'],
-                ["style", "top", '509px'],
-                ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "opacity", '1'],
-                ["style", "height", '35px'],
-                ["style", "display", 'none'],
-                ["color", "border-color", 'rgba(139,139,139,0.50)'],
-                ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "left", '888px']
-            ],
-            "${_resp_correcta}": [
-                ["style", "top", '0px'],
-                ["style", "height", '768px'],
-                ["style", "display", 'none'],
-                ["style", "left", '0px'],
-                ["style", "width", '1366px']
-            ],
-            "${_InputB_5}": [
-                ["color", "background-color", 'rgba(150,150,150,0.00)'],
-                ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "border-style", 'none'],
-                ["style", "opacity", '1'],
-                ["style", "left", '1258px'],
                 ["style", "width", '35px'],
                 ["style", "top", '508px'],
                 ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
@@ -427,13 +384,37 @@ var symbols = {
                 ["style", "border-width", '1px'],
                 ["style", "cursor", 'pointer']
             ],
-            "${_InputB_2}": [
+            "${_InputA_4}": [
+                ["color", "background-color", 'rgba(150,150,150,0.00)'],
+                ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "left", '888px'],
+                ["style", "border-style", 'none'],
+                ["style", "border-width", '1px'],
+                ["style", "width", '35px'],
+                ["style", "top", '509px'],
+                ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "display", 'none'],
+                ["style", "height", '35px'],
+                ["color", "border-color", 'rgba(139,139,139,0.50)'],
+                ["style", "opacity", '1'],
+                ["style", "cursor", 'pointer']
+            ],
+            "${_resp_correcta}": [
+                ["style", "top", '0px'],
+                ["style", "display", 'none'],
+                ["style", "height", '768px'],
+                ["style", "left", '0px'],
+                ["style", "width", '1366px']
+            ],
+            "${_InputB_5}": [
                 ["color", "background-color", 'rgba(150,150,150,0.00)'],
                 ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
                 ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
                 ["style", "cursor", 'pointer'],
                 ["style", "border-style", 'none'],
-                ["style", "left", '478px'],
+                ["style", "left", '1258px'],
                 ["style", "width", '35px'],
                 ["style", "top", '508px'],
                 ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
@@ -444,6 +425,23 @@ var symbols = {
                 ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
                 ["style", "opacity", '1']
             ],
+            "${_InputB_2}": [
+                ["color", "background-color", 'rgba(150,150,150,0.00)'],
+                ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "opacity", '1'],
+                ["style", "border-style", 'none'],
+                ["style", "cursor", 'pointer'],
+                ["style", "width", '35px'],
+                ["style", "top", '508px'],
+                ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "display", 'none'],
+                ["style", "height", '35px'],
+                ["color", "border-color", 'rgba(139,139,139,0.50)'],
+                ["style", "border-width", '1px'],
+                ["style", "left", '478px']
+            ],
             "${_brillo_1}": [
                 ["style", "display", 'none']
             ],
@@ -451,9 +449,41 @@ var symbols = {
                 ["color", "background-color", 'rgba(150,150,150,0.00)'],
                 ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
                 ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "border-width", '1px'],
+                ["style", "border-style", 'none'],
+                ["style", "cursor", 'pointer'],
+                ["style", "width", '35px'],
+                ["style", "top", '509px'],
+                ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "opacity", '1'],
+                ["style", "height", '35px'],
+                ["style", "display", 'none'],
+                ["color", "border-color", 'rgba(139,139,139,0.50)'],
+                ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "left", '626px']
+            ],
+            "${_ok37}": [
+                ["style", "top", '177px'],
+                ["style", "display", 'none'],
+                ["style", "height", '20px'],
+                ["style", "left", '79px'],
+                ["style", "width", '20px']
+            ],
+            "${_help_radio}": [
+                ["style", "top", '0px'],
+                ["style", "height", '768px'],
+                ["style", "display", 'none'],
+                ["style", "left", '0px'],
+                ["style", "cursor", 'pointer'],
+                ["style", "width", '1366px']
+            ],
+            "${_InputA_2}": [
+                ["color", "background-color", 'rgba(150,150,150,0.00)'],
+                ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
                 ["style", "cursor", 'pointer'],
                 ["style", "border-style", 'none'],
-                ["style", "left", '626px'],
+                ["style", "left", '368px'],
                 ["style", "width", '35px'],
                 ["style", "top", '509px'],
                 ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
@@ -464,44 +494,22 @@ var symbols = {
                 ["style", "opacity", '1'],
                 ["style", "border-width", '1px']
             ],
-            "${_ok37}": [
-                ["style", "top", '177px'],
-                ["style", "height", '20px'],
-                ["style", "display", 'none'],
-                ["style", "left", '79px'],
-                ["style", "width", '20px']
-            ],
-            "${_help_radio}": [
-                ["style", "top", '0px'],
-                ["style", "height", '768px'],
-                ["style", "display", 'none'],
-                ["style", "cursor", 'pointer'],
-                ["style", "left", '0px'],
-                ["style", "width", '1366px']
-            ],
-            "${_resp_incorrecta}": [
-                ["style", "top", '0px'],
-                ["style", "height", '768px'],
-                ["style", "display", 'none'],
-                ["style", "left", '0px'],
-                ["style", "width", '1366px']
-            ],
             "${_InputA_1}": [
                 ["color", "background-color", 'rgba(150,150,150,0.00)'],
                 ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
                 ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "border-width", '1px'],
+                ["style", "left", '111px'],
                 ["style", "border-style", 'none'],
-                ["style", "cursor", 'pointer'],
+                ["style", "border-width", '1px'],
                 ["style", "width", '35px'],
                 ["style", "top", '509px'],
                 ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "display", 'none'],
-                ["style", "height", '35px'],
-                ["color", "border-color", 'rgba(139,139,139,0.50)'],
                 ["style", "opacity", '1'],
-                ["style", "left", '111px']
+                ["style", "height", '35px'],
+                ["style", "display", 'none'],
+                ["color", "border-color", 'rgba(139,139,139,0.50)'],
+                ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "cursor", 'pointer']
             ],
             "${_bt_reiniciar}": [
                 ["style", "left", '1025px'],
@@ -517,93 +525,93 @@ var symbols = {
                 ["color", "background-color", 'rgba(192,192,192,0.00)'],
                 ["style", "top", '696px'],
                 ["style", "height", '64px'],
-                ["style", "left", '1100px'],
                 ["style", "cursor", 'pointer'],
+                ["style", "left", '1100px'],
                 ["style", "width", '66px']
             ],
             "${_InputA_5}": [
                 ["color", "background-color", 'rgba(150,150,150,0.00)'],
                 ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
                 ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "left", '1145px'],
+                ["style", "cursor", 'pointer'],
                 ["style", "border-style", 'none'],
-                ["style", "border-width", '1px'],
+                ["style", "left", '1145px'],
                 ["style", "width", '35px'],
                 ["style", "top", '509px'],
                 ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "display", 'none'],
-                ["style", "height", '35px'],
-                ["color", "border-color", 'rgba(139,139,139,0.50)'],
                 ["style", "opacity", '1'],
-                ["style", "cursor", 'pointer']
+                ["style", "height", '35px'],
+                ["style", "display", 'none'],
+                ["color", "border-color", 'rgba(139,139,139,0.50)'],
+                ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "border-width", '1px']
             ],
             "${_hotspot_solucion}": [
-                ["color", "background-color", 'rgba(192,192,192,0.00)'],
-                ["style", "left", '992px'],
                 ["style", "top", '696px'],
+                ["color", "background-color", 'rgba(192,192,192,0.00)'],
+                ["style", "cursor", 'pointer'],
                 ["style", "height", '63px'],
                 ["style", "opacity", '0'],
-                ["style", "cursor", 'pointer'],
+                ["style", "left", '992px'],
                 ["style", "width", '67px']
             ],
             "${_InputB_1}": [
                 ["color", "background-color", 'rgba(150,150,150,0.00)'],
                 ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
                 ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "cursor", 'pointer'],
                 ["style", "border-style", 'none'],
-                ["style", "opacity", '1'],
                 ["style", "left", '221px'],
                 ["style", "width", '35px'],
                 ["style", "top", '508px'],
                 ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "display", 'none'],
-                ["style", "height", '35px'],
-                ["color", "border-color", 'rgba(139,139,139,0.50)'],
                 ["style", "border-width", '1px'],
-                ["style", "cursor", 'pointer']
+                ["style", "height", '35px'],
+                ["style", "display", 'none'],
+                ["color", "border-color", 'rgba(139,139,139,0.50)'],
+                ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "opacity", '1']
             ],
             "${_ok1}": [
                 ["style", "top", '177px'],
-                ["style", "display", 'none'],
                 ["style", "height", '20px'],
+                ["style", "display", 'none'],
                 ["style", "left", '79px'],
                 ["style", "width", '20px']
             ],
-            "${_bad1}": [
-                ["style", "top", '177px'],
+            "${_InputB_3}": [
+                ["color", "background-color", 'rgba(150,150,150,0.00)'],
+                ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "left", '739px'],
+                ["style", "opacity", '1'],
+                ["style", "cursor", 'pointer'],
+                ["style", "width", '35px'],
+                ["style", "top", '508px'],
+                ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "border-width", '1px'],
+                ["style", "height", '35px'],
                 ["style", "display", 'none'],
-                ["style", "height", '20px'],
-                ["style", "left", '49px'],
-                ["style", "width", '20px']
-            ],
-            "${_fondo_bt}": [
-                ["style", "top", '703px'],
-                ["style", "left", '896px'],
-                ["style", "clip", [0,472.7265625,65,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+                ["color", "border-color", 'rgba(139,139,139,0.50)'],
+                ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "border-style", 'none']
             ],
             "${_bt_solucion}": [
                 ["style", "top", '696px'],
                 ["style", "opacity", '0'],
                 ["style", "left", '992px']
             ],
-            "${_InputB_3}": [
-                ["color", "background-color", 'rgba(150,150,150,0.00)'],
-                ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "opacity", '1'],
-                ["style", "border-style", 'none'],
-                ["style", "cursor", 'pointer'],
-                ["style", "width", '35px'],
-                ["style", "top", '508px'],
-                ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+            "${_fondo_bt}": [
+                ["style", "top", '703px'],
+                ["style", "left", '896px'],
+                ["style", "clip", [0,472.7265625,65,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+            ],
+            "${_bad1}": [
+                ["style", "top", '177px'],
+                ["style", "height", '20px'],
                 ["style", "display", 'none'],
-                ["style", "height", '35px'],
-                ["color", "border-color", 'rgba(139,139,139,0.50)'],
-                ["style", "border-width", '1px'],
-                ["style", "left", '739px']
+                ["style", "left", '49px'],
+                ["style", "width", '20px']
             ],
             "${_Stage}": [
                 ["color", "background-color", 'rgba(255,255,255,0.00)'],
@@ -623,29 +631,19 @@ var symbols = {
                 ["style", "top", '226px'],
                 ["style", "border-bottom-left-radius", [0,0], {valueTemplate:'@@0@@px @@1@@px'} ],
                 ["style", "display", 'block'],
-                ["style", "border-top-right-radius", [0,0], {valueTemplate:'@@0@@px @@1@@px'} ],
-                ["style", "height", '282px']
+                ["style", "height", '282px'],
+                ["style", "border-top-right-radius", [0,0], {valueTemplate:'@@0@@px @@1@@px'} ]
             ],
             "${_bt_validar}": [
                 ["style", "top", '696px'],
                 ["style", "left", '950px']
             ],
-            "${_InputA_2}": [
-                ["color", "background-color", 'rgba(150,150,150,0.00)'],
-                ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "left", '368px'],
-                ["style", "border-style", 'none'],
-                ["style", "border-width", '1px'],
-                ["style", "width", '35px'],
-                ["style", "top", '509px'],
-                ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "opacity", '1'],
-                ["style", "height", '35px'],
+            "${_resp_incorrecta}": [
+                ["style", "top", '0px'],
                 ["style", "display", 'none'],
-                ["color", "border-color", 'rgba(139,139,139,0.50)'],
-                ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "cursor", 'pointer']
+                ["style", "height", '768px'],
+                ["style", "left", '0px'],
+                ["style", "width", '1366px']
             ]
         }
     },
@@ -669,11 +667,11 @@ var symbols = {
                 { id: "eid1165", tween: [ "style", "${_brillo_1}", "display", 'block', { fromValue: 'none'}], position: 1000, duration: 0 },
                 { id: "eid497", tween: [ "gradient", "${_box_01}", "background-image", [270,[['rgba(255,255,255,0.00)',0],['rgba(255,255,255,0.00)',100]]], { fromValue: [270,[['rgba(255,255,255,0.00)',0],['rgba(255,255,255,0.00)',100]]]}], position: 0, duration: 0 },
                 { id: "eid1161", tween: [ "style", "${_InputA_4}", "display", 'block', { fromValue: 'none'}], position: 1250, duration: 0 },
-                { id: "eid888", tween: [ "style", "${_ok37}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
-                { id: "eid1154", tween: [ "style", "${_InputB_2}", "display", 'block', { fromValue: 'none'}], position: 1250, duration: 0 },
-                { id: "eid1109", tween: [ "style", "${_bad1}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
-                { id: "eid1159", tween: [ "style", "${_InputB_3}", "display", 'block', { fromValue: 'none'}], position: 1250, duration: 0 },
                 { id: "eid1151", tween: [ "style", "${_help_radio}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+                { id: "eid1109", tween: [ "style", "${_bad1}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+                { id: "eid888", tween: [ "style", "${_ok37}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+                { id: "eid1159", tween: [ "style", "${_InputB_3}", "display", 'block', { fromValue: 'none'}], position: 1250, duration: 0 },
+                { id: "eid1154", tween: [ "style", "${_InputB_2}", "display", 'block', { fromValue: 'none'}], position: 1250, duration: 0 },
                 { id: "eid1158", tween: [ "style", "${_InputA_3}", "display", 'block', { fromValue: 'none'}], position: 1250, duration: 0 }            ]
         }
     }
@@ -699,36 +697,36 @@ var symbols = {
                     fill: ['rgba(5,164,227,1.00)']
                 },
                 {
-                    font: ['cabin, Trebuchet MS, Myriad Pro, Gill Sans MT, Helvetica, sans-serif', 100, 'rgba(255,255,255,1.00)', 'bold', 'none', 'normal'],
                     type: 'text',
+                    rect: ['141px', '0px', 'auto', 'auto', 'auto', 'auto'],
                     id: 'Text',
                     text: '4',
                     align: 'left',
-                    rect: ['141px', '0px', 'auto', 'auto', 'auto', 'auto']
+                    font: ['cabin, Trebuchet MS, Myriad Pro, Gill Sans MT, Helvetica, sans-serif', 100, 'rgba(255,255,255,1.00)', 'bold', 'none', 'normal']
                 },
                 {
-                    font: ['cabin, Trebuchet MS, Myriad Pro, Gill Sans MT, Helvetica, sans-serif', 100, 'rgba(255,255,255,1.00)', 'bold', 'none', 'normal'],
                     type: 'text',
+                    rect: ['87px', '0px', 'auto', 'auto', 'auto', 'auto'],
                     id: 'TextCopy',
                     text: '6',
                     align: 'left',
-                    rect: ['87px', '0px', 'auto', 'auto', 'auto', 'auto']
+                    font: ['cabin, Trebuchet MS, Myriad Pro, Gill Sans MT, Helvetica, sans-serif', 100, 'rgba(255,255,255,1.00)', 'bold', 'none', 'normal']
                 },
                 {
-                    rect: ['90px', '104px', '47px', '8px', 'auto', 'auto'],
+                    type: 'rect',
                     id: 'Rectangle3',
                     stroke: [3, 'rgb(94, 94, 94)', 'none'],
-                    type: 'rect',
+                    rect: ['90px', '104px', '47px', '8px', 'auto', 'auto'],
                     fill: ['rgba(255,255,255,1.00)']
                 },
                 {
-                    font: ['cabin, Trebuchet MS, Myriad Pro, Gill Sans MT, Helvetica, sans-serif', 100, 'rgba(255,255,255,1.00)', 'bold', 'none', 'normal'],
                     type: 'text',
+                    rect: ['194px', '0px', 'auto', 'auto', 'auto', 'auto'],
                     align: 'left',
                     id: 'TextCopy2',
                     text: '2',
                     textShadow: ['rgba(255,255,255,0.65)', 0, 0, 25],
-                    rect: ['194px', '0px', 'auto', 'auto', 'auto', 'auto']
+                    font: ['cabin, Trebuchet MS, Myriad Pro, Gill Sans MT, Helvetica, sans-serif', 100, 'rgba(255,255,255,1.00)', 'bold', 'none', 'normal']
                 }
             ],
             symbolInstances: [
@@ -761,6 +759,17 @@ var symbols = {
                 ["subproperty", "textShadow.color", 'rgba(255,255,255,0.65)'],
                 ["subproperty", "textShadow.offsetV", '0px']
             ],
+            "${symbolSelector}": [
+                ["style", "height", '121px'],
+                ["style", "width", '359px']
+            ],
+            "${_TextCopy}": [
+                ["style", "top", '154px'],
+                ["color", "color", 'rgba(255,255,255,1.00)'],
+                ["style", "opacity", '0'],
+                ["style", "left", '87px'],
+                ["style", "font-size", '100px']
+            ],
             "${_Rectangle2}": [
                 ["color", "background-color", 'rgba(5,164,227,1.00)'],
                 ["style", "border-top-left-radius", [5,5], {valueTemplate:'@@0@@px @@1@@px'} ],
@@ -770,22 +779,11 @@ var symbols = {
                 ["style", "width", '271px'],
                 ["style", "top", '0px'],
                 ["style", "border-bottom-left-radius", [5,5], {valueTemplate:'@@0@@px @@1@@px'} ],
-                ["style", "border-top-right-radius", [5,5], {valueTemplate:'@@0@@px @@1@@px'} ],
+                ["style", "border-style", 'solid'],
                 ["style", "height", '115px'],
                 ["color", "border-color", 'rgba(94,94,94,1.00)'],
                 ["style", "border-width", '3px'],
-                ["style", "border-style", 'solid']
-            ],
-            "${_TextCopy}": [
-                ["style", "top", '154px'],
-                ["color", "color", 'rgba(255,255,255,1.00)'],
-                ["style", "opacity", '0'],
-                ["style", "left", '87px'],
-                ["style", "font-size", '100px']
-            ],
-            "${symbolSelector}": [
-                ["style", "height", '121px'],
-                ["style", "width", '359px']
+                ["style", "border-top-right-radius", [5,5], {valueTemplate:'@@0@@px @@1@@px'} ]
             ]
         }
     },
@@ -796,14 +794,14 @@ var symbols = {
             duration: 1500,
             autoPlay: true,
             timeline: [
-                { id: "eid969", tween: [ "style", "${_Text}", "top", '0px', { fromValue: '154px'}], position: 500, duration: 500, easing: "easeOutBack" },
-                { id: "eid988", tween: [ "style", "${_TextCopy}", "top", '0px', { fromValue: '154px'}], position: 250, duration: 500, easing: "easeOutBack" },
+                { id: "eid1048", tween: [ "style", "${_Rectangle3}", "left", '197px', { fromValue: '-47px'}], position: 1000, duration: 500, easing: "easeOutCirc" },
                 { id: "eid990", tween: [ "style", "${_TextCopy2}", "top", '0px', { fromValue: '154px'}], position: 750, duration: 500, easing: "easeOutBack" },
-                { id: "eid989", tween: [ "style", "${_TextCopy}", "opacity", '1', { fromValue: '0'}], position: 250, duration: 500, easing: "easeOutBack" },
-                { id: "eid973", tween: [ "style", "${_Rectangle2}", "opacity", '1', { fromValue: '0'}], position: 0, duration: 500 },
-                { id: "eid971", tween: [ "style", "${_Text}", "opacity", '1', { fromValue: '0'}], position: 250, duration: 750, easing: "easeOutBack" },
                 { id: "eid991", tween: [ "style", "${_TextCopy2}", "opacity", '1', { fromValue: '0'}], position: 500, duration: 750, easing: "easeOutBack" },
-                { id: "eid1048", tween: [ "style", "${_Rectangle3}", "left", '197px', { fromValue: '-47px'}], position: 1000, duration: 500, easing: "easeOutCirc" }            ]
+                { id: "eid973", tween: [ "style", "${_Rectangle2}", "opacity", '1', { fromValue: '0'}], position: 0, duration: 500 },
+                { id: "eid989", tween: [ "style", "${_TextCopy}", "opacity", '1', { fromValue: '0'}], position: 250, duration: 500, easing: "easeOutBack" },
+                { id: "eid971", tween: [ "style", "${_Text}", "opacity", '1', { fromValue: '0'}], position: 250, duration: 750, easing: "easeOutBack" },
+                { id: "eid988", tween: [ "style", "${_TextCopy}", "top", '0px', { fromValue: '154px'}], position: 250, duration: 500, easing: "easeOutBack" },
+                { id: "eid969", tween: [ "style", "${_Text}", "top", '0px', { fromValue: '154px'}], position: 500, duration: 500, easing: "easeOutBack" }            ]
         }
     }
 },
@@ -828,37 +826,37 @@ var symbols = {
                     fill: ['rgba(237,104,33,1.00)']
                 },
                 {
-                    font: ['cabin, Trebuchet MS, Myriad Pro, Gill Sans MT, Helvetica, sans-serif', 100, 'rgba(255,255,255,1.00)', 'bold', 'none', 'normal'],
                     type: 'text',
+                    rect: ['84px', '0px', 'auto', 'auto', 'auto', 'auto'],
                     align: 'left',
                     id: 'TextCopy',
                     text: '6',
                     textShadow: ['rgba(255,255,255,0.65)', 0, 0, 0],
-                    rect: ['84px', '0px', 'auto', 'auto', 'auto', 'auto']
+                    font: ['cabin, Trebuchet MS, Myriad Pro, Gill Sans MT, Helvetica, sans-serif', 100, 'rgba(255,255,255,1.00)', 'bold', 'none', 'normal']
                 },
                 {
-                    rect: ['104px', '105px', '51px', '10px', 'auto', 'auto'],
+                    type: 'rect',
                     id: 'Rectangle4',
                     stroke: [3, 'rgb(94, 94, 94)', 'none'],
-                    type: 'rect',
+                    rect: ['104px', '105px', '51px', '10px', 'auto', 'auto'],
                     fill: ['rgba(255,255,255,1.00)']
                 },
                 {
-                    font: ['cabin, Trebuchet MS, Myriad Pro, Gill Sans MT, Helvetica, sans-serif', 100, 'rgba(255,255,255,1.00)', 'bold', 'none', 'normal'],
                     type: 'text',
+                    rect: ['142px', '0px', 'auto', 'auto', 'auto', 'auto'],
                     id: 'TextCopy3',
                     text: '4',
                     align: 'left',
-                    rect: ['142px', '0px', 'auto', 'auto', 'auto', 'auto']
+                    font: ['cabin, Trebuchet MS, Myriad Pro, Gill Sans MT, Helvetica, sans-serif', 100, 'rgba(255,255,255,1.00)', 'bold', 'none', 'normal']
                 },
                 {
-                    font: ['cabin, Trebuchet MS, Myriad Pro, Gill Sans MT, Helvetica, sans-serif', 100, 'rgba(255,255,255,1.00)', 'bold', 'none', 'normal'],
                     type: 'text',
+                    rect: ['198px', '0px', 'auto', 'auto', 'auto', 'auto'],
                     align: 'left',
                     id: 'TextCopy4',
                     text: '9',
                     textShadow: ['rgba(255,255,255,0.65)', 0, 0, 25],
-                    rect: ['198px', '0px', 'auto', 'auto', 'auto', 'auto']
+                    font: ['cabin, Trebuchet MS, Myriad Pro, Gill Sans MT, Helvetica, sans-serif', 100, 'rgba(255,255,255,1.00)', 'bold', 'none', 'normal']
                 }
             ],
             symbolInstances: [
@@ -888,6 +886,11 @@ var symbols = {
                 ["style", "height", '121px'],
                 ["style", "width", '359px']
             ],
+            "${_Rectangle4}": [
+                ["color", "background-color", 'rgba(255,255,255,1.00)'],
+                ["style", "left", '-37px'],
+                ["style", "width", '51px']
+            ],
             "${_TextCopy}": [
                 ["subproperty", "textShadow.blur", '0px'],
                 ["subproperty", "textShadow.offsetH", '0px'],
@@ -908,16 +911,11 @@ var symbols = {
                 ["style", "width", '254px'],
                 ["style", "top", '0px'],
                 ["style", "border-bottom-left-radius", [5,5], {valueTemplate:'@@0@@px @@1@@px'} ],
-                ["style", "opacity", '0'],
+                ["style", "border-width", '3px'],
                 ["style", "height", '115px'],
                 ["color", "border-color", 'rgba(176,71,37,1.00)'],
                 ["style", "left", '47px'],
-                ["style", "border-width", '3px']
-            ],
-            "${_Rectangle4}": [
-                ["color", "background-color", 'rgba(255,255,255,1.00)'],
-                ["style", "left", '-37px'],
-                ["style", "width", '51px']
+                ["style", "opacity", '0']
             ]
         }
     },
@@ -930,9 +928,9 @@ var symbols = {
             timeline: [
                 { id: "eid1050", tween: [ "style", "${_Rectangle4}", "left", '202px', { fromValue: '-37px'}], position: 1500, duration: 545, easing: "easeOutCirc" },
                 { id: "eid977", tween: [ "style", "${_TextCopy}", "top", '0px', { fromValue: '-168px'}], position: 750, duration: 565, easing: "easeOutBack" },
-                { id: "eid998", tween: [ "style", "${_TextCopy3}", "top", '0px', { fromValue: '-168px'}], position: 1000, duration: 565, easing: "easeOutBack" },
-                { id: "eid975", tween: [ "style", "${_Rectangle2Copy}", "opacity", '1', { fromValue: '0'}], position: 500, duration: 500 },
                 { id: "eid1001", tween: [ "style", "${_TextCopy4}", "opacity", '1', { fromValue: '0'}], position: 1000, duration: 815, easing: "easeOutBack" },
+                { id: "eid975", tween: [ "style", "${_Rectangle2Copy}", "opacity", '1', { fromValue: '0'}], position: 500, duration: 500 },
+                { id: "eid998", tween: [ "style", "${_TextCopy3}", "top", '0px', { fromValue: '-168px'}], position: 1000, duration: 565, easing: "easeOutBack" },
                 { id: "eid979", tween: [ "style", "${_TextCopy}", "opacity", '1', { fromValue: '0'}], position: 750, duration: 565, easing: "easeOutBack" },
                 { id: "eid999", tween: [ "style", "${_TextCopy3}", "opacity", '1', { fromValue: '0'}], position: 750, duration: 815, easing: "easeOutBack" },
                 { id: "eid1000", tween: [ "style", "${_TextCopy4}", "top", '0px', { fromValue: '-168px'}], position: 1250, duration: 565, easing: "easeOutBack" }            ]
@@ -954,19 +952,19 @@ var symbols = {
                 {
                     rect: ['0px', '47px', '1050px', '294px', 'auto', 'auto'],
                     borderRadius: ['10px 10px', '10px 10px', '10px 10px', '10px 10px'],
-                    boxShadow: ['', 3, 3, 5, 1, 'rgba(0,0,0,0.30)'],
+                    fill: ['rgba(255,255,255,1.00)'],
                     id: 'TextArea_01',
                     stroke: [1, 'rgba(120,120,120,1.00)', 'solid'],
                     type: 'rect',
-                    fill: ['rgba(255,255,255,1.00)']
+                    boxShadow: ['', 3, 3, 5, 1, 'rgba(0,0,0,0.30)']
                 },
                 {
-                    font: ['cabin, Trebuchet MS, Myriad Pro, Gill Sans MT, Helvetica, sans-serif', 26, 'rgba(102,102,102,1.00)', 'bold', 'none', 'normal'],
                     type: 'text',
+                    rect: ['0px', '0px', '1052px', 'auto', 'auto', 'auto'],
                     id: 'descripcionCopy',
                     text: 'Discútelo con tus compañeros y escriban algunas posibilidades. <br>',
                     align: 'left',
-                    rect: ['0px', '0px', '1052px', 'auto', 'auto', 'auto']
+                    font: ['cabin, Trebuchet MS, Myriad Pro, Gill Sans MT, Helvetica, sans-serif', 26, 'rgba(102,102,102,1.00)', 'bold', 'none', 'normal']
                 }
             ],
             symbolInstances: [
@@ -976,11 +974,11 @@ var symbols = {
         "Base State": {
             "${_descripcionCopy}": [
                 ["style", "top", '0px'],
-                ["style", "width", '1052px'],
+                ["style", "font-size", '26px'],
                 ["color", "color", 'rgba(102,102,102,1.00)'],
                 ["style", "opacity", '0'],
                 ["style", "left", '-87px'],
-                ["style", "font-size", '26px']
+                ["style", "width", '1052px']
             ],
             "${_TextArea_01}": [
                 ["style", "opacity", '0'],
@@ -990,17 +988,17 @@ var symbols = {
                 ["subproperty", "boxShadow.offsetH", '3px'],
                 ["color", "background-color", 'rgba(255,255,255,1.00)'],
                 ["style", "border-top-left-radius", [10,10], {valueTemplate:'@@0@@px @@1@@px'} ],
-                ["subproperty", "boxShadow.color", 'rgba(0,0,0,0.30)'],
+                ["subproperty", "boxShadow.blur", '5px'],
                 ["style", "border-bottom-right-radius", [10,10], {valueTemplate:'@@0@@px @@1@@px'} ],
                 ["style", "border-style", 'solid'],
                 ["style", "border-top-right-radius", [10,10], {valueTemplate:'@@0@@px @@1@@px'} ],
                 ["style", "width", '1050px'],
                 ["style", "top", '84px'],
-                ["subproperty", "boxShadow.spread", '1px'],
+                ["color", "border-color", 'rgba(120,120,120,1.00)'],
                 ["style", "height", '294px'],
-                ["subproperty", "boxShadow.blur", '5px'],
                 ["style", "border-width", '1px'],
-                ["color", "border-color", 'rgba(120,120,120,1.00)']
+                ["subproperty", "boxShadow.color", 'rgba(0,0,0,0.30)'],
+                ["subproperty", "boxShadow.spread", '1px']
             ],
             "${symbolSelector}": [
                 ["style", "height", '343px'],
@@ -1043,35 +1041,35 @@ var symbols = {
                     fill: ['rgba(5,164,227,1.00)']
                 },
                 {
-                    font: ['cabin, Trebuchet MS, Myriad Pro, Gill Sans MT, Helvetica, sans-serif', 100, 'rgba(255,255,255,1.00)', 'bold', 'none', 'normal'],
                     type: 'text',
+                    rect: ['146px', '0px', 'auto', 'auto', 'auto', 'auto'],
                     align: 'left',
                     id: 'Text',
                     text: '1',
                     textShadow: ['rgba(255,255,255,0.65)', 0, 0, 25],
-                    rect: ['146px', '0px', 'auto', 'auto', 'auto', 'auto']
+                    font: ['cabin, Trebuchet MS, Myriad Pro, Gill Sans MT, Helvetica, sans-serif', 100, 'rgba(255,255,255,1.00)', 'bold', 'none', 'normal']
                 },
                 {
-                    font: ['cabin, Trebuchet MS, Myriad Pro, Gill Sans MT, Helvetica, sans-serif', 100, 'rgba(255,255,255,1.00)', 'bold', 'none', 'normal'],
                     type: 'text',
+                    rect: ['86px', '0px', 'auto', 'auto', 'auto', 'auto'],
                     id: 'TextCopy',
                     text: '3',
                     align: 'left',
-                    rect: ['86px', '0px', 'auto', 'auto', 'auto', 'auto']
+                    font: ['cabin, Trebuchet MS, Myriad Pro, Gill Sans MT, Helvetica, sans-serif', 100, 'rgba(255,255,255,1.00)', 'bold', 'none', 'normal']
                 },
                 {
-                    font: ['cabin, Trebuchet MS, Myriad Pro, Gill Sans MT, Helvetica, sans-serif', 100, 'rgba(255,255,255,1.00)', 'bold', 'none', 'normal'],
                     type: 'text',
+                    rect: ['183px', '0px', 'auto', 'auto', 'auto', 'auto'],
                     id: 'TextCopy2',
                     text: '0',
                     align: 'left',
-                    rect: ['183px', '0px', 'auto', 'auto', 'auto', 'auto']
+                    font: ['cabin, Trebuchet MS, Myriad Pro, Gill Sans MT, Helvetica, sans-serif', 100, 'rgba(255,255,255,1.00)', 'bold', 'none', 'normal']
                 },
                 {
-                    rect: ['90px', '106px', '54px', '9px', 'auto', 'auto'],
+                    type: 'rect',
                     id: 'Rectangle5',
                     stroke: [3, 'rgb(94, 94, 94)', 'none'],
-                    type: 'rect',
+                    rect: ['90px', '106px', '54px', '9px', 'auto', 'auto'],
                     fill: ['rgba(255,255,255,1.00)']
                 }
             ],
@@ -1089,11 +1087,11 @@ var symbols = {
                 ["style", "width", '275px'],
                 ["style", "top", '0px'],
                 ["style", "border-bottom-left-radius", [5,5], {valueTemplate:'@@0@@px @@1@@px'} ],
-                ["style", "left", '33px'],
+                ["style", "opacity", '0'],
                 ["style", "height", '115px'],
                 ["color", "border-color", 'rgba(94,94,94,1.00)'],
                 ["style", "border-width", '3px'],
-                ["style", "opacity", '0']
+                ["style", "left", '33px']
             ],
             "${_Text}": [
                 ["subproperty", "textShadow.blur", '25px'],
@@ -1111,8 +1109,8 @@ var symbols = {
                 ["style", "width", '359px']
             ],
             "${_Rectangle5}": [
-                ["color", "background-color", 'rgba(255,255,255,1.00)'],
                 ["style", "top", '104px'],
+                ["color", "background-color", 'rgba(255,255,255,1.00)'],
                 ["style", "left", '-51px'],
                 ["style", "width", '54px']
             ],
@@ -1139,15 +1137,15 @@ var symbols = {
             duration: 4750,
             autoPlay: true,
             timeline: [
-                { id: "eid991", tween: [ "style", "${_TextCopy2}", "opacity", '1', { fromValue: '0'}], position: 3750, duration: 750, easing: "easeOutBack" },
+                { id: "eid969", tween: [ "style", "${_Text}", "top", '0px', { fromValue: '154px'}], position: 3750, duration: 500, easing: "easeOutBack" },
                 { id: "eid1054", tween: [ "style", "${_Rectangle5}", "left", '193px', { fromValue: '-51px'}], position: 4250, duration: 500, easing: "easeOutCirc" },
-                { id: "eid990", tween: [ "style", "${_TextCopy2}", "top", '0px', { fromValue: '154px'}], position: 4000, duration: 500, easing: "easeOutBack" },
-                { id: "eid1079", tween: [ "style", "${_Rectangle5}", "top", '106px', { fromValue: '104px'}], position: 4250, duration: 500, easing: "easeOutCirc" },
                 { id: "eid988", tween: [ "style", "${_TextCopy}", "top", '0px', { fromValue: '154px'}], position: 3500, duration: 500, easing: "easeOutBack" },
+                { id: "eid1079", tween: [ "style", "${_Rectangle5}", "top", '106px', { fromValue: '104px'}], position: 4250, duration: 500, easing: "easeOutCirc" },
+                { id: "eid990", tween: [ "style", "${_TextCopy2}", "top", '0px', { fromValue: '154px'}], position: 4000, duration: 500, easing: "easeOutBack" },
                 { id: "eid973", tween: [ "style", "${_Rectangle2}", "opacity", '1', { fromValue: '0'}], position: 3250, duration: 500 },
                 { id: "eid971", tween: [ "style", "${_Text}", "opacity", '1', { fromValue: '0'}], position: 3500, duration: 750, easing: "easeOutBack" },
                 { id: "eid989", tween: [ "style", "${_TextCopy}", "opacity", '1', { fromValue: '0'}], position: 3500, duration: 500, easing: "easeOutBack" },
-                { id: "eid969", tween: [ "style", "${_Text}", "top", '0px', { fromValue: '154px'}], position: 3750, duration: 500, easing: "easeOutBack" }            ]
+                { id: "eid991", tween: [ "style", "${_TextCopy2}", "opacity", '1', { fromValue: '0'}], position: 3750, duration: 750, easing: "easeOutBack" }            ]
         }
     }
 },
@@ -1172,36 +1170,36 @@ var symbols = {
                     fill: ['rgba(237,104,33,1.00)']
                 },
                 {
-                    font: ['cabin, Trebuchet MS, Myriad Pro, Gill Sans MT, Helvetica, sans-serif', 100, 'rgba(255,255,255,1.00)', 'bold', 'none', 'normal'],
                     type: 'text',
+                    rect: ['98px', '0px', 'auto', 'auto', 'auto', 'auto'],
                     id: 'TextCopy',
                     text: '3',
                     align: 'left',
-                    rect: ['98px', '0px', 'auto', 'auto', 'auto', 'auto']
+                    font: ['cabin, Trebuchet MS, Myriad Pro, Gill Sans MT, Helvetica, sans-serif', 100, 'rgba(255,255,255,1.00)', 'bold', 'none', 'normal']
                 },
                 {
-                    rect: ['104px', '105px', '37px', '10px', 'auto', 'auto'],
+                    type: 'rect',
                     id: 'Rectangle4',
                     stroke: [3, 'rgb(94, 94, 94)', 'none'],
-                    type: 'rect',
+                    rect: ['104px', '105px', '37px', '10px', 'auto', 'auto'],
                     fill: ['rgba(255,255,255,1.00)']
                 },
                 {
-                    font: ['cabin, Trebuchet MS, Myriad Pro, Gill Sans MT, Helvetica, sans-serif', 100, 'rgba(255,255,255,1.00)', 'bold', 'none', 'normal'],
                     type: 'text',
+                    rect: ['158px', '0px', 'auto', 'auto', 'auto', 'auto'],
                     id: 'TextCopy3',
                     text: '1',
                     align: 'left',
-                    rect: ['158px', '0px', 'auto', 'auto', 'auto', 'auto']
+                    font: ['cabin, Trebuchet MS, Myriad Pro, Gill Sans MT, Helvetica, sans-serif', 100, 'rgba(255,255,255,1.00)', 'bold', 'none', 'normal']
                 },
                 {
-                    font: ['cabin, Trebuchet MS, Myriad Pro, Gill Sans MT, Helvetica, sans-serif', 100, 'rgba(255,255,255,1.00)', 'bold', 'none', 'normal'],
                     type: 'text',
+                    rect: ['202px', '0px', 'auto', 'auto', 'auto', 'auto'],
                     align: 'left',
                     id: 'TextCopy4',
                     text: '4',
                     textShadow: ['rgba(255,255,255,0.65)', 0, 0, 25],
-                    rect: ['202px', '0px', 'auto', 'auto', 'auto', 'auto']
+                    font: ['cabin, Trebuchet MS, Myriad Pro, Gill Sans MT, Helvetica, sans-serif', 100, 'rgba(255,255,255,1.00)', 'bold', 'none', 'normal']
                 }
             ],
             symbolInstances: [
@@ -1231,6 +1229,13 @@ var symbols = {
                 ["style", "height", '121px'],
                 ["style", "width", '359px']
             ],
+            "${_TextCopy}": [
+                ["style", "top", '-168px'],
+                ["color", "color", 'rgba(255,255,255,1.00)'],
+                ["style", "opacity", '0'],
+                ["style", "left", '98px'],
+                ["style", "font-size", '100px']
+            ],
             "${_Rectangle4}": [
                 ["color", "background-color", 'rgba(255,255,255,1.00)'],
                 ["style", "left", '-37px'],
@@ -1245,18 +1250,11 @@ var symbols = {
                 ["style", "width", '254px'],
                 ["style", "top", '0px'],
                 ["style", "border-bottom-left-radius", [5,5], {valueTemplate:'@@0@@px @@1@@px'} ],
-                ["style", "border-width", '3px'],
+                ["style", "opacity", '0'],
                 ["style", "height", '115px'],
                 ["color", "border-color", 'rgba(176,71,37,1.00)'],
                 ["style", "left", '47px'],
-                ["style", "opacity", '0']
-            ],
-            "${_TextCopy}": [
-                ["style", "top", '-168px'],
-                ["color", "color", 'rgba(255,255,255,1.00)'],
-                ["style", "opacity", '0'],
-                ["style", "left", '98px'],
-                ["style", "font-size", '100px']
+                ["style", "border-width", '3px']
             ]
         }
     },
@@ -1274,8 +1272,8 @@ var symbols = {
                 { id: "eid1000", tween: [ "style", "${_TextCopy4}", "top", '0px', { fromValue: '-168px'}], position: 3000, duration: 565, easing: "easeOutBack" },
                 { id: "eid977", tween: [ "style", "${_TextCopy}", "top", '0px', { fromValue: '-168px'}], position: 2500, duration: 565, easing: "easeOutBack" },
                 { id: "eid979", tween: [ "style", "${_TextCopy}", "opacity", '1', { fromValue: '0'}], position: 2500, duration: 565, easing: "easeOutBack" },
-                { id: "eid998", tween: [ "style", "${_TextCopy3}", "top", '0px', { fromValue: '-168px'}], position: 2750, duration: 565, easing: "easeOutBack" },
-                { id: "eid1052", tween: [ "style", "${_Rectangle4}", "width", '52px', { fromValue: '37px'}], position: 3250, duration: 500, easing: "easeOutCirc" }            ]
+                { id: "eid1052", tween: [ "style", "${_Rectangle4}", "width", '52px', { fromValue: '37px'}], position: 3250, duration: 500, easing: "easeOutCirc" },
+                { id: "eid998", tween: [ "style", "${_TextCopy3}", "top", '0px', { fromValue: '-168px'}], position: 2750, duration: 565, easing: "easeOutBack" }            ]
         }
     }
 },
@@ -1348,13 +1346,13 @@ var symbols = {
         },
     states: {
         "Base State": {
-            "${symbolSelector}": [
-                ["style", "height", '20px'],
-                ["style", "width", '20px']
-            ],
             "${_bad}": [
                 ["style", "left", '0px'],
                 ["style", "top", '0px']
+            ],
+            "${symbolSelector}": [
+                ["style", "height", '20px'],
+                ["style", "width", '20px']
             ]
         }
     },
@@ -1382,37 +1380,37 @@ var symbols = {
     content: {
             dom: [
                 {
-                    rect: ['0px', '0px', '1366px', '178px', 'auto', 'auto'],
                     type: 'image',
-                    id: 'etiqueta',
+                    rect: ['0px', '0px', '1366px', '178px', 'auto', 'auto'],
                     display: 'none',
+                    id: 'etiqueta',
                     clip: ['rect(0px 94px 81.6337890625px 0px)'],
                     fill: ['rgba(0,0,0,0)', 'images/act.png', '0px', '0px']
                 },
                 {
-                    rect: ['0px', '0px', '1366px', '178px', 'auto', 'auto'],
                     type: 'image',
-                    id: 'etiquetaCopy',
+                    rect: ['0px', '0px', '1366px', '178px', 'auto', 'auto'],
                     display: 'none',
+                    id: 'etiquetaCopy',
                     clip: ['rect(0px 270px 72px 97px)'],
                     fill: ['rgba(0,0,0,0)', 'images/act.png', '0px', '0px']
                 },
                 {
-                    rect: ['0px', '0px', '1366px', '178px', 'auto', 'auto'],
                     type: 'image',
-                    id: 'etiquetaCopy2',
+                    rect: ['0px', '0px', '1366px', '178px', 'auto', 'auto'],
                     display: 'block',
+                    id: 'etiquetaCopy2',
                     clip: ['rect(82px 1366px 88px -0.33349609375px)'],
                     fill: ['rgba(0,0,0,0)', 'images/act.png', '0px', '0px']
                 },
                 {
-                    rect: ['42px', '92px', '355px', '70px', 'auto', 'auto'],
                     font: ['cabin, \'Trebuchet MS\', \'Myriad Pro\', \'Gill Sans MT\', Helvetica, sans-serif', 21, 'rgba(255,255,255,1.00)', '400', 'none', 'normal'],
-                    align: 'left',
+                    type: 'text',
+                    display: 'none',
                     id: 'instruccion',
                     text: 'Haga clic en las respuestas correctas para seleccionarlas.',
-                    display: 'none',
-                    type: 'text'
+                    align: 'left',
+                    rect: ['42px', '92px', '355px', '70px', 'auto', 'auto']
                 }
             ],
             symbolInstances: [
@@ -1424,32 +1422,32 @@ var symbols = {
                 ["style", "height", '178px'],
                 ["style", "width", '1366px']
             ],
-            "${_etiqueta}": [
-                ["style", "top", '0px'],
-                ["style", "display", 'none'],
-                ["style", "background-position", [0,50.66650390625], {valueTemplate:'@@0@@px @@1@@px'} ],
-                ["style", "clip", [0,94,81.6337890625,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
-                ["style", "left", '0px']
-            ],
-            "${_instruccion}": [
-                ["style", "top", '82px'],
-                ["color", "color", 'rgba(255,255,255,1.00)'],
-                ["style", "opacity", '0'],
-                ["style", "display", 'none'],
-                ["style", "width", '355px']
-            ],
-            "${_etiquetaCopy2}": [
-                ["style", "top", '0px'],
-                ["style", "display", 'block'],
-                ["style", "left", '0px'],
-                ["style", "clip", [82,16.66650390625,88,-0.33349609375], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
-            ],
             "${_etiquetaCopy}": [
                 ["style", "top", '0px'],
                 ["style", "display", 'none'],
+                ["style", "left", '0px'],
                 ["style", "background-position", [-161.33349609375,0], {valueTemplate:'@@0@@px @@1@@px'} ],
-                ["style", "clip", [0,270,72,97], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
-                ["style", "left", '0px']
+                ["style", "clip", [0,270,72,97], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+            ],
+            "${_instruccion}": [
+                ["style", "top", '82px'],
+                ["style", "display", 'none'],
+                ["style", "opacity", '0'],
+                ["color", "color", 'rgba(255,255,255,1.00)'],
+                ["style", "width", '355px']
+            ],
+            "${_etiquetaCopy2}": [
+                ["style", "display", 'block'],
+                ["style", "clip", [82,16.66650390625,88,-0.33349609375], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
+                ["style", "left", '0px'],
+                ["style", "top", '0px']
+            ],
+            "${_etiqueta}": [
+                ["style", "top", '0px'],
+                ["style", "display", 'none'],
+                ["style", "left", '0px'],
+                ["style", "background-position", [0,50.66650390625], {valueTemplate:'@@0@@px @@1@@px'} ],
+                ["style", "clip", [0,94,81.6337890625,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
             ]
         }
     },
@@ -1467,8 +1465,8 @@ var symbols = {
                 { id: "eid1353", tween: [ "style", "${_etiquetaCopy}", "background-position", [0,0], { valueTemplate: '@@0@@px @@1@@px', fromValue: [-161.33349609375,0]}], position: 1250, duration: 750, easing: "swing" },
                 { id: "eid1351", tween: [ "style", "${_etiquetaCopy}", "display", 'block', { fromValue: 'none'}], position: 1250, duration: 0, easing: "swing" },
                 { id: "eid1357", tween: [ "style", "${_instruccion}", "top", '92px', { fromValue: '82px'}], position: 1250, duration: 750, easing: "swing" },
-                { id: "eid1359", tween: [ "style", "${_instruccion}", "opacity", '1', { fromValue: '0'}], position: 1250, duration: 750, easing: "swing" },
-                { id: "eid1354", tween: [ "style", "${_etiqueta}", "display", 'block', { fromValue: 'none'}], position: 750, duration: 0, easing: "swing" }            ]
+                { id: "eid1354", tween: [ "style", "${_etiqueta}", "display", 'block', { fromValue: 'none'}], position: 750, duration: 0, easing: "swing" },
+                { id: "eid1359", tween: [ "style", "${_instruccion}", "opacity", '1', { fromValue: '0'}], position: 1250, duration: 750, easing: "swing" }            ]
         }
     }
 },
@@ -1496,14 +1494,14 @@ var symbols = {
         },
     states: {
         "Base State": {
-            "${symbolSelector}": [
-                ["style", "height", '67px'],
-                ["style", "width", '67px'],
-                ["style", "overflow", 'hidden']
-            ],
             "${_botones22}": [
                 ["style", "top", '0px'],
                 ["style", "left", '-223px']
+            ],
+            "${symbolSelector}": [
+                ["style", "height", '67px'],
+                ["style", "overflow", 'hidden'],
+                ["style", "width", '67px']
             ]
         }
     },
@@ -1554,8 +1552,8 @@ var symbols = {
             ],
             "${symbolSelector}": [
                 ["style", "height", '67px'],
-                ["style", "width", '67px'],
-                ["style", "overflow", 'hidden']
+                ["style", "overflow", 'hidden'],
+                ["style", "width", '67px']
             ]
         }
     },
@@ -1600,14 +1598,14 @@ var symbols = {
         },
     states: {
         "Base State": {
-            "${symbolSelector}": [
-                ["style", "height", '67px'],
-                ["style", "width", '67px'],
-                ["style", "overflow", 'hidden']
-            ],
             "${_botones24}": [
                 ["style", "left", '-78px'],
                 ["style", "top", '0px']
+            ],
+            "${symbolSelector}": [
+                ["style", "height", '67px'],
+                ["style", "overflow", 'hidden'],
+                ["style", "width", '67px']
             ]
         }
     },
@@ -1659,8 +1657,8 @@ var symbols = {
             ],
             "${symbolSelector}": [
                 ["style", "height", '67px'],
-                ["style", "width", '67px'],
-                ["style", "overflow", 'hidden']
+                ["style", "overflow", 'hidden'],
+                ["style", "width", '67px']
             ]
         }
     },
@@ -1675,9 +1673,9 @@ var symbols = {
                 "down": 655
             },
             timeline: [
-                { id: "eid1427", tween: [ "style", "${_botones25}", "left", '-6px', { fromValue: '-6px'}], position: 0, duration: 0 },
                 { id: "eid1426", tween: [ "style", "${_botones25}", "top", '0px', { fromValue: '0px'}], position: 0, duration: 0 },
-                { id: "eid1428", tween: [ "style", "${_botones25}", "top", '-72px', { fromValue: '0px'}], position: 655, duration: 0 }            ]
+                { id: "eid1428", tween: [ "style", "${_botones25}", "top", '-72px', { fromValue: '0px'}], position: 655, duration: 0 },
+                { id: "eid1427", tween: [ "style", "${_botones25}", "left", '-6px', { fromValue: '-6px'}], position: 0, duration: 0 }            ]
         }
     }
 },
@@ -1694,41 +1692,41 @@ var symbols = {
     content: {
             dom: [
                 {
-                    rect: ['0px', '0px', '1366px', '766px', 'auto', 'auto'],
                     type: 'rect',
+                    rect: ['0px', '0px', '1366px', '766px', 'auto', 'auto'],
                     id: 'Rectangle2',
                     stroke: [0, 'rgba(0,0,0,1)', 'none'],
                     display: 'none',
                     fill: ['rgba(13,45,61,0.77)']
                 },
                 {
-                    rect: ['9px', '140px', '1344px', '564px', 'auto', 'auto'],
-                    id: 'creative',
                     type: 'image',
                     display: 'none',
+                    rect: ['9px', '140px', '1344px', '564px', 'auto', 'auto'],
+                    id: 'creative',
                     fill: ['rgba(0,0,0,0)', 'images/creative.png', '0px', '0px']
                 },
                 {
-                    rect: ['784px', '54px', '576px', '148px', 'auto', 'auto'],
-                    id: 'creative_2',
                     type: 'image',
                     display: 'none',
+                    rect: ['784px', '54px', '576px', '148px', 'auto', 'auto'],
+                    id: 'creative_2',
                     fill: ['rgba(0,0,0,0)', 'images/creative_2.png', '0px', '0px']
                 },
                 {
-                    rect: ['12px', '208px', '1344px', '477px', 'auto', 'auto'],
-                    id: 'creative_3',
                     type: 'image',
                     display: 'none',
+                    rect: ['12px', '208px', '1344px', '477px', 'auto', 'auto'],
+                    id: 'creative_3',
                     fill: ['rgba(0,0,0,0)', 'images/creative_3.png', '0px', '0px']
                 },
                 {
                     type: 'rect',
                     rect: ['1px', '63px', '1366px', '641px', 'auto', 'auto'],
-                    display: 'none',
-                    stroke: [0, 'rgb(0, 0, 0)', 'none'],
                     id: 'hotspot_cc',
                     opacity: 0,
+                    display: 'none',
+                    stroke: [0, 'rgb(0, 0, 0)', 'none'],
                     cursor: ['pointer'],
                     fill: ['rgba(13,45,61,0.00)']
                 }
@@ -1748,19 +1746,19 @@ var symbols = {
             ],
             "${_Rectangle2}": [
                 ["style", "top", '766px'],
-                ["style", "display", 'none'],
-                ["style", "height", '3px'],
                 ["color", "background-color", 'rgba(13,45,61,0.77)'],
+                ["style", "height", '3px'],
+                ["style", "display", 'none'],
                 ["style", "left", '0px'],
                 ["style", "width", '1366px']
             ],
             "${_hotspot_cc}": [
                 ["color", "background-color", 'rgba(13,45,61,0.00)'],
-                ["style", "display", 'none'],
+                ["style", "top", '63px'],
                 ["style", "height", '641px'],
                 ["style", "opacity", '0'],
                 ["style", "cursor", 'pointer'],
-                ["style", "top", '63px']
+                ["style", "display", 'none']
             ],
             "${symbolSelector}": [
                 ["style", "height", '200px'],
@@ -1785,21 +1783,21 @@ var symbols = {
             duration: 689,
             autoPlay: true,
             timeline: [
-                { id: "eid1583", tween: [ "style", "${_creative}", "top", '140px', { fromValue: '779px'}], position: 90, duration: 500, easing: "easeOutBack" },
+                { id: "eid1579", tween: [ "style", "${_creative_2}", "display", 'block', { fromValue: 'none'}], position: 137, duration: 0, easing: "easeOutBack" },
                 { id: "eid1590", tween: [ "style", "${_hotspot_cc}", "display", 'block', { fromValue: 'none'}], position: 500, duration: 0, easing: "easeOutBack" },
                 { id: "eid1565", tween: [ "style", "${_Rectangle2}", "height", '766px', { fromValue: '3px'}], position: 44, duration: 500, easing: "easeOutCirc" },
                 { id: "eid1589", tween: [ "style", "${_creative_3}", "display", 'block', { fromValue: 'none'}], position: 190, duration: 0, easing: "easeOutBack" },
                 { id: "eid1588", tween: [ "style", "${_creative_3}", "top", '208px', { fromValue: '782px'}], position: 190, duration: 499, easing: "easeOutBack" },
-                { id: "eid1579", tween: [ "style", "${_creative_2}", "display", 'block', { fromValue: 'none'}], position: 137, duration: 0, easing: "easeOutBack" },
+                { id: "eid1583", tween: [ "style", "${_creative}", "top", '140px', { fromValue: '779px'}], position: 90, duration: 500, easing: "easeOutBack" },
                 { id: "eid1581", tween: [ "style", "${_creative}", "left", '9px', { fromValue: '7px'}], position: 90, duration: 500, easing: "easeOutBack" },
                 { id: "eid1567", tween: [ "style", "${_Rectangle2}", "top", '0px', { fromValue: '766px'}], position: 44, duration: 500, easing: "easeOutCirc" },
                 { id: "eid1574", tween: [ "style", "${_creative_2}", "top", '54px', { fromValue: '555px'}], position: 137, duration: 500, easing: "easeOutBack" },
+                { id: "eid1576", tween: [ "style", "${_creative_2}", "left", '784px', { fromValue: '849px'}], position: 137, duration: 500, easing: "easeOutBack" },
                 { id: "eid1586", tween: [ "style", "${_creative_3}", "left", '12px', { fromValue: '13px'}], position: 190, duration: 499, easing: "easeOutBack" },
-                { id: "eid1584", tween: [ "style", "${_creative}", "display", 'block', { fromValue: 'none'}], position: 90, duration: 0, easing: "easeOutBack" },
                 { id: "eid1570", tween: [ "transform", "${_creative_2}", "scaleX", '1', { fromValue: '0.7626'}], position: 137, duration: 500, easing: "easeOutBack" },
                 { id: "eid1572", tween: [ "transform", "${_creative_2}", "scaleY", '1', { fromValue: '0.7626'}], position: 137, duration: 500, easing: "easeOutBack" },
                 { id: "eid1578", tween: [ "style", "${_creative_2}", "opacity", '1', { fromValue: '0'}], position: 137, duration: 500, easing: "easeOutBack" },
-                { id: "eid1576", tween: [ "style", "${_creative_2}", "left", '784px', { fromValue: '849px'}], position: 137, duration: 500, easing: "easeOutBack" },
+                { id: "eid1584", tween: [ "style", "${_creative}", "display", 'block', { fromValue: 'none'}], position: 90, duration: 0, easing: "easeOutBack" },
                 { id: "eid1568", tween: [ "style", "${_Rectangle2}", "display", 'block', { fromValue: 'none'}], position: 44, duration: 0, easing: "easeOutCirc" }            ]
         }
     }
@@ -1823,44 +1821,44 @@ var symbols = {
                     fill: ['rgba(0,0,0,0)', 'images/act_2.png', '0px', '0px']
                 },
                 {
-                    type: 'image',
-                    id: 'actCopy3',
                     rect: ['0px', '0px', '1366px', '768px', 'auto', 'auto'],
+                    id: 'actCopy3',
+                    type: 'image',
                     clip: ['rect(189.6640625px 1366px 572.9296875px 0px)'],
                     fill: ['rgba(0,0,0,0)', 'images/act.png', '0px', '0px']
                 },
                 {
-                    type: 'image',
-                    id: 'act',
                     rect: ['0px', '0px', '1366px', '768px', 'auto', 'auto'],
+                    id: 'act',
+                    type: 'image',
                     clip: ['rect(0px 201.7265625px 189.671875px 0px)'],
                     fill: ['rgba(0,0,0,0)', 'images/act.png', '0px', '0px']
                 },
                 {
-                    type: 'image',
-                    id: 'actCopy5',
                     rect: ['0px', '0px', '1366px', '768px', 'auto', 'auto'],
+                    id: 'actCopy5',
+                    type: 'image',
                     clip: ['rect(600.2578125px 718.8046875px 669.4765625px 0px)'],
                     fill: ['rgba(0,0,0,0)', 'images/act.png', '0px', '0px']
                 },
                 {
-                    type: 'image',
-                    id: 'actCopy6',
                     rect: ['0px', '0px', '1366px', '768px', 'auto', 'auto'],
+                    id: 'actCopy6',
+                    type: 'image',
                     clip: ['rect(575.96875px 1330.3828125px 695.3984375px 897.203125px)'],
                     fill: ['rgba(0,0,0,0)', 'images/act.png', '0px', '0px']
                 },
                 {
-                    type: 'image',
-                    id: 'actCopy',
                     rect: ['0px', '0px', '1366px', '768px', 'auto', 'auto'],
+                    id: 'actCopy',
+                    type: 'image',
                     clip: ['rect(0px 1048.2890625px 174.6171875px 200px)'],
                     fill: ['rgba(0,0,0,0)', 'images/act.png', '0px', '0px']
                 },
                 {
-                    type: 'image',
-                    id: 'actCopy4',
                     rect: ['0px', '0px', '1366px', '768px', 'auto', 'auto'],
+                    id: 'actCopy4',
+                    type: 'image',
                     clip: ['rect(0px 1366px 175.0625px 1062.40625px)'],
                     fill: ['rgba(0,0,0,0)', 'images/act.png', '0px', '0px']
                 }
@@ -1870,6 +1868,22 @@ var symbols = {
         },
     states: {
         "Base State": {
+            "${_actCopy6}": [
+                ["style", "top", '0px'],
+                ["style", "left", '489px'],
+                ["style", "clip", [575.96875,1330.3828125,695.3984375,897.203125], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+            ],
+            "${_actCopy4}": [
+                ["style", "top", '-190px'],
+                ["style", "left", '0px'],
+                ["style", "clip", [0,1366,175.0625,1062.40625], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+            ],
+            "${_actCopy3}": [
+                ["style", "top", '-416px'],
+                ["style", "opacity", '0'],
+                ["style", "left", '0px'],
+                ["style", "clip", [189.6640625,1366,572.9296875,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+            ],
             "${symbolSelector}": [
                 ["style", "height", '768px'],
                 ["style", "width", '1366px']
@@ -1881,29 +1895,13 @@ var symbols = {
                 ["style", "msTransformOrigin", [9.79,16.78],{valueTemplate:'@@0@@% @@1@@%'}],
                 ["style", "-o-transform-origin", [9.79,16.78],{valueTemplate:'@@0@@% @@1@@%'}],
                 ["style", "transform-origin", [9.79,16.78],{valueTemplate:'@@0@@% @@1@@%'}],
-                ["style", "top", '0px'],
+                ["style", "clip", [0,201.7265625,189.671875,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
                 ["transform", "scaleY", '0.21186'],
                 ["transform", "rotateZ", '130deg'],
                 ["transform", "scaleX", '0.21186'],
                 ["style", "opacity", '0'],
                 ["style", "left", '0px'],
-                ["style", "clip", [0,201.7265625,189.671875,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
-            ],
-            "${_actCopy3}": [
-                ["style", "top", '-416px'],
-                ["style", "opacity", '0'],
-                ["style", "left", '0px'],
-                ["style", "clip", [189.6640625,1366,572.9296875,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
-            ],
-            "${_actCopy6}": [
-                ["style", "top", '0px'],
-                ["style", "left", '489px'],
-                ["style", "clip", [575.96875,1330.3828125,695.3984375,897.203125], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
-            ],
-            "${_actCopy4}": [
-                ["style", "top", '-190px'],
-                ["style", "left", '0px'],
-                ["style", "clip", [0,1366,175.0625,1062.40625], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+                ["style", "top", '0px']
             ],
             "${_actCopy}": [
                 ["style", "top", '-184px'],
@@ -1932,13 +1930,13 @@ var symbols = {
                 { id: "eid1557", tween: [ "transform", "${_act}", "rotateZ", '0deg', { fromValue: '130deg'}], position: 0, duration: 0, easing: "easeOutBack" },
                 { id: "eid1545", tween: [ "style", "${_actCopy6}", "left", '0px', { fromValue: '489px'}], position: 0, duration: 500, easing: "easeOutCirc" },
                 { id: "eid1525", tween: [ "style", "${_head_blue}", "top", '0px', { fromValue: '-220px'}], position: 0, duration: 500, easing: "easeOutCirc" },
-                { id: "eid1543", tween: [ "style", "${_actCopy5}", "left", '0px', { fromValue: '-786px'}], position: 763, duration: 487, easing: "easeOutCirc" },
-                { id: "eid1537", tween: [ "style", "${_actCopy4}", "top", '0px', { fromValue: '-190px'}], position: 250, duration: 474, easing: "easeOutCirc" },
-                { id: "eid1559", tween: [ "transform", "${_act}", "scaleY", '1', { fromValue: '0.21186'}], position: 0, duration: 0, easing: "easeOutBack" },
+                { id: "eid1558", tween: [ "style", "${_act}", "opacity", '1', { fromValue: '0'}], position: 0, duration: 0, easing: "easeOutBack" },
                 { id: "eid1539", tween: [ "style", "${_actCopy3}", "top", '0px', { fromValue: '-416px'}], position: 500, duration: 750, easing: "easeOutBack" },
                 { id: "eid1533", tween: [ "style", "${_actCopy}", "top", '0px', { fromValue: '-184px'}], position: 123, duration: 500, easing: "easeOutCirc" },
+                { id: "eid1537", tween: [ "style", "${_actCopy4}", "top", '0px', { fromValue: '-190px'}], position: 250, duration: 474, easing: "easeOutCirc" },
+                { id: "eid1559", tween: [ "transform", "${_act}", "scaleY", '1', { fromValue: '0.21186'}], position: 0, duration: 0, easing: "easeOutBack" },
                 { id: "eid1541", tween: [ "style", "${_actCopy3}", "opacity", '1', { fromValue: '0'}], position: 517, duration: 733, easing: "easeOutBack" },
-                { id: "eid1558", tween: [ "style", "${_act}", "opacity", '1', { fromValue: '0'}], position: 0, duration: 0, easing: "easeOutBack" }            ]
+                { id: "eid1543", tween: [ "style", "${_actCopy5}", "left", '0px', { fromValue: '-786px'}], position: 763, duration: 487, easing: "easeOutCirc" }            ]
         }
     }
 },
@@ -1955,16 +1953,16 @@ var symbols = {
     content: {
             dom: [
                 {
-                    rect: ['16px', '0px', '20px', '96px', 'auto', 'auto'],
                     transform: [[0, 0], [], ['-18']],
+                    rect: ['16px', '0px', '20px', '96px', 'auto', 'auto'],
                     id: 'Rectangle4',
                     stroke: [0, 'rgb(0, 0, 0)', 'none'],
                     type: 'rect',
                     fill: ['rgba(255,255,255,0.25)']
                 },
                 {
-                    rect: ['42px', '0px', '6px', '96px', 'auto', 'auto'],
                     transform: [[0, 0], [], ['-18']],
+                    rect: ['42px', '0px', '6px', '96px', 'auto', 'auto'],
                     id: 'Rectangle4Copy',
                     stroke: [0, 'rgb(0, 0, 0)', 'none'],
                     type: 'rect',
@@ -1977,9 +1975,9 @@ var symbols = {
     states: {
         "Base State": {
             "${_Rectangle4Copy}": [
-                ["style", "top", '0px'],
-                ["transform", "skewX", '-18deg'],
                 ["color", "background-color", 'rgba(255,255,255,0.2471)'],
+                ["transform", "skewX", '-18deg'],
+                ["style", "top", '0px'],
                 ["style", "opacity", '0'],
                 ["style", "left", '42px'],
                 ["style", "width", '6px']
