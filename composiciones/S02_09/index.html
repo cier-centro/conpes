@@ -17,24 +17,16 @@
 	<div id="Stage" class="EDGE-9697239920">
 	</div>
 </body>
-
-<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular-cookies.js"></script>
-<script type="text/javascript">
-	var app = angular.module('myApp', ['ngCookies']);
-	var $injector = angular.injector(['ngCookies']);
-	var scores = {}			
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+<script type="text/javascript">	
 	var total = 0;  
-	$injector.invoke(['$cookies', function($cookies) { 
-	    for(i in [0,1,2,3,4,5]){
 
-	    	var scene_i = (parseInt(i) + 3);
-	    	var score = $cookies.get("S02_0" + scene_i + "_score")?parseInt($cookies.get("S02_0" + scene_i + "_score")):0;
-	    	scores["modulo " + (parseInt(i) + 1)] = score;
-	    	total += score;
-		}
-		console.log(total + " de 30 preguntas correctas");
-	 }]);
+    for(i in [0,1,2,3,4,5]){
+    	var scene_i = (parseInt(i) + 3);
+    	var score = Cookies.get("S02_0" + scene_i + "_score")?parseInt(Cookies.get("S02_0" + scene_i + "_score")):0;
+    	total += score;
+	}
+	console.log(total + " de 30 preguntas correctas");
 
 </script>
 
