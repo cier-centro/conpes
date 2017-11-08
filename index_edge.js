@@ -1198,10 +1198,12 @@ var symbols = {
         },
     states: {
         "Base State": {
-            "${_brillo_6}": [
-                ["style", "top", '-1px'],
-                ["style", "left", '-53px'],
-                ["style", "clip", [0,340.265625,155,47.9296875], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+            "${_check_2}": [
+                ["style", "top", '359px'],
+                ["transform", "scaleY", '0.09751'],
+                ["transform", "scaleX", '0.09751'],
+                ["style", "opacity", '0'],
+                ["style", "left", '441px']
             ],
             "${_Rectangle2}": [
                 ["style", "top", '349px'],
@@ -1230,11 +1232,13 @@ var symbols = {
                 ["style", "opacity", '0'],
                 ["style", "left", '59px']
             ],
-            "${_hotspot_2}": [
-                ["style", "top", '350px'],
-                ["style", "cursor", 'pointer'],
-                ["style", "left", '501px'],
-                ["style", "display", 'none']
+            "${_Rectangle1}": [
+                ["style", "top", '349px'],
+                ["style", "border-bottom-right-radius", [20,20], {valueTemplate:'@@0@@px @@1@@px'} ],
+                ["style", "display", 'none'],
+                ["style", "left", '119px'],
+                ["style", "border-top-right-radius", [20,20], {valueTemplate:'@@0@@px @@1@@px'} ],
+                ["color", "background-color", 'rgba(255,255,255,0.00)']
             ],
             "${_check_4}": [
                 ["style", "top", '542px'],
@@ -1243,10 +1247,10 @@ var symbols = {
                 ["style", "opacity", '0'],
                 ["style", "left", '59px']
             ],
-            "${_brillo_1}": [
+            "${_brillo_6}": [
                 ["style", "top", '-1px'],
                 ["style", "left", '-53px'],
-                ["style", "clip", [0,341.34375,155,53.171875], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+                ["style", "clip", [0,340.265625,155,47.9296875], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
             ],
             "${_hotspot_3}": [
                 ["style", "top", '350px'],
@@ -1254,15 +1258,51 @@ var symbols = {
                 ["style", "left", '884px'],
                 ["style", "display", 'none']
             ],
-            "${_contenidoCopy}": [
-                ["style", "top", '0px'],
-                ["style", "left", '-845px'],
-                ["style", "clip", [79.060546875,782.640625,295.140625,31.09375], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+            "${_hotspot_2}": [
+                ["style", "top", '350px'],
+                ["style", "cursor", 'pointer'],
+                ["style", "left", '501px'],
+                ["style", "display", 'none']
             ],
             "${_contenidoCopy3}": [
                 ["style", "top", '9px'],
                 ["style", "left", '1275px'],
                 ["style", "clip", [508.109375,1366,685.9140625,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+            ],
+            "${_hotspot_4}": [
+                ["style", "top", '528px'],
+                ["style", "left", '120px'],
+                ["style", "cursor", 'pointer'],
+                ["style", "display", 'none']
+            ],
+            "${_check_5}": [
+                ["style", "top", '542px'],
+                ["transform", "scaleY", '0.09751'],
+                ["transform", "scaleX", '0.09751'],
+                ["style", "opacity", '0'],
+                ["style", "left", '441px']
+            ],
+            "${_Rectangle4}": [
+                ["color", "background-color", 'rgba(255,255,255,0.00)'],
+                ["style", "border-bottom-right-radius", [20,20], {valueTemplate:'@@0@@px @@1@@px'} ],
+                ["style", "display", 'none'],
+                ["style", "border-top-right-radius", [20,20], {valueTemplate:'@@0@@px @@1@@px'} ],
+                ["style", "left", '119px'],
+                ["style", "top", '529px']
+            ],
+            "${_brillo_1}": [
+                ["style", "top", '-1px'],
+                ["style", "left", '-53px'],
+                ["style", "clip", [0,341.34375,155,53.171875], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+            ],
+            "${symbolSelector}": [
+                ["style", "height", '768px'],
+                ["style", "width", '1366px']
+            ],
+            "${_brillo_5}": [
+                ["style", "top", '-1px'],
+                ["style", "left", '-53px'],
+                ["style", "clip", [0,340.890625,155,50.125], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
             ],
             "${_brillo_3}": [
                 ["style", "top", '-1px'],
@@ -1275,36 +1315,14 @@ var symbols = {
                 ["style", "cursor", 'pointer'],
                 ["style", "display", 'none']
             ],
-            "${_Rectangle4}": [
-                ["color", "background-color", 'rgba(255,255,255,0.00)'],
-                ["style", "border-bottom-right-radius", [20,20], {valueTemplate:'@@0@@px @@1@@px'} ],
-                ["style", "display", 'none'],
-                ["style", "border-top-right-radius", [20,20], {valueTemplate:'@@0@@px @@1@@px'} ],
-                ["style", "left", '119px'],
-                ["style", "top", '529px']
+            "${_s02_02_7}": [
+                ["style", "left", '0px'],
+                ["style", "top", '0px']
             ],
-            "${symbolSelector}": [
-                ["style", "height", '768px'],
-                ["style", "width", '1366px']
-            ],
-            "${_check_2}": [
-                ["style", "top", '359px'],
-                ["transform", "scaleY", '0.09751'],
-                ["transform", "scaleX", '0.09751'],
-                ["style", "opacity", '0'],
-                ["style", "left", '441px']
-            ],
-            "${_brillo_5}": [
-                ["style", "top", '-1px'],
-                ["style", "left", '-53px'],
-                ["style", "clip", [0,340.890625,155,50.125], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
-            ],
-            "${_check_5}": [
-                ["style", "top", '542px'],
-                ["transform", "scaleY", '0.09751'],
-                ["transform", "scaleX", '0.09751'],
-                ["style", "opacity", '0'],
-                ["style", "left", '441px']
+            "${_contenidoCopy}": [
+                ["style", "top", '0px'],
+                ["style", "left", '-845px'],
+                ["style", "clip", [79.060546875,782.640625,295.140625,31.09375], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
             ],
             "${_check_6}": [
                 ["style", "top", '542px'],
@@ -1312,23 +1330,6 @@ var symbols = {
                 ["transform", "scaleX", '0.09751'],
                 ["style", "opacity", '0'],
                 ["style", "left", '822px']
-            ],
-            "${_hotspot_4}": [
-                ["style", "top", '528px'],
-                ["style", "left", '120px'],
-                ["style", "cursor", 'pointer'],
-                ["style", "display", 'none']
-            ],
-            "${_brillo_2}": [
-                ["style", "top", '-1px'],
-                ["style", "left", '-53px'],
-                ["style", "clip", [0,340.640625,155,51.5859375], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
-            ],
-            "${_hotspot_1}": [
-                ["style", "top", '350px'],
-                ["style", "left", '119px'],
-                ["style", "cursor", 'pointer'],
-                ["style", "display", 'none']
             ],
             "${_Rectangle6}": [
                 ["style", "top", '529px'],
@@ -1338,10 +1339,11 @@ var symbols = {
                 ["style", "border-top-right-radius", [20,20], {valueTemplate:'@@0@@px @@1@@px'} ],
                 ["color", "background-color", 'rgba(255,255,255,0.00)']
             ],
-            "${_brillo_4}": [
-                ["style", "top", '-1px'],
-                ["style", "left", '-53px'],
-                ["style", "clip", [0,338.28125,155,52.375], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+            "${_hotspot_1}": [
+                ["style", "top", '350px'],
+                ["style", "left", '119px'],
+                ["style", "cursor", 'pointer'],
+                ["style", "display", 'none']
             ],
             "${_Rectangle3}": [
                 ["style", "top", '349px'],
@@ -1356,9 +1358,10 @@ var symbols = {
                 ["style", "left", '0px'],
                 ["style", "clip", [74.265625,1366,226.0546875,781.8828125], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
             ],
-            "${_s02_02_7}": [
-                ["style", "left", '0px'],
-                ["style", "top", '0px']
+            "${_brillo_2}": [
+                ["style", "top", '-1px'],
+                ["style", "left", '-53px'],
+                ["style", "clip", [0,340.640625,155,51.5859375], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
             ],
             "${_Rectangle5}": [
                 ["color", "background-color", 'rgba(255,255,255,0.00)'],
@@ -1368,13 +1371,10 @@ var symbols = {
                 ["style", "border-top-right-radius", [20,20], {valueTemplate:'@@0@@px @@1@@px'} ],
                 ["style", "left", '501px']
             ],
-            "${_Rectangle1}": [
-                ["style", "top", '349px'],
-                ["style", "border-bottom-right-radius", [20,20], {valueTemplate:'@@0@@px @@1@@px'} ],
-                ["style", "display", 'none'],
-                ["style", "left", '119px'],
-                ["style", "border-top-right-radius", [20,20], {valueTemplate:'@@0@@px @@1@@px'} ],
-                ["color", "background-color", 'rgba(255,255,255,0.00)']
+            "${_brillo_4}": [
+                ["style", "top", '-1px'],
+                ["style", "left", '-53px'],
+                ["style", "clip", [0,338.28125,155,52.375], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
             ],
             "${_hotspot_5}": [
                 ["style", "top", '528px'],

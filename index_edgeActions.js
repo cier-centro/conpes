@@ -877,7 +877,17 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_revisar}", "click", function(sym, e) {
-         sym.getComposition().getStage().stop("slide_10");
+         var todasRespuestas=true;
+         for(var i=3;i<9;i++){
+         	var existCookie=Cookies.get('S02_0'+i+'_score')!=null&&Cookies.get('S02_0'+i+'_score')!="";
+         	todasRespuestas=todasRespuestas&&existCookie;
+         }
+         if(todasRespuestas){
+         	sym.getComposition().getStage().stop("slide_10");
+         }else{
+         sym.getComposition().getStage().$("warning2").show();
+         
+         }
          
 
       });
