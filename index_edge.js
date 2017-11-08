@@ -232,6 +232,20 @@ var symbols = {
                 type: 'rect',
                 rect: ['1318', '7','auto','auto','auto', 'auto'],
                 cursor: ['pointer']
+            },
+            {
+                id: 'warning2',
+                display: 'none',
+                type: 'image',
+                rect: ['0px', '0px','1366px','768px','auto', 'auto'],
+                fill: ["rgba(0,0,0,0)",im+"warning2.png",'0px','0px']
+            },
+            {
+                id: 'warning1',
+                display: 'none',
+                type: 'image',
+                rect: ['0px', '7px','1366px','768px','auto', 'auto'],
+                fill: ["rgba(0,0,0,0)",im+"warning1.png",'0px','0px']
             }],
             symbolInstances: [
             {
@@ -464,6 +478,11 @@ var symbols = {
                 ["style", "left", '683px'],
                 ["style", "top", '703px']
             ],
+            "${_warning1}": [
+                ["style", "top", '7px'],
+                ["style", "left", '0px'],
+                ["style", "display", 'none']
+            ],
             "${_info}": [
                 ["style", "cursor", 'pointer'],
                 ["style", "display", 'none']
@@ -539,6 +558,11 @@ var symbols = {
                 ["style", "overflow", 'hidden'],
                 ["transform", "scaleX", '1'],
                 ["style", "left", '1313px'],
+                ["style", "display", 'none']
+            ],
+            "${_warning2}": [
+                ["style", "top", '0px'],
+                ["style", "left", '0px'],
                 ["style", "display", 'none']
             ],
             "${_inicio}": [
@@ -705,55 +729,24 @@ var symbols = {
                 "slide_30": 29000
             },
             timeline: [
-                { id: "eid1108", tween: [ "style", "${_slide_9}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
-                { id: "eid1236", tween: [ "style", "${_slide_9}", "display", 'block', { fromValue: 'none'}], position: 8000, duration: 0 },
-                { id: "eid1237", tween: [ "style", "${_slide_9}", "display", 'none', { fromValue: 'block'}], position: 9000, duration: 0 },
-                { id: "eid1347", tween: [ "style", "${_bt_back}", "display", 'block', { fromValue: 'none'}], position: 2000, duration: 0 },
-                { id: "eid1499", tween: [ "style", "${_bt_back}", "display", 'none', { fromValue: 'block'}], position: 3000, duration: 0 },
-                { id: "eid1109", tween: [ "style", "${_slide_10}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
-                { id: "eid1238", tween: [ "style", "${_slide_10}", "display", 'block', { fromValue: 'none'}], position: 9000, duration: 0 },
-                { id: "eid1239", tween: [ "style", "${_slide_10}", "display", 'none', { fromValue: 'block'}], position: 10000, duration: 0 },
                 { id: "eid1110", tween: [ "style", "${_slide_11}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
                 { id: "eid1240", tween: [ "style", "${_slide_11}", "display", 'block', { fromValue: 'none'}], position: 10000, duration: 0 },
                 { id: "eid1241", tween: [ "style", "${_slide_11}", "display", 'none', { fromValue: 'block'}], position: 11000, duration: 0 },
-                { id: "eid1132", tween: [ "style", "${_slide_2}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
-                { id: "eid1101", tween: [ "style", "${_slide_2}", "display", 'block', { fromValue: 'none'}], position: 1000, duration: 0 },
-                { id: "eid1131", tween: [ "style", "${_slide_2}", "display", 'none', { fromValue: 'block'}], position: 2000, duration: 0 },
                 { id: "eid1503", tween: [ "style", "${_volver}", "display", 'block', { fromValue: 'none'}], position: 3000, duration: 0 },
                 { id: "eid1511", tween: [ "style", "${_volver}", "display", 'none', { fromValue: 'block'}], position: 9000, duration: 0 },
-                { id: "eid1337", tween: [ "style", "${_slide_1}", "display", 'block', { fromValue: 'block'}], position: 0, duration: 0 },
-                { id: "eid1130", tween: [ "style", "${_slide_1}", "display", 'none', { fromValue: 'block'}], position: 1000, duration: 0 },
-                { id: "eid1345", tween: [ "style", "${_pie}", "display", 'block', { fromValue: 'none'}], position: 1000, duration: 0, easing: "easeOutCirc" },
-                { id: "eid1424", tween: [ "style", "${_pie}", "display", 'none', { fromValue: 'block'}], position: 3000, duration: 0 },
-                { id: "eid1425", tween: [ "style", "${_pie}", "display", 'none', { fromValue: 'none'}], position: 9000, duration: 0 },
-                { id: "eid1426", tween: [ "style", "${_pie}", "display", 'none', { fromValue: 'none'}], position: 11000, duration: 0 },
                 { id: "eid1114", tween: [ "style", "${_slide_15}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
                 { id: "eid1248", tween: [ "style", "${_slide_15}", "display", 'block', { fromValue: 'none'}], position: 14000, duration: 0 },
                 { id: "eid1249", tween: [ "style", "${_slide_15}", "display", 'none', { fromValue: 'block'}], position: 15000, duration: 0 },
-                { id: "eid1118", tween: [ "style", "${_slide_19}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
-                { id: "eid1272", tween: [ "style", "${_slide_19}", "display", 'block', { fromValue: 'none'}], position: 18000, duration: 0 },
-                { id: "eid1273", tween: [ "style", "${_slide_19}", "display", 'none', { fromValue: 'block'}], position: 19000, duration: 0 },
                 { id: "eid1516", tween: [ "style", "${_guia_usuario}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
-                { id: "eid1031", tween: [ "style", "${_slide_13}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
-                { id: "eid1244", tween: [ "style", "${_slide_13}", "display", 'block', { fromValue: 'none'}], position: 12000, duration: 0 },
-                { id: "eid1245", tween: [ "style", "${_slide_13}", "display", 'none', { fromValue: 'block'}], position: 13000, duration: 0 },
                 { id: "eid1103", tween: [ "style", "${_slide_4}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
                 { id: "eid1134", tween: [ "style", "${_slide_4}", "display", 'block', { fromValue: 'none'}], position: 3000, duration: 0 },
                 { id: "eid1136", tween: [ "style", "${_slide_4}", "display", 'none', { fromValue: 'block'}], position: 4000, duration: 0 },
-                { id: "eid1350", tween: [ "style", "${_inicio}", "display", 'block', { fromValue: 'none'}], position: 1000, duration: 0 },
-                { id: "eid1105", tween: [ "style", "${_slide_6}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
-                { id: "eid1228", tween: [ "style", "${_slide_6}", "display", 'block', { fromValue: 'none'}], position: 5000, duration: 0 },
-                { id: "eid1229", tween: [ "style", "${_slide_6}", "display", 'none', { fromValue: 'block'}], position: 6000, duration: 0 },
-                { id: "eid1025", tween: [ "style", "${_slide_7}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
-                { id: "eid1232", tween: [ "style", "${_slide_7}", "display", 'block', { fromValue: 'none'}], position: 6000, duration: 0 },
-                { id: "eid1233", tween: [ "style", "${_slide_7}", "display", 'none', { fromValue: 'block'}], position: 7000, duration: 0 },
-                { id: "eid1349", tween: [ "style", "${_top}", "display", 'block', { fromValue: 'none'}], position: 1000, duration: 0 },
+                { id: "eid1026", tween: [ "style", "${_slide_8}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+                { id: "eid1234", tween: [ "style", "${_slide_8}", "display", 'block', { fromValue: 'none'}], position: 7000, duration: 0 },
+                { id: "eid1235", tween: [ "style", "${_slide_8}", "display", 'none', { fromValue: 'block'}], position: 8000, duration: 0 },
                 { id: "eid1133", tween: [ "style", "${_slide_3}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
                 { id: "eid1102", tween: [ "style", "${_slide_3}", "display", 'block', { fromValue: 'none'}], position: 2000, duration: 0 },
                 { id: "eid1135", tween: [ "style", "${_slide_3}", "display", 'none', { fromValue: 'block'}], position: 3000, duration: 0 },
-                { id: "eid1113", tween: [ "style", "${_slide_14}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
-                { id: "eid1246", tween: [ "style", "${_slide_14}", "display", 'block', { fromValue: 'none'}], position: 13000, duration: 0 },
-                { id: "eid1247", tween: [ "style", "${_slide_14}", "display", 'none', { fromValue: 'block'}], position: 14000, duration: 0 },
                 { id: "eid1346", tween: [ "style", "${_textCount}", "display", 'block', { fromValue: 'none'}], position: 1000, duration: 0 },
                 { id: "eid1501", tween: [ "style", "${_textCount}", "display", 'none', { fromValue: 'block'}], position: 3000, duration: 0 },
                 { id: "eid1348", tween: [ "style", "${_bt_next}", "display", 'block', { fromValue: 'none'}], position: 1000, duration: 0 },
@@ -762,27 +755,60 @@ var symbols = {
                 { id: "eid1250", tween: [ "style", "${_slide_16}", "display", 'block', { fromValue: 'none'}], position: 15000, duration: 0 },
                 { id: "eid1251", tween: [ "style", "${_slide_16}", "display", 'none', { fromValue: 'block'}], position: 16000, duration: 0 },
                 { id: "eid1520", tween: [ "style", "${_info}", "display", 'block', { fromValue: 'none'}], position: 1000, duration: 0 },
-                { id: "eid1353", tween: [ "style", "${_cont}", "display", 'block', { fromValue: 'none'}], position: 1000, duration: 0 },
-                { id: "eid1512", tween: [ "style", "${_cont}", "display", 'none', { fromValue: 'block'}], position: 9000, duration: 0 },
-                { id: "eid1026", tween: [ "style", "${_slide_8}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
-                { id: "eid1234", tween: [ "style", "${_slide_8}", "display", 'block', { fromValue: 'none'}], position: 7000, duration: 0 },
-                { id: "eid1235", tween: [ "style", "${_slide_8}", "display", 'none', { fromValue: 'block'}], position: 8000, duration: 0 },
-                { id: "eid1104", tween: [ "style", "${_slide_5}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
-                { id: "eid1226", tween: [ "style", "${_slide_5}", "display", 'block', { fromValue: 'none'}], position: 4000, duration: 0 },
-                { id: "eid1227", tween: [ "style", "${_slide_5}", "display", 'none', { fromValue: 'block'}], position: 5000, duration: 0 },
-                { id: "eid1351", tween: [ "style", "${_menu}", "display", 'block', { fromValue: 'none'}], position: 1000, duration: 0 },
-                { id: "eid1035", tween: [ "style", "${_slide_17}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
-                { id: "eid1252", tween: [ "style", "${_slide_17}", "display", 'block', { fromValue: 'none'}], position: 16000, duration: 0 },
-                { id: "eid1253", tween: [ "style", "${_slide_17}", "display", 'none', { fromValue: 'block'}], position: 17000, duration: 0 },
                 { id: "eid1038", tween: [ "style", "${_slide_20}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
                 { id: "eid1274", tween: [ "style", "${_slide_20}", "display", 'block', { fromValue: 'none'}], position: 19000, duration: 0 },
                 { id: "eid1275", tween: [ "style", "${_slide_20}", "display", 'none', { fromValue: 'block'}], position: 20000, duration: 0 },
                 { id: "eid1117", tween: [ "style", "${_slide_18}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
                 { id: "eid1270", tween: [ "style", "${_slide_18}", "display", 'block', { fromValue: 'none'}], position: 17000, duration: 0 },
                 { id: "eid1271", tween: [ "style", "${_slide_18}", "display", 'none', { fromValue: 'block'}], position: 18000, duration: 0 },
+                { id: "eid1108", tween: [ "style", "${_slide_9}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+                { id: "eid1236", tween: [ "style", "${_slide_9}", "display", 'block', { fromValue: 'none'}], position: 8000, duration: 0 },
+                { id: "eid1237", tween: [ "style", "${_slide_9}", "display", 'none', { fromValue: 'block'}], position: 9000, duration: 0 },
+                { id: "eid1118", tween: [ "style", "${_slide_19}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+                { id: "eid1272", tween: [ "style", "${_slide_19}", "display", 'block', { fromValue: 'none'}], position: 18000, duration: 0 },
+                { id: "eid1273", tween: [ "style", "${_slide_19}", "display", 'none', { fromValue: 'block'}], position: 19000, duration: 0 },
+                { id: "eid1337", tween: [ "style", "${_slide_1}", "display", 'block', { fromValue: 'block'}], position: 0, duration: 0 },
+                { id: "eid1130", tween: [ "style", "${_slide_1}", "display", 'none', { fromValue: 'block'}], position: 1000, duration: 0 },
+                { id: "eid1109", tween: [ "style", "${_slide_10}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+                { id: "eid1238", tween: [ "style", "${_slide_10}", "display", 'block', { fromValue: 'none'}], position: 9000, duration: 0 },
+                { id: "eid1239", tween: [ "style", "${_slide_10}", "display", 'none', { fromValue: 'block'}], position: 10000, duration: 0 },
+                { id: "eid1031", tween: [ "style", "${_slide_13}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+                { id: "eid1244", tween: [ "style", "${_slide_13}", "display", 'block', { fromValue: 'none'}], position: 12000, duration: 0 },
+                { id: "eid1245", tween: [ "style", "${_slide_13}", "display", 'none', { fromValue: 'block'}], position: 13000, duration: 0 },
                 { id: "eid1111", tween: [ "style", "${_slide_12}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
                 { id: "eid1242", tween: [ "style", "${_slide_12}", "display", 'block', { fromValue: 'none'}], position: 11000, duration: 0 },
-                { id: "eid1243", tween: [ "style", "${_slide_12}", "display", 'none', { fromValue: 'block'}], position: 12000, duration: 0 }            ]
+                { id: "eid1243", tween: [ "style", "${_slide_12}", "display", 'none', { fromValue: 'block'}], position: 12000, duration: 0 },
+                { id: "eid1350", tween: [ "style", "${_inicio}", "display", 'block', { fromValue: 'none'}], position: 1000, duration: 0 },
+                { id: "eid1105", tween: [ "style", "${_slide_6}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+                { id: "eid1228", tween: [ "style", "${_slide_6}", "display", 'block', { fromValue: 'none'}], position: 5000, duration: 0 },
+                { id: "eid1229", tween: [ "style", "${_slide_6}", "display", 'none', { fromValue: 'block'}], position: 6000, duration: 0 },
+                { id: "eid1025", tween: [ "style", "${_slide_7}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+                { id: "eid1232", tween: [ "style", "${_slide_7}", "display", 'block', { fromValue: 'none'}], position: 6000, duration: 0 },
+                { id: "eid1233", tween: [ "style", "${_slide_7}", "display", 'none', { fromValue: 'block'}], position: 7000, duration: 0 },
+                { id: "eid1349", tween: [ "style", "${_top}", "display", 'block', { fromValue: 'none'}], position: 1000, duration: 0 },
+                { id: "eid1113", tween: [ "style", "${_slide_14}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+                { id: "eid1246", tween: [ "style", "${_slide_14}", "display", 'block', { fromValue: 'none'}], position: 13000, duration: 0 },
+                { id: "eid1247", tween: [ "style", "${_slide_14}", "display", 'none', { fromValue: 'block'}], position: 14000, duration: 0 },
+                { id: "eid1351", tween: [ "style", "${_menu}", "display", 'block', { fromValue: 'none'}], position: 1000, duration: 0 },
+                { id: "eid1353", tween: [ "style", "${_cont}", "display", 'block', { fromValue: 'none'}], position: 1000, duration: 0 },
+                { id: "eid1512", tween: [ "style", "${_cont}", "display", 'none', { fromValue: 'block'}], position: 9000, duration: 0 },
+                { id: "eid1543", tween: [ "style", "${_warning1}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+                { id: "eid1104", tween: [ "style", "${_slide_5}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+                { id: "eid1226", tween: [ "style", "${_slide_5}", "display", 'block', { fromValue: 'none'}], position: 4000, duration: 0 },
+                { id: "eid1227", tween: [ "style", "${_slide_5}", "display", 'none', { fromValue: 'block'}], position: 5000, duration: 0 },
+                { id: "eid1132", tween: [ "style", "${_slide_2}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+                { id: "eid1101", tween: [ "style", "${_slide_2}", "display", 'block', { fromValue: 'none'}], position: 1000, duration: 0 },
+                { id: "eid1131", tween: [ "style", "${_slide_2}", "display", 'none', { fromValue: 'block'}], position: 2000, duration: 0 },
+                { id: "eid1035", tween: [ "style", "${_slide_17}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+                { id: "eid1252", tween: [ "style", "${_slide_17}", "display", 'block', { fromValue: 'none'}], position: 16000, duration: 0 },
+                { id: "eid1253", tween: [ "style", "${_slide_17}", "display", 'none', { fromValue: 'block'}], position: 17000, duration: 0 },
+                { id: "eid1347", tween: [ "style", "${_bt_back}", "display", 'block', { fromValue: 'none'}], position: 2000, duration: 0 },
+                { id: "eid1499", tween: [ "style", "${_bt_back}", "display", 'none', { fromValue: 'block'}], position: 3000, duration: 0 },
+                { id: "eid1542", tween: [ "style", "${_warning2}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+                { id: "eid1345", tween: [ "style", "${_pie}", "display", 'block', { fromValue: 'none'}], position: 1000, duration: 0, easing: "easeOutCirc" },
+                { id: "eid1424", tween: [ "style", "${_pie}", "display", 'none', { fromValue: 'block'}], position: 3000, duration: 0 },
+                { id: "eid1425", tween: [ "style", "${_pie}", "display", 'none', { fromValue: 'none'}], position: 9000, duration: 0 },
+                { id: "eid1426", tween: [ "style", "${_pie}", "display", 'none', { fromValue: 'none'}], position: 11000, duration: 0 }            ]
         }
     }
 },
@@ -1030,18 +1056,18 @@ var symbols = {
                     fill: ['rgba(0,0,0,0)', 'images/revisar.png', '0px', '0px']
                 },
                 {
-                    rect: ['119px', '369px', '289px', '155px', 'auto', 'auto'],
-                    type: 'rect',
+                    rect: ['119px', '350px', '289px', '155px', 'auto', 'auto'],
                     display: 'none',
+                    type: 'rect',
                     id: 'hotspot_1',
                     stroke: [0, 'rgb(0, 0, 0)', 'none'],
                     cursor: ['pointer'],
                     fill: ['rgba(255,255,255,0)']
                 },
                 {
-                    rect: ['501px', '369px', '289px', '155px', 'auto', 'auto'],
-                    type: 'rect',
+                    rect: ['501px', '350px', '289px', '155px', 'auto', 'auto'],
                     display: 'none',
+                    type: 'rect',
                     id: 'hotspot_2',
                     stroke: [0, 'rgb(0, 0, 0)', 'none'],
                     cursor: ['pointer'],
@@ -1049,8 +1075,8 @@ var symbols = {
                 },
                 {
                     rect: ['884px', '350px', '289px', '155px', 'auto', 'auto'],
-                    type: 'rect',
                     display: 'none',
+                    type: 'rect',
                     id: 'hotspot_3',
                     stroke: [0, 'rgb(0, 0, 0)', 'none'],
                     cursor: ['pointer'],
@@ -1058,8 +1084,8 @@ var symbols = {
                 },
                 {
                     rect: ['120px', '528px', '289px', '155px', 'auto', 'auto'],
-                    type: 'rect',
                     display: 'none',
+                    type: 'rect',
                     id: 'hotspot_4',
                     stroke: [0, 'rgb(0, 0, 0)', 'none'],
                     cursor: ['pointer'],
@@ -1067,8 +1093,8 @@ var symbols = {
                 },
                 {
                     rect: ['501px', '528px', '289px', '155px', 'auto', 'auto'],
-                    type: 'rect',
                     display: 'none',
+                    type: 'rect',
                     id: 'hotspot_5',
                     stroke: [0, 'rgb(0, 0, 0)', 'none'],
                     cursor: ['pointer'],
@@ -1076,8 +1102,8 @@ var symbols = {
                 },
                 {
                     rect: ['886px', '528px', '289px', '155px', 'auto', 'auto'],
-                    type: 'rect',
                     display: 'none',
+                    type: 'rect',
                     id: 'hotspot_6',
                     stroke: [0, 'rgb(0, 0, 0)', 'none'],
                     cursor: ['pointer'],
@@ -1205,7 +1231,7 @@ var symbols = {
                 ["style", "left", '59px']
             ],
             "${_hotspot_2}": [
-                ["style", "top", '369px'],
+                ["style", "top", '350px'],
                 ["style", "cursor", 'pointer'],
                 ["style", "left", '501px'],
                 ["style", "display", 'none']
@@ -1299,7 +1325,7 @@ var symbols = {
                 ["style", "clip", [0,340.640625,155,51.5859375], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
             ],
             "${_hotspot_1}": [
-                ["style", "top", '369px'],
+                ["style", "top", '350px'],
                 ["style", "left", '119px'],
                 ["style", "cursor", 'pointer'],
                 ["style", "display", 'none']
@@ -1510,7 +1536,7 @@ var symbols = {
                 {
                     id: 'robotCopy',
                     type: 'rect',
-                    transform: [[0, 0], [], [], ['0.18375', '0.18375']],
+                    transform: [[], [], [], ['0.18375', '0.18375']],
                     rect: ['146px', '-982px', 'auto', 'auto', 'auto', 'auto']
                 },
                 {
@@ -1522,10 +1548,10 @@ var symbols = {
                     fill: ['rgba(255,255,255,1.00)']
                 },
                 {
-                    rect: ['390px', '406px', '190px', '173px', 'auto', 'auto'],
-                    type: 'rect',
-                    borderRadius: ['10px', '10px', '10px', '10px'],
                     display: 'none',
+                    rect: ['390px', '406px', '190px', '173px', 'auto', 'auto'],
+                    borderRadius: ['10px', '10px', '10px', '10px'],
+                    type: 'rect',
                     id: 'hotspot_ingresar',
                     stroke: [0, 'rgba(0,0,0,1)', 'none'],
                     cursor: ['pointer'],
@@ -1599,27 +1625,6 @@ var symbols = {
                 ["style", "left", '-5px'],
                 ["style", "clip", [190.703125,1366,369.875,792], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
             ],
-            "${_B02_02_1Copy}": [
-                ["style", "top", '0px'],
-                ["style", "background-position", [0,-88.8046875], {valueTemplate:'@@0@@px @@1@@px'} ],
-                ["style", "opacity", '1'],
-                ["style", "left", '0px'],
-                ["style", "clip", [325.1923828125,1366,436.729248046875,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
-            ],
-            "${_robotCopy}": [
-                ["style", "top", '-982px'],
-                ["transform", "scaleY", '0.18375'],
-                ["transform", "scaleX", '0.18375'],
-                ["style", "opacity", '1'],
-                ["style", "left", '729px']
-            ],
-            "${_hotspot_ingresar}": [
-                ["color", "background-color", 'rgba(192,192,192,0.00)'],
-                ["style", "display", 'none'],
-                ["style", "opacity", '1'],
-                ["style", "cursor", 'pointer'],
-                ["style", "left", '390px']
-            ],
             "${_btn_go}": [
                 ["transform", "scaleX", '0.2523'],
                 ["style", "opacity", '0'],
@@ -1630,33 +1635,6 @@ var symbols = {
                 ["style", "height", '80px'],
                 ["style", "cursor", 'pointer'],
                 ["style", "display", 'none']
-            ],
-            "${_b02_01_dCopy4}": [
-                ["style", "top", '-29px'],
-                ["style", "left", '0px'],
-                ["style", "opacity", '1'],
-                ["style", "clip", [283.82641601563,769.359375,369.875,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
-                ["style", "background-position", [0,-51.513671875], {valueTemplate:'@@0@@px @@1@@px'} ]
-            ],
-            "${_B02_02_1Copy2}": [
-                ["style", "top", '0px'],
-                ["style", "clip", [582.80224609375,1366,663.179931640625,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
-                ["style", "opacity", '1'],
-                ["style", "left", '0px'],
-                ["style", "background-position", [0,78.757568359375], {valueTemplate:'@@0@@px @@1@@px'} ]
-            ],
-            "${_b02_01_bCopy}": [
-                ["style", "top", '0px'],
-                ["style", "left", '0px'],
-                ["style", "opacity", '1'],
-                ["style", "clip", [668.40625,1366,756.58227539063,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
-                ["style", "background-position", [0,116.61791992187], {valueTemplate:'@@0@@px @@1@@px'} ]
-            ],
-            "${_btn_ingresar}": [
-                ["style", "top", '339px'],
-                ["style", "opacity", '0'],
-                ["style", "left", '382px'],
-                ["style", "display", 'block']
             ],
             "${symbolSelector}": [
                 ["style", "height", '768px'],
@@ -1671,6 +1649,54 @@ var symbols = {
             "${_Rectangle}": [
                 ["color", "background-color", 'rgba(255,255,255,1.00)'],
                 ["style", "display", 'none']
+            ],
+            "${_robotCopy}": [
+                ["style", "top", '-982px'],
+                ["transform", "scaleY", '0.18375'],
+                ["transform", "scaleX", '0.18375'],
+                ["style", "opacity", '1'],
+                ["style", "left", '729px']
+            ],
+            "${_B02_02_1Copy}": [
+                ["style", "top", '0px'],
+                ["style", "background-position", [0,-88.8046875], {valueTemplate:'@@0@@px @@1@@px'} ],
+                ["style", "opacity", '1'],
+                ["style", "left", '0px'],
+                ["style", "clip", [325.1923828125,1366,436.729248046875,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+            ],
+            "${_hotspot_ingresar}": [
+                ["color", "background-color", 'rgba(192,192,192,0.00)'],
+                ["style", "display", 'none'],
+                ["style", "opacity", '1'],
+                ["style", "cursor", 'pointer'],
+                ["style", "left", '390px']
+            ],
+            "${_B02_02_1Copy2}": [
+                ["style", "top", '0px'],
+                ["style", "clip", [582.80224609375,1366,663.179931640625,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
+                ["style", "opacity", '1'],
+                ["style", "left", '0px'],
+                ["style", "background-position", [0,78.757568359375], {valueTemplate:'@@0@@px @@1@@px'} ]
+            ],
+            "${_b02_01_dCopy4}": [
+                ["style", "top", '-29px'],
+                ["style", "left", '0px'],
+                ["style", "opacity", '1'],
+                ["style", "clip", [283.82641601563,769.359375,369.875,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
+                ["style", "background-position", [0,-51.513671875], {valueTemplate:'@@0@@px @@1@@px'} ]
+            ],
+            "${_b02_01_bCopy}": [
+                ["style", "top", '0px'],
+                ["style", "left", '0px'],
+                ["style", "opacity", '1'],
+                ["style", "clip", [668.40625,1366,756.58227539063,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
+                ["style", "background-position", [0,116.61791992187], {valueTemplate:'@@0@@px @@1@@px'} ]
+            ],
+            "${_btn_ingresar}": [
+                ["style", "top", '339px'],
+                ["style", "opacity", '0'],
+                ["style", "left", '382px'],
+                ["style", "display", 'block']
             ],
             "${_b02_01_aCopy}": [
                 ["style", "top", '0px'],

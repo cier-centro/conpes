@@ -642,8 +642,31 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_volver}", "click", function(sym, e) {
-         sym.stop("slide_3");
-         console.log("ya cice click");
+         var cookieDM =Cookies.get('S02_03_score');
+         switch(slideCount){
+         	case 4: 
+         		if(Cookies.get('S02_03_score')!=null&&Cookies.get('S02_03_score')!=""){
+         				sym.stop("slide_3");
+         		}
+         		else{
+         			sym.$("warning1").show();
+         		}
+         		break;
+         	case 5: 
+         		if(Cookies.get('S02_04_score')!=null&&Cookies.get('S02_04_score')!=""){
+         				sym.stop("slide_3");
+         		}else{
+         			sym.$("warning1").show();
+         		}
+         		break;
+         	default:
+         		sym.stop("slide_3");
+         		break;
+         
+         }
+         /*
+         Cookies.set('S02_03_score',(5-errores)+'');
+         			console.log();*/
          
          
 
@@ -665,6 +688,19 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
 
       Symbol.bindElementAction(compId, symbolName, "${_info}", "mouseout", function(sym, e) {
          sym.getSymbol("info").stop("up");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_warning2}", "click", function(sym, e) {
+         sym.$("warning2").hide();
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_warning1}", "click", function(sym, e) {
+         sym.$("warning1").hide();
+         
 
       });
       //Edge binding end
@@ -760,6 +796,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
          sym.getSymbol("check_1").stop("down");
          sym.$("brillo_1").hide();
          sym.getComposition().getStage().stop("slide_4");
+         sym.$("hotspot_1").hide();
 
       });
       //Edge binding end
@@ -768,6 +805,8 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
          sym.getSymbol("check_2").play("250");
          sym.$("brillo_2").hide();
          sym.getComposition().getStage().stop("slide_5");
+         sym.$("hotspot_2").hide();
+         
 
       });
       //Edge binding end
@@ -776,6 +815,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
          sym.getSymbol("check_3").play("250");
          sym.$("brillo_3").hide();
          sym.getComposition().getStage().stop("slide_6");
+         sym.$("hotspot_3").hide();
 
       });
       //Edge binding end
@@ -784,6 +824,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
          sym.getSymbol("check_4").play("250");
          sym.$("brillo_4").hide();
          sym.getComposition().getStage().stop("slide_7");
+         sym.$("hotspot_4").hide();
 
       });
       //Edge binding end
@@ -792,6 +833,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
          sym.getSymbol("check_5").play("250");
          sym.$("brillo_5").hide();
          sym.getComposition().getStage().stop("slide_8");
+         sym.$("hotspot_5").hide();
          
 
       });
@@ -801,6 +843,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
          sym.getSymbol("check_6").play("250");
          sym.$("brillo_6").hide();
          sym.getComposition().getStage().stop("slide_9");
+         sym.$("hotspot_6").hide();
 
       });
       //Edge binding end
@@ -884,6 +927,12 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
 
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_ingresar}", "mouseout", function(sym, e) {
          sym.getSymbol("btn_ingresar").play("up");
+         Cookies.remove('S02_03_score');
+         Cookies.remove('S02_04_score');
+         Cookies.remove('S02_05_score');
+         Cookies.remove('S02_06_score');
+         Cookies.remove('S02_07_score');
+         Cookies.remove('S02_08_score');
          
 
       });
