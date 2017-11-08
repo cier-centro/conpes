@@ -141,9 +141,9 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
         //validador de radio
         for (i=1; i<=condCreated; i++ ){
 			var y = (parseInt(sym.$("InputA_"+i).css("top")) + 7)+"px";
-			var x = (parseInt(sym.$("InputA_"+i).css("left")) - 25)+"px";
+			var x = (parseInt(sym.$("InputA_"+i).css("left")) + 35)+"px";
 			var yb = (parseInt(sym.$("InputB_"+i).css("top")) + 7)+"px";
-			var xb = (parseInt(sym.$("InputB_"+i).css("left")) - 25)+"px";
+			var xb = (parseInt(sym.$("InputB_"+i).css("left")) + 35)+"px";
 			
 			sym.$("InputA_"+i).children("input").each(function(){
 			ValorTemp = sym.getVariable("Respuesta_"+i);

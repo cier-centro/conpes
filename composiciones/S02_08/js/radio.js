@@ -139,24 +139,24 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
          
          var condCreated = CrearRadioButton/2; 
         //validador de radio
-        for (i=1; i<=condCreated; i++ ){
+       for (i=1; i<=condCreated; i++ ){
 			var y = (parseInt(sym.$("InputA_"+i).css("top")) + 7)+"px";
-			var x = (parseInt(sym.$("InputA_"+i).css("left")) - 25)+"px";
+			var x = (parseInt(sym.$("InputA_"+i).css("left")) + 35)+"px";
 			var yb = (parseInt(sym.$("InputB_"+i).css("top")) + 7)+"px";
-			var xb = (parseInt(sym.$("InputB_"+i).css("left")) - 25)+"px";
+			var xb = (parseInt(sym.$("InputB_"+i).css("left")) + 35)+"px";
 			
 			sym.$("InputA_"+i).children("input").each(function(){
 			ValorTemp = sym.getVariable("Respuesta_"+i);
 			if($(this).is(":checked")){
 			if(ValorTemp==1){
 			//console.log("esta chequeado "+($(this).attr("id"))+" y el valor temporal es "+ValorTemp+" correcto");;
-			sym.$("ok"+i).css({top: y, left: x});
-			sym.$("ok"+i).show();
+			//sym.$("ok"+i).css({top: y, left: x});
+			//sym.$("ok"+i).show();
 			}else{
 			//console.log("esta chequeado "+($(this).attr("id"))+" y el valor temporal es "+ValorTemp+" incorrecto");
 			errores=errores+1
-			sym.$("bad"+i).css({top: y, left: x});
-			sym.$("bad"+i).show();
+			//sym.$("bad"+i).css({top: y, left: x});
+			//sym.$("bad"+i).show();
 			}
 			}else{
 			var radioBCheck= $("#radioB_"+i).is(":checked");
@@ -191,7 +191,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
 			}
 			Cookies.set('S02_08_score',(5-errores)+'');
 			console.log(Cookies.get('S02_08_score'));
-         //document.cookie = "S02_08_score="+(5-errores); //Asumiendo que todos los bloques tenen 5 preguntas  
+         //document.cookie = "S02_05_score="+(5-errores); //Asumiendo que todos los bloques tenen 5 preguntas           
          });
          //BOTÓN SOLUCIÓN
          sym.$('hotspot_solucion').click(function(){
