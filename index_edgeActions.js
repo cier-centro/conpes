@@ -659,6 +659,13 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
          			sym.$("warning1").show();
          		}
          		break;
+         	case 6: 
+         		if(Cookies.get('S02_05_score')!=null&&Cookies.get('S02_05_score')!=""){
+         				sym.stop("slide_3");
+         		}else{
+         			sym.$("warning1").show();
+         		}
+         		break;
          	default:
          		sym.stop("slide_3");
          		break;
