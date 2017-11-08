@@ -162,17 +162,17 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
 			var radioBCheck= $("#radioB_"+i).is(":checked");
 			if (radioBCheck){
 			if(ValorTemp==2){
-			sym.$("ok"+i).css({top: yb, left: xb});
-			sym.$("ok"+i).show();
+			//sym.$("ok"+i).css({top: yb, left: xb});
+			//sym.$("ok"+i).show();
 			}else{
-			sym.$("bad"+i).css({top: yb, left: xb});
-			sym.$("bad"+i).show();
+			//sym.$("bad"+i).css({top: yb, left: xb});
+			//sym.$("bad"+i).show();
 			errores=errores+1
 			}
 			}else{
 			errores=errores+1
-			sym.$("bad"+i).css({top: y, left: x});
-			sym.$("bad"+i).show();
+			//sym.$("bad"+i).css({top: y, left: x});
+			//sym.$("bad"+i).show();
 			}
 			}
 			//$(this).attr('disabled','disabled');

@@ -162,17 +162,17 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
 			var radioBCheck= $("#radioB_"+i).is(":checked");
 			if (radioBCheck){
 			if(ValorTemp==2){
-			sym.$("ok"+i).css({top: yb, left: xb});
-			sym.$("ok"+i).show();
+			//sym.$("ok"+i).css({top: yb, left: xb});
+			//sym.$("ok"+i).show();
 			}else{
-			sym.$("bad"+i).css({top: yb, left: xb});
-			sym.$("bad"+i).show();
+			//sym.$("bad"+i).css({top: yb, left: xb});
+			//sym.$("bad"+i).show();
 			errores=errores+1
 			}
 			}else{
 			errores=errores+1
-			sym.$("bad"+i).css({top: y, left: x});
-			sym.$("bad"+i).show();
+			//sym.$("bad"+i).css({top: y, left: x});
+			//sym.$("bad"+i).show();
 			}
 			}
 			//$(this).attr('disabled','disabled');
@@ -189,9 +189,12 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
 			sym.$("success")[0].muted = false;
 			//setTimeout('$("#Stage_resp_correcta").fadeOut("slow");', 2500);
 			}
+			//console.log(errores);
+			//console.log(5-errores);
 			Cookies.set('S02_04_score',(5-errores)+'');
 			console.log(Cookies.get('S02_04_score'));
-         //document.cookie = "S02_04_score="+(5-errores); //Asumiendo que todos los bloques tenen 5 preguntas                  
+         //document.cookie = "S02_03_score="+(5-errores)+";path=/"; //Asumiendo que todos los bloques tenen 5 preguntas         
+		 //console.log(document.cookie);
          });
          //BOTÓN SOLUCIÓN
          sym.$('hotspot_solucion').click(function(){

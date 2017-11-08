@@ -35,7 +35,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
 
       Symbol.bindElementAction(compId, symbolName, "document", "compositionReady", function(sym, e) {
          //CAMBIAR SEGÚN EL NÚMERO CONDICIONES 
-         TotalRadioButton = 5;
+         TotalRadioButton = 10;
          //DEJAR IGUAL O CAMBIAR POR EL TOTAL DE ELEMENTOS
          CrearRadioButton = 10;
          //RESPUESTAS CAMBIAR POR 1 PARA LA PRIMERA OPCIÓN Y 2 PARA LA SEGUNDA
