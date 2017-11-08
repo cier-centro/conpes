@@ -666,6 +666,27 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
          			sym.$("warning1").show();
          		}
          		break;
+         	case 7: 
+         		if(Cookies.get('S02_06_score')!=null&&Cookies.get('S02_06_score')!=""){
+         				sym.stop("slide_3");
+         		}else{
+         			sym.$("warning1").show();
+         		}
+         		break;
+         	case 8: 
+         		if(Cookies.get('S02_07_score')!=null&&Cookies.get('S02_07_score')!=""){
+         				sym.stop("slide_3");
+         		}else{
+         			sym.$("warning1").show();
+         		}
+         		break;
+         	case 9: 
+         		if(Cookies.get('S02_08_score')!=null&&Cookies.get('S02_08_score')!=""){
+         				sym.stop("slide_3");
+         		}else{
+         			sym.$("warning1").show();
+         		}
+         		break;
          	default:
          		sym.stop("slide_3");
          		break;
