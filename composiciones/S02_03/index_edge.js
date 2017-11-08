@@ -67,7 +67,80 @@ var symbols = {
                 type: 'rect',
                 rect: ['0px', '0px','1366px','768px','auto', 'auto'],
                 fill: ["rgba(192,192,192,0)"],
-                stroke: [0,"rgb(0, 0, 0)","none"]
+                stroke: [0,"rgb(0, 0, 0)","none"],
+                c: [
+                {
+                    id: 'bad1',
+                    display: 'none',
+                    type: 'rect',
+                    rect: ['23', '177px','auto','auto','auto', 'auto']
+                },
+                {
+                    id: 'ok1',
+                    display: 'none',
+                    type: 'rect',
+                    rect: ['23', '177px','auto','auto','auto', 'auto']
+                },
+                {
+                    id: 'bad2',
+                    display: 'none',
+                    type: 'rect',
+                    rect: ['23', '177px','auto','auto','auto', 'auto']
+                },
+                {
+                    id: 'ok2',
+                    display: 'none',
+                    type: 'rect',
+                    rect: ['23', '177px','auto','auto','auto', 'auto']
+                },
+                {
+                    id: 'bad3',
+                    display: 'none',
+                    type: 'rect',
+                    rect: ['23', '177px','auto','auto','auto', 'auto']
+                },
+                {
+                    id: 'ok3',
+                    display: 'none',
+                    type: 'rect',
+                    rect: ['23', '177px','auto','auto','auto', 'auto']
+                },
+                {
+                    id: 'bad4',
+                    display: 'none',
+                    type: 'rect',
+                    rect: ['23', '177px','auto','auto','auto', 'auto']
+                },
+                {
+                    id: 'ok4',
+                    display: 'none',
+                    type: 'rect',
+                    rect: ['23', '177px','auto','auto','auto', 'auto']
+                },
+                {
+                    id: 'bad5',
+                    display: 'none',
+                    type: 'rect',
+                    rect: ['23', '177px','auto','auto','auto', 'auto']
+                },
+                {
+                    id: 'ok5',
+                    display: 'none',
+                    type: 'rect',
+                    rect: ['23', '177px','auto','auto','auto', 'auto']
+                },
+                {
+                    id: 'bad6',
+                    display: 'none',
+                    type: 'rect',
+                    rect: ['23', '177px','auto','auto','auto', 'auto']
+                },
+                {
+                    id: 'ok6',
+                    display: 'none',
+                    type: 'rect',
+                    rect: ['23', '177px','auto','auto','auto', 'auto']
+                }]
             },
             {
                 id: 'InputA_1',
@@ -180,18 +253,6 @@ var symbols = {
                 userClass: "radio-on"
             },
             {
-                id: 'bad1',
-                display: 'none',
-                type: 'rect',
-                rect: ['23', '177px','auto','auto','auto', 'auto']
-            },
-            {
-                id: 'ok1',
-                display: 'none',
-                type: 'rect',
-                rect: ['23', '177px','auto','auto','auto', 'auto']
-            },
-            {
                 id: 'fondo_bt',
                 type: 'image',
                 rect: ['896px', '703px','683px','65px','auto', 'auto'],
@@ -288,8 +349,16 @@ var symbols = {
                 }
             },
             {
-                id: 'contenido',
-                symbolName: 'contenido',
+                id: 'bad4',
+                symbolName: 'bad'
+            },
+            {
+                id: 'bad5',
+                symbolName: 'bad'
+            },
+            {
+                id: 'bad1',
+                symbolName: 'bad',
                 autoPlay: {
 
                 }
@@ -302,11 +371,49 @@ var symbols = {
                 }
             },
             {
+                id: 'ok5',
+                symbolName: 'ok'
+            },
+            {
+                id: 'ok3',
+                symbolName: 'ok'
+            },
+            {
+                id: 'pop_cc',
+                symbolName: 'pop_cc',
+                autoPlay: {
+
+                }
+            },
+            {
+                id: 'ok4',
+                symbolName: 'ok'
+            },
+            {
+                id: 'bad6',
+                symbolName: 'bad'
+            },
+            {
                 id: 'bt_solucion',
                 symbolName: 'bt_solucion',
                 autoPlay: {
 
                 }
+            },
+            {
+                id: 'bad2',
+                symbolName: 'bad'
+            },
+            {
+                id: 'bt_ayuda',
+                symbolName: 'bt_ayuda',
+                autoPlay: {
+
+                }
+            },
+            {
+                id: 'ok2',
+                symbolName: 'ok'
             },
             {
                 id: 'ok1',
@@ -323,25 +430,19 @@ var symbols = {
                 }
             },
             {
-                id: 'pop_cc',
-                symbolName: 'pop_cc',
+                id: 'bad3',
+                symbolName: 'bad'
+            },
+            {
+                id: 'contenido',
+                symbolName: 'contenido',
                 autoPlay: {
 
                 }
             },
             {
-                id: 'bt_ayuda',
-                symbolName: 'bt_ayuda',
-                autoPlay: {
-
-                }
-            },
-            {
-                id: 'bad1',
-                symbolName: 'bad',
-                autoPlay: {
-
-                }
+                id: 'ok6',
+                symbolName: 'ok'
             }
             ]
         },
@@ -349,80 +450,197 @@ var symbols = {
         "Base State": {
             "${_ok1}": [
                 ["style", "top", '177px'],
-                ["style", "height", '20px'],
                 ["style", "display", 'none'],
+                ["style", "height", '20px'],
                 ["style", "left", '79px'],
                 ["style", "width", '20px']
-            ],
-            "${_hotspot_reiniciar}": [
-                ["color", "background-color", 'rgba(192,192,192,0.00)'],
-                ["style", "top", '696px'],
-                ["style", "height", '60px'],
-                ["style", "cursor", 'pointer'],
-                ["style", "left", '1025px'],
-                ["style", "width", '66px']
-            ],
-            "${_hotspot_validar}": [
-                ["color", "background-color", 'rgba(192,192,192,0.00)'],
-                ["style", "top", '696px'],
-                ["style", "height", '61px'],
-                ["style", "cursor", 'pointer'],
-                ["style", "left", '950px'],
-                ["style", "width", '66px']
-            ],
-            "${_InputB_4}": [
-                ["color", "background-color", 'rgba(150,150,150,0.00)'],
-                ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "opacity", '1'],
-                ["style", "border-style", 'none'],
-                ["style", "cursor", 'pointer'],
-                ["style", "width", '35px'],
-                ["style", "top", '508px'],
-                ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "display", 'none'],
-                ["style", "height", '35px'],
-                ["color", "border-color", 'rgba(139,139,139,0.50)'],
-                ["style", "border-width", '1px'],
-                ["style", "left", '1001px']
             ],
             "${_InputA_4}": [
                 ["color", "background-color", 'rgba(150,150,150,0.00)'],
                 ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
                 ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "cursor", 'pointer'],
+                ["style", "border-width", '1px'],
                 ["style", "border-style", 'none'],
-                ["style", "left", '888px'],
+                ["style", "cursor", 'pointer'],
                 ["style", "width", '35px'],
                 ["style", "top", '509px'],
                 ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "display", 'none'],
-                ["style", "height", '35px'],
-                ["color", "border-color", 'rgba(139,139,139,0.50)'],
                 ["style", "opacity", '1'],
-                ["style", "border-width", '1px']
+                ["style", "height", '35px'],
+                ["style", "display", 'none'],
+                ["color", "border-color", 'rgba(139,139,139,0.50)'],
+                ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "left", '888px']
             ],
-            "${_bad1}": [
+            "${_resp_correcta}": [
+                ["style", "top", '0px'],
+                ["style", "height", '768px'],
+                ["style", "display", 'none'],
+                ["style", "left", '0px'],
+                ["style", "width", '1366px']
+            ],
+            "${_bad4}": [
                 ["style", "top", '177px'],
                 ["style", "height", '20px'],
                 ["style", "display", 'none'],
                 ["style", "left", '49px'],
                 ["style", "width", '20px']
             ],
-            "${_fondo_bt}": [
-                ["style", "top", '703px'],
-                ["style", "left", '896px'],
-                ["style", "clip", [0,472.7265625,65,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+            "${_brillo_1}": [
+                ["style", "display", 'none']
             ],
-            "${_InputB_2}": [
+            "${_ok37}": [
+                ["style", "top", '177px'],
+                ["style", "height", '20px'],
+                ["style", "display", 'none'],
+                ["style", "left", '79px'],
+                ["style", "width", '20px']
+            ],
+            "${_help_radio}": [
+                ["style", "top", '0px'],
+                ["style", "height", '768px'],
+                ["style", "display", 'none'],
+                ["style", "cursor", 'pointer'],
+                ["style", "left", '0px'],
+                ["style", "width", '1366px']
+            ],
+            "${_InputA_1}": [
+                ["color", "background-color", 'rgba(150,150,150,0.00)'],
+                ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "border-width", '1px'],
+                ["style", "border-style", 'none'],
+                ["style", "cursor", 'pointer'],
+                ["style", "width", '35px'],
+                ["style", "top", '509px'],
+                ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "display", 'none'],
+                ["style", "height", '35px'],
+                ["color", "border-color", 'rgba(139,139,139,0.50)'],
+                ["style", "opacity", '1'],
+                ["style", "left", '111px']
+            ],
+            "${_bad2}": [
+                ["style", "top", '177px'],
+                ["style", "height", '20px'],
+                ["style", "display", 'none'],
+                ["style", "left", '49px'],
+                ["style", "width", '20px']
+            ],
+            "${_InputB_3}": [
+                ["color", "background-color", 'rgba(150,150,150,0.00)'],
+                ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "opacity", '1'],
+                ["style", "border-style", 'none'],
+                ["style", "cursor", 'pointer'],
+                ["style", "width", '35px'],
+                ["style", "top", '508px'],
+                ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "display", 'none'],
+                ["style", "height", '35px'],
+                ["color", "border-color", 'rgba(139,139,139,0.50)'],
+                ["style", "border-width", '1px'],
+                ["style", "left", '739px']
+            ],
+            "${_InputA_5}": [
+                ["color", "background-color", 'rgba(150,150,150,0.00)'],
+                ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "left", '1145px'],
+                ["style", "border-style", 'none'],
+                ["style", "border-width", '1px'],
+                ["style", "width", '35px'],
+                ["style", "top", '509px'],
+                ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "display", 'none'],
+                ["style", "height", '35px'],
+                ["color", "border-color", 'rgba(139,139,139,0.50)'],
+                ["style", "opacity", '1'],
+                ["style", "cursor", 'pointer']
+            ],
+            "${_bt_validar}": [
+                ["style", "top", '696px'],
+                ["style", "left", '950px']
+            ],
+            "${_InputA_2}": [
+                ["color", "background-color", 'rgba(150,150,150,0.00)'],
+                ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "left", '368px'],
+                ["style", "border-style", 'none'],
+                ["style", "border-width", '1px'],
+                ["style", "width", '35px'],
+                ["style", "top", '509px'],
+                ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "opacity", '1'],
+                ["style", "height", '35px'],
+                ["style", "display", 'none'],
+                ["color", "border-color", 'rgba(139,139,139,0.50)'],
+                ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "cursor", 'pointer']
+            ],
+            "${_bt_ayuda}": [
+                ["style", "left", '1100px'],
+                ["style", "top", '696px']
+            ],
+            "${_hotspot_reiniciar}": [
+                ["color", "background-color", 'rgba(192,192,192,0.00)'],
+                ["style", "top", '696px'],
+                ["style", "height", '60px'],
+                ["style", "left", '1025px'],
+                ["style", "cursor", 'pointer'],
+                ["style", "width", '66px']
+            ],
+            "${_hotspot_validar}": [
+                ["color", "background-color", 'rgba(192,192,192,0.00)'],
+                ["style", "top", '696px'],
+                ["style", "height", '61px'],
+                ["style", "left", '950px'],
+                ["style", "cursor", 'pointer'],
+                ["style", "width", '66px']
+            ],
+            "${_InputB_4}": [
+                ["color", "background-color", 'rgba(150,150,150,0.00)'],
+                ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "left", '1001px'],
+                ["style", "opacity", '1'],
+                ["style", "cursor", 'pointer'],
+                ["style", "width", '35px'],
+                ["style", "top", '508px'],
+                ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "border-width", '1px'],
+                ["style", "height", '35px'],
+                ["style", "display", 'none'],
+                ["color", "border-color", 'rgba(139,139,139,0.50)'],
+                ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "border-style", 'none']
+            ],
+            "${_ok6}": [
+                ["style", "top", '177px'],
+                ["style", "height", '20px'],
+                ["style", "display", 'none'],
+                ["style", "left", '79px'],
+                ["style", "width", '20px']
+            ],
+            "${_bad6}": [
+                ["style", "top", '177px'],
+                ["style", "height", '20px'],
+                ["style", "display", 'none'],
+                ["style", "left", '49px'],
+                ["style", "width", '20px']
+            ],
+            "${_InputB_5}": [
                 ["color", "background-color", 'rgba(150,150,150,0.00)'],
                 ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
                 ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
                 ["style", "border-style", 'none'],
                 ["style", "opacity", '1'],
-                ["style", "left", '478px'],
+                ["style", "left", '1258px'],
                 ["style", "width", '35px'],
                 ["style", "top", '508px'],
                 ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
@@ -433,90 +651,13 @@ var symbols = {
                 ["style", "border-width", '1px'],
                 ["style", "cursor", 'pointer']
             ],
-            "${_brillo_1}": [
-                ["style", "display", 'none']
-            ],
-            "${_InputA_3}": [
-                ["color", "background-color", 'rgba(150,150,150,0.00)'],
-                ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "left", '626px'],
-                ["style", "border-style", 'none'],
-                ["style", "border-width", '1px'],
-                ["style", "width", '35px'],
-                ["style", "top", '509px'],
-                ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "opacity", '1'],
-                ["style", "height", '35px'],
-                ["style", "display", 'none'],
-                ["color", "border-color", 'rgba(139,139,139,0.50)'],
-                ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "cursor", 'pointer']
-            ],
-            "${_bt_solucion}": [
-                ["style", "top", '696px'],
-                ["style", "opacity", '0'],
-                ["style", "left", '992px']
-            ],
-            "${_help_radio}": [
-                ["style", "top", '0px'],
-                ["style", "height", '768px'],
-                ["style", "display", 'none'],
-                ["style", "left", '0px'],
-                ["style", "cursor", 'pointer'],
-                ["style", "width", '1366px']
-            ],
-            "${_InputA_2}": [
-                ["color", "background-color", 'rgba(150,150,150,0.00)'],
-                ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "border-width", '1px'],
-                ["style", "border-style", 'none'],
-                ["style", "cursor", 'pointer'],
-                ["style", "width", '35px'],
-                ["style", "top", '509px'],
-                ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "display", 'none'],
-                ["style", "height", '35px'],
-                ["color", "border-color", 'rgba(139,139,139,0.50)'],
-                ["style", "opacity", '1'],
-                ["style", "left", '368px']
-            ],
-            "${_InputA_1}": [
+            "${_InputB_2}": [
                 ["color", "background-color", 'rgba(150,150,150,0.00)'],
                 ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
                 ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
                 ["style", "cursor", 'pointer'],
                 ["style", "border-style", 'none'],
-                ["style", "left", '111px'],
-                ["style", "width", '35px'],
-                ["style", "top", '509px'],
-                ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "opacity", '1'],
-                ["style", "height", '35px'],
-                ["style", "display", 'none'],
-                ["color", "border-color", 'rgba(139,139,139,0.50)'],
-                ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "border-width", '1px']
-            ],
-            "${_bt_reiniciar}": [
-                ["style", "left", '1025px'],
-                ["style", "top", '696px']
-            ],
-            "${_hotspot_cc}": [
-                ["color", "background-color", 'rgba(255,255,255,0.00)'],
-                ["style", "opacity", '0'],
-                ["style", "cursor", 'pointer'],
-                ["style", "display", 'none']
-            ],
-            "${_InputB_3}": [
-                ["color", "background-color", 'rgba(150,150,150,0.00)'],
-                ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "cursor", 'pointer'],
-                ["style", "border-style", 'none'],
-                ["style", "left", '739px'],
+                ["style", "left", '478px'],
                 ["style", "width", '35px'],
                 ["style", "top", '508px'],
                 ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
@@ -527,91 +668,119 @@ var symbols = {
                 ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
                 ["style", "opacity", '1']
             ],
-            "${_InputB_1}": [
-                ["color", "background-color", 'rgba(150,150,150,0.00)'],
-                ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "left", '221px'],
-                ["style", "opacity", '1'],
-                ["style", "cursor", 'pointer'],
-                ["style", "width", '35px'],
-                ["style", "top", '508px'],
-                ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "border-width", '1px'],
-                ["style", "height", '35px'],
-                ["style", "display", 'none'],
-                ["color", "border-color", 'rgba(139,139,139,0.50)'],
-                ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "border-style", 'none']
-            ],
-            "${_bt_ayuda}": [
-                ["style", "left", '1100px'],
-                ["style", "top", '696px']
-            ],
-            "${_resp_correcta}": [
-                ["style", "top", '0px'],
-                ["style", "display", 'none'],
-                ["style", "height", '768px'],
-                ["style", "left", '0px'],
-                ["style", "width", '1366px']
-            ],
-            "${_InputB_5}": [
-                ["color", "background-color", 'rgba(150,150,150,0.00)'],
-                ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "left", '1258px'],
-                ["style", "opacity", '1'],
-                ["style", "cursor", 'pointer'],
-                ["style", "width", '35px'],
-                ["style", "top", '508px'],
-                ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "border-width", '1px'],
-                ["style", "height", '35px'],
-                ["style", "display", 'none'],
-                ["color", "border-color", 'rgba(139,139,139,0.50)'],
-                ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "border-style", 'none']
-            ],
-            "${_ok37}": [
+            "${_ok5}": [
                 ["style", "top", '177px'],
                 ["style", "display", 'none'],
                 ["style", "height", '20px'],
                 ["style", "left", '79px'],
                 ["style", "width", '20px']
             ],
-            "${_hotspot_ayuda}": [
-                ["color", "background-color", 'rgba(192,192,192,0.00)'],
-                ["style", "top", '696px'],
-                ["style", "height", '64px'],
-                ["style", "cursor", 'pointer'],
-                ["style", "left", '1100px'],
-                ["style", "width", '66px']
+            "${_bad5}": [
+                ["style", "top", '177px'],
+                ["style", "display", 'none'],
+                ["style", "height", '20px'],
+                ["style", "left", '49px'],
+                ["style", "width", '20px']
             ],
-            "${_InputA_5}": [
+            "${_InputA_3}": [
                 ["color", "background-color", 'rgba(150,150,150,0.00)'],
                 ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
                 ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "border-width", '1px'],
-                ["style", "border-style", 'none'],
                 ["style", "cursor", 'pointer'],
+                ["style", "border-style", 'none'],
+                ["style", "left", '626px'],
                 ["style", "width", '35px'],
                 ["style", "top", '509px'],
                 ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "opacity", '1'],
-                ["style", "height", '35px'],
-                ["style", "display", 'none'],
-                ["color", "border-color", 'rgba(139,139,139,0.50)'],
                 ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "left", '1145px']
+                ["style", "display", 'none'],
+                ["style", "height", '35px'],
+                ["color", "border-color", 'rgba(139,139,139,0.50)'],
+                ["style", "opacity", '1'],
+                ["style", "border-width", '1px']
+            ],
+            "${_ok4}": [
+                ["style", "top", '177px'],
+                ["style", "height", '20px'],
+                ["style", "display", 'none'],
+                ["style", "left", '79px'],
+                ["style", "width", '20px']
+            ],
+            "${_bt_solucion}": [
+                ["style", "top", '696px'],
+                ["style", "opacity", '0'],
+                ["style", "left", '992px']
+            ],
+            "${_ok2}": [
+                ["style", "top", '177px'],
+                ["style", "height", '20px'],
+                ["style", "display", 'none'],
+                ["style", "left", '79px'],
+                ["style", "width", '20px']
+            ],
+            "${_bt_reiniciar}": [
+                ["style", "left", '1025px'],
+                ["style", "top", '696px']
             ],
             "${_hotspot_solucion}": [
                 ["style", "top", '696px'],
                 ["color", "background-color", 'rgba(192,192,192,0.00)'],
-                ["style", "cursor", 'pointer'],
+                ["style", "left", '992px'],
                 ["style", "height", '63px'],
                 ["style", "opacity", '0'],
-                ["style", "left", '992px'],
+                ["style", "cursor", 'pointer'],
                 ["style", "width", '67px']
+            ],
+            "${_hotspot_ayuda}": [
+                ["color", "background-color", 'rgba(192,192,192,0.00)'],
+                ["style", "top", '696px'],
+                ["style", "height", '64px'],
+                ["style", "left", '1100px'],
+                ["style", "cursor", 'pointer'],
+                ["style", "width", '66px']
+            ],
+            "${_InputB_1}": [
+                ["color", "background-color", 'rgba(150,150,150,0.00)'],
+                ["style", "border-top-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "border-bottom-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "border-style", 'none'],
+                ["style", "opacity", '1'],
+                ["style", "left", '221px'],
+                ["style", "width", '35px'],
+                ["style", "top", '508px'],
+                ["style", "border-bottom-left-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "border-top-right-radius", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "display", 'none'],
+                ["style", "height", '35px'],
+                ["color", "border-color", 'rgba(139,139,139,0.50)'],
+                ["style", "border-width", '1px'],
+                ["style", "cursor", 'pointer']
+            ],
+            "${_ok3}": [
+                ["style", "top", '177px'],
+                ["style", "display", 'none'],
+                ["style", "height", '20px'],
+                ["style", "left", '79px'],
+                ["style", "width", '20px']
+            ],
+            "${_bad3}": [
+                ["style", "top", '177px'],
+                ["style", "display", 'none'],
+                ["style", "height", '20px'],
+                ["style", "left", '49px'],
+                ["style", "width", '20px']
+            ],
+            "${_bad1}": [
+                ["style", "top", '177px'],
+                ["style", "display", 'none'],
+                ["style", "height", '20px'],
+                ["style", "left", '49px'],
+                ["style", "width", '20px']
+            ],
+            "${_fondo_bt}": [
+                ["style", "top", '703px'],
+                ["style", "left", '896px'],
+                ["style", "clip", [0,472.7265625,65,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
             ],
             "${_Stage}": [
                 ["color", "background-color", 'rgba(255,255,255,0.00)'],
@@ -631,17 +800,19 @@ var symbols = {
                 ["style", "top", '226px'],
                 ["style", "border-bottom-left-radius", [0,0], {valueTemplate:'@@0@@px @@1@@px'} ],
                 ["style", "display", 'block'],
-                ["style", "height", '282px'],
-                ["style", "border-top-right-radius", [0,0], {valueTemplate:'@@0@@px @@1@@px'} ]
+                ["style", "border-top-right-radius", [0,0], {valueTemplate:'@@0@@px @@1@@px'} ],
+                ["style", "height", '282px']
             ],
-            "${_bt_validar}": [
-                ["style", "top", '696px'],
-                ["style", "left", '950px']
+            "${_hotspot_cc}": [
+                ["color", "background-color", 'rgba(255,255,255,0.00)'],
+                ["style", "opacity", '0'],
+                ["style", "cursor", 'pointer'],
+                ["style", "display", 'none']
             ],
             "${_resp_incorrecta}": [
                 ["style", "top", '0px'],
-                ["style", "display", 'none'],
                 ["style", "height", '768px'],
+                ["style", "display", 'none'],
                 ["style", "left", '0px'],
                 ["style", "width", '1366px']
             ]
@@ -658,20 +829,30 @@ var symbols = {
                 { id: "eid1163", tween: [ "style", "${_InputA_5}", "display", 'block', { fromValue: 'none'}], position: 1250, duration: 0 },
                 { id: "eid1155", tween: [ "style", "${_InputA_2}", "display", 'block', { fromValue: 'none'}], position: 1250, duration: 0 },
                 { id: "eid1152", tween: [ "style", "${_resp_correcta}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
-                { id: "eid1156", tween: [ "style", "${_InputB_1}", "display", 'block', { fromValue: 'none'}], position: 1250, duration: 0 },
                 { id: "eid1162", tween: [ "style", "${_InputB_5}", "display", 'block', { fromValue: 'none'}], position: 1250, duration: 0 },
+                { id: "eid1174", tween: [ "style", "${_ok6}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+                { id: "eid1175", tween: [ "style", "${_bad6}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+                { id: "eid1173", tween: [ "style", "${_bad5}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+                { id: "eid1171", tween: [ "style", "${_bad4}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
                 { id: "eid1153", tween: [ "style", "${_resp_incorrecta}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+                { id: "eid1172", tween: [ "style", "${_ok5}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
                 { id: "eid1108", tween: [ "style", "${_ok1}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+                { id: "eid1168", tween: [ "style", "${_ok3}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
                 { id: "eid1160", tween: [ "style", "${_InputB_4}", "display", 'block', { fromValue: 'none'}], position: 1250, duration: 0 },
                 { id: "eid1157", tween: [ "style", "${_InputA_1}", "display", 'block', { fromValue: 'none'}], position: 1250, duration: 0 },
-                { id: "eid1165", tween: [ "style", "${_brillo_1}", "display", 'block', { fromValue: 'none'}], position: 1000, duration: 0 },
-                { id: "eid497", tween: [ "gradient", "${_box_01}", "background-image", [270,[['rgba(255,255,255,0.00)',0],['rgba(255,255,255,0.00)',100]]], { fromValue: [270,[['rgba(255,255,255,0.00)',0],['rgba(255,255,255,0.00)',100]]]}], position: 0, duration: 0 },
-                { id: "eid1161", tween: [ "style", "${_InputA_4}", "display", 'block', { fromValue: 'none'}], position: 1250, duration: 0 },
                 { id: "eid1151", tween: [ "style", "${_help_radio}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
-                { id: "eid888", tween: [ "style", "${_ok37}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
-                { id: "eid1154", tween: [ "style", "${_InputB_2}", "display", 'block', { fromValue: 'none'}], position: 1250, duration: 0 },
-                { id: "eid1159", tween: [ "style", "${_InputB_3}", "display", 'block', { fromValue: 'none'}], position: 1250, duration: 0 },
+                { id: "eid1170", tween: [ "style", "${_ok4}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+                { id: "eid497", tween: [ "gradient", "${_box_01}", "background-image", [270,[['rgba(255,255,255,0.00)',0],['rgba(255,255,255,0.00)',100]]], { fromValue: [270,[['rgba(255,255,255,0.00)',0],['rgba(255,255,255,0.00)',100]]]}], position: 0, duration: 0 },
+                { id: "eid1169", tween: [ "style", "${_bad3}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+                { id: "eid1156", tween: [ "style", "${_InputB_1}", "display", 'block', { fromValue: 'none'}], position: 1250, duration: 0 },
+                { id: "eid1166", tween: [ "style", "${_ok2}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+                { id: "eid1161", tween: [ "style", "${_InputA_4}", "display", 'block', { fromValue: 'none'}], position: 1250, duration: 0 },
                 { id: "eid1109", tween: [ "style", "${_bad1}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+                { id: "eid1165", tween: [ "style", "${_brillo_1}", "display", 'block', { fromValue: 'none'}], position: 1000, duration: 0 },
+                { id: "eid1154", tween: [ "style", "${_InputB_2}", "display", 'block', { fromValue: 'none'}], position: 1250, duration: 0 },
+                { id: "eid888", tween: [ "style", "${_ok37}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+                { id: "eid1159", tween: [ "style", "${_InputB_3}", "display", 'block', { fromValue: 'none'}], position: 1250, duration: 0 },
+                { id: "eid1167", tween: [ "style", "${_bad2}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
                 { id: "eid1158", tween: [ "style", "${_InputA_3}", "display", 'block', { fromValue: 'none'}], position: 1250, duration: 0 }            ]
         }
     }
@@ -790,14 +971,14 @@ var symbols = {
         },
     states: {
         "Base State": {
+            "${symbolSelector}": [
+                ["style", "height", '67px'],
+                ["style", "width", '67px'],
+                ["style", "overflow", 'hidden']
+            ],
             "${_botones22}": [
                 ["style", "top", '0px'],
                 ["style", "left", '-223px']
-            ],
-            "${symbolSelector}": [
-                ["style", "height", '67px'],
-                ["style", "overflow", 'hidden'],
-                ["style", "width", '67px']
             ]
         }
     },
@@ -848,8 +1029,8 @@ var symbols = {
             ],
             "${symbolSelector}": [
                 ["style", "height", '67px'],
-                ["style", "overflow", 'hidden'],
-                ["style", "width", '67px']
+                ["style", "width", '67px'],
+                ["style", "overflow", 'hidden']
             ]
         }
     },
@@ -894,14 +1075,14 @@ var symbols = {
         },
     states: {
         "Base State": {
+            "${symbolSelector}": [
+                ["style", "height", '67px'],
+                ["style", "width", '67px'],
+                ["style", "overflow", 'hidden']
+            ],
             "${_botones24}": [
                 ["style", "left", '-78px'],
                 ["style", "top", '0px']
-            ],
-            "${symbolSelector}": [
-                ["style", "height", '67px'],
-                ["style", "overflow", 'hidden'],
-                ["style", "width", '67px']
             ]
         }
     },
@@ -953,8 +1134,8 @@ var symbols = {
             ],
             "${symbolSelector}": [
                 ["style", "height", '67px'],
-                ["style", "overflow", 'hidden'],
-                ["style", "width", '67px']
+                ["style", "width", '67px'],
+                ["style", "overflow", 'hidden']
             ]
         }
     },
@@ -969,9 +1150,9 @@ var symbols = {
                 "down": 655
             },
             timeline: [
+                { id: "eid1427", tween: [ "style", "${_botones25}", "left", '-6px', { fromValue: '-6px'}], position: 0, duration: 0 },
                 { id: "eid1426", tween: [ "style", "${_botones25}", "top", '0px', { fromValue: '0px'}], position: 0, duration: 0 },
-                { id: "eid1428", tween: [ "style", "${_botones25}", "top", '-72px', { fromValue: '0px'}], position: 655, duration: 0 },
-                { id: "eid1427", tween: [ "style", "${_botones25}", "left", '-6px', { fromValue: '-6px'}], position: 0, duration: 0 }            ]
+                { id: "eid1428", tween: [ "style", "${_botones25}", "top", '-72px', { fromValue: '0px'}], position: 655, duration: 0 }            ]
         }
     }
 },
@@ -988,41 +1169,41 @@ var symbols = {
     content: {
             dom: [
                 {
-                    type: 'rect',
                     rect: ['0px', '0px', '1366px', '766px', 'auto', 'auto'],
+                    type: 'rect',
                     id: 'Rectangle2',
                     stroke: [0, 'rgba(0,0,0,1)', 'none'],
                     display: 'none',
                     fill: ['rgba(13,45,61,0.77)']
                 },
                 {
-                    type: 'image',
-                    display: 'none',
                     rect: ['9px', '140px', '1344px', '564px', 'auto', 'auto'],
                     id: 'creative',
+                    type: 'image',
+                    display: 'none',
                     fill: ['rgba(0,0,0,0)', 'images/creative.png', '0px', '0px']
                 },
                 {
-                    type: 'image',
-                    display: 'none',
                     rect: ['784px', '54px', '576px', '148px', 'auto', 'auto'],
                     id: 'creative_2',
+                    type: 'image',
+                    display: 'none',
                     fill: ['rgba(0,0,0,0)', 'images/creative_2.png', '0px', '0px']
                 },
                 {
-                    type: 'image',
-                    display: 'none',
                     rect: ['12px', '208px', '1344px', '477px', 'auto', 'auto'],
                     id: 'creative_3',
+                    type: 'image',
+                    display: 'none',
                     fill: ['rgba(0,0,0,0)', 'images/creative_3.png', '0px', '0px']
                 },
                 {
                     type: 'rect',
                     rect: ['1px', '63px', '1366px', '641px', 'auto', 'auto'],
-                    id: 'hotspot_cc',
-                    opacity: 0,
                     display: 'none',
                     stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                    id: 'hotspot_cc',
+                    opacity: 0,
                     cursor: ['pointer'],
                     fill: ['rgba(13,45,61,0.00)']
                 }
@@ -1042,19 +1223,19 @@ var symbols = {
             ],
             "${_Rectangle2}": [
                 ["style", "top", '766px'],
-                ["color", "background-color", 'rgba(13,45,61,0.77)'],
-                ["style", "height", '3px'],
                 ["style", "display", 'none'],
+                ["style", "height", '3px'],
+                ["color", "background-color", 'rgba(13,45,61,0.77)'],
                 ["style", "left", '0px'],
                 ["style", "width", '1366px']
             ],
             "${_hotspot_cc}": [
                 ["color", "background-color", 'rgba(13,45,61,0.00)'],
-                ["style", "top", '63px'],
+                ["style", "display", 'none'],
                 ["style", "height", '641px'],
                 ["style", "opacity", '0'],
                 ["style", "cursor", 'pointer'],
-                ["style", "display", 'none']
+                ["style", "top", '63px']
             ],
             "${symbolSelector}": [
                 ["style", "height", '200px'],
@@ -1079,21 +1260,21 @@ var symbols = {
             duration: 689,
             autoPlay: true,
             timeline: [
-                { id: "eid1579", tween: [ "style", "${_creative_2}", "display", 'block', { fromValue: 'none'}], position: 137, duration: 0, easing: "easeOutBack" },
+                { id: "eid1583", tween: [ "style", "${_creative}", "top", '140px', { fromValue: '779px'}], position: 90, duration: 500, easing: "easeOutBack" },
                 { id: "eid1590", tween: [ "style", "${_hotspot_cc}", "display", 'block', { fromValue: 'none'}], position: 500, duration: 0, easing: "easeOutBack" },
                 { id: "eid1565", tween: [ "style", "${_Rectangle2}", "height", '766px', { fromValue: '3px'}], position: 44, duration: 500, easing: "easeOutCirc" },
                 { id: "eid1589", tween: [ "style", "${_creative_3}", "display", 'block', { fromValue: 'none'}], position: 190, duration: 0, easing: "easeOutBack" },
                 { id: "eid1588", tween: [ "style", "${_creative_3}", "top", '208px', { fromValue: '782px'}], position: 190, duration: 499, easing: "easeOutBack" },
-                { id: "eid1583", tween: [ "style", "${_creative}", "top", '140px', { fromValue: '779px'}], position: 90, duration: 500, easing: "easeOutBack" },
+                { id: "eid1579", tween: [ "style", "${_creative_2}", "display", 'block', { fromValue: 'none'}], position: 137, duration: 0, easing: "easeOutBack" },
                 { id: "eid1581", tween: [ "style", "${_creative}", "left", '9px', { fromValue: '7px'}], position: 90, duration: 500, easing: "easeOutBack" },
                 { id: "eid1567", tween: [ "style", "${_Rectangle2}", "top", '0px', { fromValue: '766px'}], position: 44, duration: 500, easing: "easeOutCirc" },
                 { id: "eid1574", tween: [ "style", "${_creative_2}", "top", '54px', { fromValue: '555px'}], position: 137, duration: 500, easing: "easeOutBack" },
-                { id: "eid1576", tween: [ "style", "${_creative_2}", "left", '784px', { fromValue: '849px'}], position: 137, duration: 500, easing: "easeOutBack" },
+                { id: "eid1586", tween: [ "style", "${_creative_3}", "left", '12px', { fromValue: '13px'}], position: 190, duration: 499, easing: "easeOutBack" },
                 { id: "eid1584", tween: [ "style", "${_creative}", "display", 'block', { fromValue: 'none'}], position: 90, duration: 0, easing: "easeOutBack" },
                 { id: "eid1570", tween: [ "transform", "${_creative_2}", "scaleX", '1', { fromValue: '0.7626'}], position: 137, duration: 500, easing: "easeOutBack" },
                 { id: "eid1572", tween: [ "transform", "${_creative_2}", "scaleY", '1', { fromValue: '0.7626'}], position: 137, duration: 500, easing: "easeOutBack" },
                 { id: "eid1578", tween: [ "style", "${_creative_2}", "opacity", '1', { fromValue: '0'}], position: 137, duration: 500, easing: "easeOutBack" },
-                { id: "eid1586", tween: [ "style", "${_creative_3}", "left", '12px', { fromValue: '13px'}], position: 190, duration: 499, easing: "easeOutBack" },
+                { id: "eid1576", tween: [ "style", "${_creative_2}", "left", '784px', { fromValue: '849px'}], position: 137, duration: 500, easing: "easeOutBack" },
                 { id: "eid1568", tween: [ "style", "${_Rectangle2}", "display", 'block', { fromValue: 'none'}], position: 44, duration: 0, easing: "easeOutCirc" }            ]
         }
     }
@@ -1111,9 +1292,9 @@ var symbols = {
     content: {
             dom: [
                 {
-                    type: 'image',
-                    id: 'actCopy3',
                     rect: ['0px', '0px', '1366px', '768px', 'auto', 'auto'],
+                    id: 'actCopy3',
+                    type: 'image',
                     clip: ['rect(189.6640625px 1366px 572.9296875px 0px)'],
                     fill: ['rgba(0,0,0,0)', 'images/act2.png', '0px', '0px']
                 },
@@ -1124,37 +1305,37 @@ var symbols = {
                     fill: ['rgba(0,0,0,0)', 'images/act_2.png', '0px', '0px']
                 },
                 {
-                    type: 'image',
-                    id: 'act',
                     rect: ['0px', '0px', '1366px', '768px', 'auto', 'auto'],
+                    id: 'act',
+                    type: 'image',
                     clip: ['rect(0px 201.7265625px 189.671875px 0px)'],
                     fill: ['rgba(0,0,0,0)', 'images/act2.png', '0px', '0px']
                 },
                 {
-                    type: 'image',
-                    id: 'actCopy5',
                     rect: ['0px', '0px', '1366px', '768px', 'auto', 'auto'],
+                    id: 'actCopy5',
+                    type: 'image',
                     clip: ['rect(600.2578125px 718.8046875px 669.4765625px 0px)'],
                     fill: ['rgba(0,0,0,0)', 'images/act2.png', '0px', '0px']
                 },
                 {
-                    type: 'image',
-                    id: 'actCopy6',
                     rect: ['0px', '0px', '1366px', '768px', 'auto', 'auto'],
+                    id: 'actCopy6',
+                    type: 'image',
                     clip: ['rect(575.96875px 1330.3828125px 695.3984375px 897.203125px)'],
                     fill: ['rgba(0,0,0,0)', 'images/act2.png', '0px', '0px']
                 },
                 {
-                    type: 'image',
-                    id: 'actCopy',
                     rect: ['0px', '0px', '1366px', '768px', 'auto', 'auto'],
+                    id: 'actCopy',
+                    type: 'image',
                     clip: ['rect(0px 1048.2890625px 174.6171875px 200px)'],
                     fill: ['rgba(0,0,0,0)', 'images/act2.png', '0px', '0px']
                 },
                 {
-                    type: 'image',
-                    id: 'actCopy4',
                     rect: ['0px', '0px', '1366px', '768px', 'auto', 'auto'],
+                    id: 'actCopy4',
+                    type: 'image',
                     clip: ['rect(0px 1366px 175.0625px 1062.40625px)'],
                     fill: ['rgba(0,0,0,0)', 'images/act2.png', '0px', '0px']
                 }
@@ -1164,6 +1345,32 @@ var symbols = {
         },
     states: {
         "Base State": {
+            "${_actCopy6}": [
+                ["style", "top", '0px'],
+                ["style", "left", '489px'],
+                ["style", "clip", [575.96875,1330.3828125,695.3984375,897.203125], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+            ],
+            "${_act}": [
+                ["style", "-webkit-transform-origin", [9.79,16.78], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "-moz-transform-origin", [9.79,16.78],{valueTemplate:'@@0@@% @@1@@%'}],
+                ["style", "-ms-transform-origin", [9.79,16.78],{valueTemplate:'@@0@@% @@1@@%'}],
+                ["style", "msTransformOrigin", [9.79,16.78],{valueTemplate:'@@0@@% @@1@@%'}],
+                ["style", "-o-transform-origin", [9.79,16.78],{valueTemplate:'@@0@@% @@1@@%'}],
+                ["style", "transform-origin", [9.79,16.78],{valueTemplate:'@@0@@% @@1@@%'}],
+                ["style", "top", '0px'],
+                ["transform", "scaleY", '0.21186'],
+                ["transform", "rotateZ", '130deg'],
+                ["transform", "scaleX", '0.21186'],
+                ["style", "opacity", '0'],
+                ["style", "left", '0px'],
+                ["style", "clip", [0,201.7265625,189.671875,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+            ],
+            "${_actCopy3}": [
+                ["style", "top", '-416px'],
+                ["style", "opacity", '0'],
+                ["style", "left", '0px'],
+                ["style", "clip", [189.6640625,1366,572.9296875,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+            ],
             "${symbolSelector}": [
                 ["style", "height", '768px'],
                 ["style", "width", '1366px']
@@ -1173,40 +1380,14 @@ var symbols = {
                 ["style", "left", '0px'],
                 ["style", "clip", [0,1366,175.0625,1062.40625], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
             ],
-            "${_actCopy3}": [
-                ["style", "top", '-416px'],
-                ["style", "opacity", '0'],
-                ["style", "left", '0px'],
-                ["style", "clip", [189.6640625,1366,572.9296875,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
-            ],
-            "${_actCopy6}": [
-                ["style", "top", '0px'],
-                ["style", "left", '489px'],
-                ["style", "clip", [575.96875,1330.3828125,695.3984375,897.203125], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
-            ],
-            "${_act_2}": [
-                ["style", "left", '0px'],
-                ["style", "top", '-220px']
-            ],
             "${_actCopy}": [
                 ["style", "top", '-184px'],
                 ["style", "left", '0px'],
                 ["style", "clip", [0,1048.2890625,174.6171875,200], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
             ],
-            "${_act}": [
-                ["style", "-webkit-transform-origin", [9.79,16.78], {valueTemplate:'@@0@@% @@1@@%'} ],
-                ["style", "-moz-transform-origin", [9.79,16.78],{valueTemplate:'@@0@@% @@1@@%'}],
-                ["style", "-ms-transform-origin", [9.79,16.78],{valueTemplate:'@@0@@% @@1@@%'}],
-                ["style", "msTransformOrigin", [9.79,16.78],{valueTemplate:'@@0@@% @@1@@%'}],
-                ["style", "-o-transform-origin", [9.79,16.78],{valueTemplate:'@@0@@% @@1@@%'}],
-                ["style", "transform-origin", [9.79,16.78],{valueTemplate:'@@0@@% @@1@@%'}],
+            "${_act_2}": [
                 ["style", "left", '0px'],
-                ["transform", "scaleY", '0.21186'],
-                ["transform", "rotateZ", '130deg'],
-                ["transform", "scaleX", '0.21186'],
-                ["style", "opacity", '0'],
-                ["style", "clip", [0,201.7265625,189.671875,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
-                ["style", "top", '0px']
+                ["style", "top", '-220px']
             ],
             "${_actCopy5}": [
                 ["style", "top", '0px'],
@@ -1224,13 +1405,13 @@ var symbols = {
             timeline: [
                 { id: "eid1556", tween: [ "transform", "${_act}", "scaleX", '1', { fromValue: '0.21186'}], position: 0, duration: 0, easing: "easeOutBack" },
                 { id: "eid1557", tween: [ "transform", "${_act}", "rotateZ", '0deg', { fromValue: '130deg'}], position: 0, duration: 0, easing: "easeOutBack" },
-                { id: "eid1545", tween: [ "style", "${_actCopy6}", "left", '0px', { fromValue: '489px'}], position: 0, duration: 500, easing: "easeOutCirc" },
                 { id: "eid1558", tween: [ "style", "${_act}", "opacity", '1', { fromValue: '0'}], position: 0, duration: 0, easing: "easeOutBack" },
+                { id: "eid1545", tween: [ "style", "${_actCopy6}", "left", '0px', { fromValue: '489px'}], position: 0, duration: 500, easing: "easeOutCirc" },
+                { id: "eid1539", tween: [ "style", "${_actCopy3}", "top", '0px', { fromValue: '-416px'}], position: 500, duration: 750, easing: "easeOutBack" },
+                { id: "eid1559", tween: [ "transform", "${_act}", "scaleY", '1', { fromValue: '0.21186'}], position: 0, duration: 0, easing: "easeOutBack" },
+                { id: "eid1537", tween: [ "style", "${_actCopy4}", "top", '0px', { fromValue: '-190px'}], position: 250, duration: 474, easing: "easeOutCirc" },
                 { id: "eid1543", tween: [ "style", "${_actCopy5}", "left", '0px', { fromValue: '-786px'}], position: 763, duration: 487, easing: "easeOutCirc" },
                 { id: "eid1533", tween: [ "style", "${_actCopy}", "top", '0px', { fromValue: '-184px'}], position: 123, duration: 500, easing: "easeOutCirc" },
-                { id: "eid1539", tween: [ "style", "${_actCopy3}", "top", '0px', { fromValue: '-416px'}], position: 500, duration: 750, easing: "easeOutBack" },
-                { id: "eid1537", tween: [ "style", "${_actCopy4}", "top", '0px', { fromValue: '-190px'}], position: 250, duration: 474, easing: "easeOutCirc" },
-                { id: "eid1559", tween: [ "transform", "${_act}", "scaleY", '1', { fromValue: '0.21186'}], position: 0, duration: 0, easing: "easeOutBack" },
                 { id: "eid1541", tween: [ "style", "${_actCopy3}", "opacity", '1', { fromValue: '0'}], position: 517, duration: 733, easing: "easeOutBack" },
                 { id: "eid1525", tween: [ "style", "${_act_2}", "top", '0px', { fromValue: '-220px'}], position: 0, duration: 500, easing: "easeOutCirc" }            ]
         }
@@ -1249,16 +1430,16 @@ var symbols = {
     content: {
             dom: [
                 {
-                    rect: ['16px', '0px', '20px', '96px', 'auto', 'auto'],
                     transform: [[0, 0], [], ['-18']],
+                    rect: ['16px', '0px', '20px', '96px', 'auto', 'auto'],
                     id: 'Rectangle4',
                     stroke: [0, 'rgb(0, 0, 0)', 'none'],
                     type: 'rect',
                     fill: ['rgba(255,255,255,0.25)']
                 },
                 {
-                    rect: ['42px', '0px', '6px', '96px', 'auto', 'auto'],
                     transform: [[0, 0], [], ['-18']],
+                    rect: ['42px', '0px', '6px', '96px', 'auto', 'auto'],
                     id: 'Rectangle4Copy',
                     stroke: [0, 'rgb(0, 0, 0)', 'none'],
                     type: 'rect',
@@ -1271,9 +1452,9 @@ var symbols = {
     states: {
         "Base State": {
             "${_Rectangle4Copy}": [
-                ["style", "top", '0px'],
-                ["transform", "skewX", '-18deg'],
                 ["color", "background-color", 'rgba(255,255,255,0.2471)'],
+                ["transform", "skewX", '-18deg'],
+                ["style", "top", '0px'],
                 ["style", "opacity", '0'],
                 ["style", "left", '42px'],
                 ["style", "width", '6px']
