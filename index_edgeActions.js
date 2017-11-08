@@ -688,6 +688,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
          		}
          		break;
          	default:
+         	
          		sym.stop("slide_3");
          		break;
          
