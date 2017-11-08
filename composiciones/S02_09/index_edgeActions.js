@@ -97,6 +97,18 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       });
       //Edge binding end
 
+      Symbol.bindSymbolAction(compId, symbolName, "creationComplete", function(sym, e) {
+         var total = 0;  
+                 for(i in [0,1,2,3,4,5]){
+                     var scene_i = (parseInt(i) + 3);
+                     var score = Cookies.get("S02_0" + scene_i + "_score")?parseInt(Cookies.get("S02_0" + scene_i + "_score")):0;
+                     total += score;
+                 }
+                  $("#Stage_pop_1_Text").html("Has tenido en total " + total + " de 30 preguntas correctas.");
+
+      });
+      //Edge binding end
+
    })("pop_1");
    //Edge symbol end:'pop_1'
 
