@@ -162,4 +162,18 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    })("atras");
    //Edge symbol end:'atras'
 
+   //=========================================================
+   
+   //Edge symbol: 'billo'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 2000, function(sym, e) {
+         sym.play(0);
+
+      });
+      //Edge binding end
+
+   })("billo");
+   //Edge symbol end:'billo'
+
 })(jQuery, AdobeEdge, "EDGE-9697239920");

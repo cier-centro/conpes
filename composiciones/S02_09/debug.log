@@ -1,0 +1,371 @@
+[1107/171418:WARNING:dns_config_service_win.cc(645)] Failed to read DnsHosts.
+[1107/171432:INFO:CONSOLE(49)] "0 de 30 preguntas correctas", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/index.html?mode=internal (49)
+[1107/171432:INFO:CONSOLE(124)] "Exception while trying to push a CSS rule for .edgeLoad >> Error: HierarchyRequestError: DOM Exception 3", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js (124)
+[1107/171433:INFO:CONSOLE(0)] "Uncaught TypeError: Object #<Object> has no method 'sendMessage'", source: about:blank (0)
+[1107/171433:INFO:CONSOLE(0)] "Uncaught TypeError: Object #<Object> has no method 'sendMessage'", source: about:blank (0)
+[1107/171433:INFO:CONSOLE(0)] "Uncaught TypeError: Object #<Object> has no method 'sendMessage'", source: about:blank (0)
+[1107/171649:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/171649:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/171649:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/171649:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at Object.EdgeDOM.resumeCanvasOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:32:274)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/171650:INFO:CONSOLE(0)] "Uncaught TypeError: Object #<Object> has no method 'sendMessage'", source: about:blank (0)
+[1107/171659:INFO:CONSOLE(0)] "Uncaught TypeError: Object #<Object> has no method 'sendMessage'", source: about:blank (0)
+[1107/171724:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/171724:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/171725:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/171726:INFO:CONSOLE(0)] "Uncaught TypeError: Object #<Object> has no method 'sendMessage'", source: about:blank (0)
+[1107/171743:INFO:CONSOLE(0)] "Uncaught TypeError: Object #<Object> has no method 'sendMessage'", source: about:blank (0)
+[1107/171945:INFO:CONSOLE(0)] "Uncaught TypeError: Object #<Object> has no method 'sendMessage'", source: about:blank (0)
+[1107/171950:INFO:CONSOLE(0)] "Uncaught TypeError: Object #<Object> has no method 'sendMessage'", source: about:blank (0)
+[1107/172009:INFO:CONSOLE(0)] "Uncaught TypeError: Object #<Object> has no method 'sendMessage'", source: about:blank (0)
+[1107/172011:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/172011:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/172012:INFO:CONSOLE(0)] "Uncaught TypeError: Object #<Object> has no method 'sendMessage'", source: about:blank (0)
+[1107/172016:INFO:CONSOLE(0)] "Uncaught TypeError: Object #<Object> has no method 'sendMessage'", source: about:blank (0)
+[1107/172022:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/172022:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/172022:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/172023:INFO:CONSOLE(0)] "Uncaught TypeError: Object #<Object> has no method 'sendMessage'", source: about:blank (0)
+[1107/172147:INFO:CONSOLE(0)] "Uncaught TypeError: Object #<Object> has no method 'sendMessage'", source: about:blank (0)
+[1107/172156:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/172156:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/172157:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/172157:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at Object.EdgeDOM.resumeCanvasOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:32:274)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/172158:INFO:CONSOLE(0)] "Uncaught TypeError: Object #<Object> has no method 'sendMessage'", source: about:blank (0)
+[1107/172203:INFO:CONSOLE(0)] "Uncaught TypeError: Object #<Object> has no method 'sendMessage'", source: about:blank (0)
+[1107/172207:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/172207:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/172208:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/172209:INFO:CONSOLE(0)] "Uncaught TypeError: Object #<Object> has no method 'sendMessage'", source: about:blank (0)
+[1107/172226:INFO:CONSOLE(0)] "Uncaught TypeError: Object #<Object> has no method 'sendMessage'", source: about:blank (0)
+[1107/172228:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/172228:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/172229:INFO:CONSOLE(0)] "Uncaught TypeError: Object #<Object> has no method 'sendMessage'", source: about:blank (0)
+[1107/172344:INFO:CONSOLE(0)] "Uncaught TypeError: Object #<Object> has no method 'sendMessage'", source: about:blank (0)
+[1107/172402:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/172402:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/172403:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/172404:INFO:CONSOLE(0)] "Uncaught TypeError: Object #<Object> has no method 'sendMessage'", source: about:blank (0)
+[1107/172437:INFO:CONSOLE(0)] "Uncaught TypeError: Object #<Object> has no method 'sendMessage'", source: about:blank (0)
+[1107/174801:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (about:blank:0:47), <anonymous>:1:7)
+    at about:blank:0:47", source:  (1)
+[1107/181443:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/edge_includes/an.canvas.overlay.min.js (40)
+[1107/181443:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/edge_includes/an.canvas.overlay.min.js (40)
+[1107/181444:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/edge_includes/edge.authoring.4.0.1.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/edge_includes/edge.authoring.4.0.1.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/edge_includes/an.canvas.overlay.min.js (40)
+[1107/181444:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/edge_includes/an.canvas.overlay.min.js:36:231)
+    at Object.EdgeDOM.resumeCanvasOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/edge_includes/an.canvas.overlay.min.js:32:274)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/edge_includes/an.canvas.overlay.min.js (40)
+[1107/182336:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (about:blank:0:47), <anonymous>:1:7)
+    at about:blank:0:47", source:  (1)
+[1107/195507:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (about:blank:0:47), <anonymous>:1:7)
+    at about:blank:0:47", source:  (1)
+[1107/195530:INFO:CONSOLE(42)] "0 de 30 preguntas correctas", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/index.html?mode=internal (42)
+[1107/195542:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/195542:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/195543:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/195543:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at Object.EdgeDOM.resumeCanvasOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:32:274)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/195737:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/195737:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at Object.EdgeDOM.resumeCanvasOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:32:274)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/195737:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/195737:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at Object.EdgeDOM.resumeCanvasOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:32:274)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/195827:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/195827:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/195828:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/195828:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at Object.EdgeDOM.resumeCanvasOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:32:274)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/195845:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/195845:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/195846:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/200229:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/200229:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/200230:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/200336:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/200336:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/200337:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/200403:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/200403:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/200404:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/200411:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/200411:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/200412:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/200412:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at Object.EdgeDOM.resumeCanvasOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:32:274)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/200429:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/200429:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/200430:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/200447:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/200447:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/200448:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/200449:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at Object.EdgeDOM.resumeCanvasOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:32:274)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/200503:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/200503:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/200504:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/200621:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/200621:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
+[1107/200622:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/edge.authoring.4.0.1.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/CEN_3F_MCA_PC03/Desktop/Conpes/Repo/conpes/composiciones/S02_09/edge_includes/an.canvas.overlay.min.js (40)
