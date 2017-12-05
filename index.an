@@ -2455,6 +2455,7 @@
 		"element_${_Rectangle}":{
 			"timelineColor2":"0xd35d6e",
 			"timelineColor3":"0x7e4b52",
+			"animationEnabled":"false",
 			"timelineColor":"0xfb657a"},
 		"element_${_pieCopy}":{
 			"timelineColor2":"0x5a558a",
@@ -3332,7 +3333,7 @@
 	"slide_10-Default Timeline_playhead_ms":"0",
 	"Nivel inferior-Default Timeline_playhead_ms":"0",
 	"miga-Default Timeline_playhead_ms":"0",
-	"stage-Default Timeline_playhead_ms":"983",
+	"stage-Default Timeline_playhead_ms":"0",
 	"expanded:images/primaria_C/header.png":"nil",
 	"expanded:images/":"true",
 	"expanded:images/secundaria_L/flecha.png":"nil",

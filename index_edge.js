@@ -240,13 +240,6 @@ var symbols = {
                 type: 'image',
                 rect: ['0px', '7px','1366px','768px','auto', 'auto'],
                 fill: ["rgba(0,0,0,0)",im+"warning1.png",'0px','0px']
-            },
-            {
-                id: 'Rectangle',
-                type: 'rect',
-                rect: ['179px', '133px','269px','200px','auto', 'auto'],
-                fill: ["rgba(192,192,192,1)"],
-                stroke: [0,"rgba(0,0,0,1)","none"]
             }],
             symbolInstances: [
             {
