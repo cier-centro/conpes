@@ -1638,14 +1638,14 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    //Edge symbol: 'guia_usuario'
    (function(symbolName) {   
    
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 17418, function(sym, e) {
-         sym.stop();
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 17000, function(sym, e) {
+         /*sym.stop();
          $("#Stage_slide_"+(slideCount-1)).children().remove();
          $("#Stage_slide_"+(slideCount+1)).children().remove();
          $(sym.lookupSelector("textCount")).html("2 - 2");
          //cargar actividad-reemplazar la carpeta según el código - cambiar el simbolo de acuerdo a donde carga
          $( "#Stage_slide_9" ).append( "<iframe src='composiciones/S02_08/index.html' width='1366px' height='768px' frameborder='0' scrolling='no'></iframe>" );
-         
+         */
          //textos
          //$(sym.lookupSelector("momento")).html("Desarrollo");
          //$(sym.lookupSelector("num_actividad")).html("Actividad 1");
