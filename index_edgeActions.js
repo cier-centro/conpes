@@ -43,7 +43,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
          $("#Stage_slide_"+(slideCount-1)).children().remove();
          $("#Stage_slide_"+(slideCount+1)).children().remove();
          slideCount = 2;
-         $(sym.lookupSelector("textCount")).html("1 - 2");
+         //$(sym.lookupSelector("textCount")).html("1 - 2");
          //cargar actividad-reemplazar la carpeta según el código - cambiar el simbolo de acuerdo a donde carga
          $( "#Stage_slide_2" ).append( "<iframe src='composiciones/S02_01/index.html' width='1366px' height='768px' frameborder='0' scrolling='no'></iframe>" );
          
@@ -59,7 +59,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 2000, function(sym, e) {
         sym.stop();
         slideCount = 3;
-        sym.getSymbol("slide_3").play(0);
+        //sym.getSymbol("slide_3").play(1);
         $(sym.lookupSelector("textCount")).html("2 - 2");
         $("#Stage_slide_"+(slideCount-1)).children().remove();
         
@@ -790,7 +790,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
 
       
 
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 8000, function(sym, e) {
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 22000, function(sym, e) {
          sym.getComposition().getStage().stop("slide_3");
 
       });
@@ -1654,7 +1654,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_cerrar}", "click", function(sym, e) {
-         console.log("cerrar : "+slideCount);
+         //console.log("cerrar : "+slideCount);
          if (slideCount==1){
          	console.log("slideconunt");
          	sym.getComposition().getStage().$("guia_usuario").fadeOut("slow");
