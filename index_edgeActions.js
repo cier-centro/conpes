@@ -43,7 +43,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
          $("#Stage_slide_"+(slideCount-1)).children().remove();
          $("#Stage_slide_"+(slideCount+1)).children().remove();
          slideCount = 2;
-         //$(sym.lookupSelector("textCount")).html("1 - 2");
+         $(sym.lookupSelector("textCount")).html("1 - 2");
          //cargar actividad-reemplazar la carpeta según el código - cambiar el simbolo de acuerdo a donde carga
          $( "#Stage_slide_2" ).append( "<iframe src='composiciones/S02_01/index.html' width='1366px' height='768px' frameborder='0' scrolling='no'></iframe>" );
          
@@ -744,6 +744,14 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
 
       Symbol.bindElementAction(compId, symbolName, "${_revisar_slide10}", "click", function(sym, e) {
          sym.stop("slide_3");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_arregloCopy}", "click", function(sym, e) {
+         sym.stop("slide_2");
+         sym.getSymbol("slide_2").play(1);
+         
 
       });
       //Edge binding end

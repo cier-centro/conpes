@@ -193,6 +193,15 @@ var symbols = {
                 stroke: [0,"rgba(0,0,0,1)","none"]
             },
             {
+                id: 'arregloCopy',
+                display: 'none',
+                type: 'rect',
+                rect: ['1207px', '697px','41px','70px','auto', 'auto'],
+                cursor: ['pointer'],
+                fill: ["rgba(255,255,255,0.00)"],
+                stroke: [0,"rgba(0,0,0,1)","none"]
+            },
+            {
                 id: 'revisar_slide10',
                 display: 'none',
                 type: 'rect',
@@ -496,6 +505,15 @@ var symbols = {
                 ["style", "left", '0px'],
                 ["style", "width", '1366px']
             ],
+            "${_slide_7}": [
+                ["style", "top", '0px'],
+                ["style", "display", 'none'],
+                ["style", "overflow", 'hidden'],
+                ["style", "height", '768px'],
+                ["style", "opacity", '1'],
+                ["style", "left", '0px'],
+                ["style", "width", '1366px']
+            ],
             "${_bt_next}": [
                 ["style", "top", '697px'],
                 ["transform", "scaleY", '1'],
@@ -577,14 +595,14 @@ var symbols = {
                 ["style", "left", '0px'],
                 ["style", "width", '1366px']
             ],
-            "${_slide_7}": [
-                ["style", "top", '0px'],
+            "${_arregloCopy}": [
+                ["color", "background-color", 'rgba(255,255,255,0.00)'],
+                ["style", "left", '1207px'],
+                ["style", "height", '70px'],
                 ["style", "display", 'none'],
-                ["style", "overflow", 'hidden'],
-                ["style", "height", '768px'],
-                ["style", "opacity", '1'],
-                ["style", "left", '0px'],
-                ["style", "width", '1366px']
+                ["style", "top", '697px'],
+                ["style", "cursor", 'pointer'],
+                ["style", "width", '41px']
             ],
             "${_slide_3}": [
                 ["style", "top", '0px'],
@@ -663,6 +681,8 @@ var symbols = {
                 "slide_30": 29000
             },
             timeline: [
+                { id: "eid1548", tween: [ "style", "${_arregloCopy}", "display", 'block', { fromValue: 'none'}], position: 2000, duration: 0 },
+                { id: "eid1549", tween: [ "style", "${_arregloCopy}", "display", 'none', { fromValue: 'block'}], position: 3000, duration: 0 },
                 { id: "eid1108", tween: [ "style", "${_slide_9}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
                 { id: "eid1236", tween: [ "style", "${_slide_9}", "display", 'block', { fromValue: 'none'}], position: 8000, duration: 0 },
                 { id: "eid1237", tween: [ "style", "${_slide_9}", "display", 'none', { fromValue: 'block'}], position: 9000, duration: 0 },

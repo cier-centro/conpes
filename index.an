@@ -1511,7 +1511,7 @@
 	"mediagroup_media/beep_select.ogg":"beep_select",
 	"expanded:images/secundaria_M/iconos.png":"nil",
 	"brillo-Default Timeline_playhead_ms":"0",
-	"StageZoomFactor":"45",
+	"StageZoomFactor":"257",
 	"pixelsPerMs":"0.066248325279702",
 	"expanded:images/PERSONAJE_lipsync_cs65.png":"nil",
 	"expanded:images/contenido.png":"nil",
@@ -1927,6 +1927,11 @@
 			"timelineColor":"0x00a096",
 			"timelineTreeOpened":"false",
 			"animationEnabled":"false"},
+		"element_${_arregloCopy}":{
+			"timelineColor2":"0xba5b89",
+			"animationEnabled":"true",
+			"timelineColor3":"0x734a5f",
+			"timelineColor":"0xdb619d"},
 		"element_${_carcasa}":{
 			"timelineColor2":"0xb099ce",
 			"timelineColor3":"0x70657c",
@@ -3639,8 +3644,8 @@
 	"expanded:images/primaria_M/header.png":"nil",
 	"slide_18-Default Timeline_playhead_ms":"0",
 	"info-Default Timeline_playhead_ms":"0",
-	"nextElementColorIndex":"12",
-	"stage-Default Timeline_playhead_ms":"2657",
+	"nextElementColorIndex":"13",
+	"stage-Default Timeline_playhead_ms":"2566",
 	"expanded:images/PERSONAJE_lipsync_cs62.png":"nil",
 	"symbol_slide_28":{
 		"element_${_bg_defecto_simboloCopy}":{
@@ -3984,7 +3989,7 @@
 			"timelineColor3":"0x456a55",
 			"animationEnabled":"false",
 			"timelineColor":"0x50bd82"}},
-	"TransitionIdCounter":"1548",
+	"TransitionIdCounter":"1550",
 	"slide_25-Default Timeline_playhead_ms":"0",
 	"symbol_menu":{
 		"element_${_menuCopy}":{
