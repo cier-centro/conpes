@@ -488,90 +488,90 @@ var symbols = {
     content: {
             dom: [
                 {
-                    type: 'image',
-                    display: 'none',
                     rect: ['0px', '0px', '1366px', '768px', 'auto', 'auto'],
                     id: 'bg2',
+                    type: 'image',
+                    display: 'none',
                     fill: ['rgba(0,0,0,0)', 'images/bg2.png', '0px', '0px']
                 },
                 {
-                    type: 'image',
                     rect: ['2px', '0px', '1366px', '768px', 'auto', 'auto'],
-                    display: 'none',
+                    type: 'image',
                     id: 'contenido2',
+                    display: 'none',
                     clip: ['rect(0px 780.375px 223.9453125px 212.578125px)'],
                     fill: ['rgba(0,0,0,0)', 'images/contenido2.png', '0px', '0px']
                 },
                 {
+                    rect: ['2px', '0px', '1366px', '768px', 'auto', 'auto'],
                     type: 'image',
-                    rect: ['0px', '0px', '1366px', '768px', 'auto', 'auto'],
-                    display: 'none',
                     id: 'contenido2Copy7',
-                    clip: ['rect(79.8828125px 211.5078125px 216.9296875px 0px)'],
+                    display: 'none',
+                    clip: ['rect(79.8828125px 211.5078125px 151.71240234375px 0px)'],
                     fill: ['rgba(0,0,0,0)', 'images/contenido2.png', '0px', '0px']
                 },
                 {
-                    type: 'image',
                     rect: ['0px', '0px', '1366px', '768px', 'auto', 'auto'],
-                    display: 'none',
+                    type: 'image',
                     id: 'contenido2Copy2',
+                    display: 'none',
                     clip: ['rect(623.65625px 1366px 700.921875px 0px)'],
                     fill: ['rgba(0,0,0,0)', 'images/contenido2.png', '0px', '0px']
                 },
                 {
-                    type: 'image',
                     rect: ['0px', '0px', '1366px', '768px', 'auto', 'auto'],
-                    display: 'none',
+                    type: 'image',
                     id: 'contenido2Copy8',
+                    display: 'none',
                     clip: ['rect(528.890625px 1366px 627.9296875px 0px)'],
                     fill: ['rgba(0,0,0,0)', 'images/contenido2.png', '0px', '0px']
                 },
                 {
-                    type: 'image',
                     rect: ['0px', '0px', '1366px', '768px', 'auto', 'auto'],
-                    display: 'none',
+                    type: 'image',
                     id: 'contenido2Copy',
+                    display: 'none',
                     clip: ['rect(460.09375px 1366px 526.46875px 0px)'],
                     fill: ['rgba(0,0,0,0)', 'images/contenido2.png', '0px', '0px']
                 },
                 {
-                    type: 'image',
                     rect: ['0px', '0px', '1366px', '768px', 'auto', 'auto'],
-                    display: 'none',
+                    type: 'image',
                     id: 'contenido2Copy3',
+                    display: 'none',
                     clip: ['rect(360.6796875px 1366px 459.6875px 0px)'],
                     fill: ['rgba(0,0,0,0)', 'images/contenido2.png', '0px', '0px']
                 },
                 {
-                    type: 'image',
                     rect: ['0px', '0px', '1366px', '768px', 'auto', 'auto'],
-                    display: 'none',
+                    type: 'image',
                     id: 'contenido2Copy4',
+                    display: 'none',
                     clip: ['rect(291.84375px 1366px 360.9765625px 0px)'],
                     fill: ['rgba(0,0,0,0)', 'images/contenido2.png', '0px', '0px']
                 },
                 {
-                    type: 'image',
                     rect: ['0px', '0px', '1366px', '768px', 'auto', 'auto'],
-                    display: 'none',
+                    type: 'image',
                     id: 'contenido2Copy5',
+                    display: 'none',
                     clip: ['rect(226.46875px 1366px 293.4375px 33.7890625px)'],
                     fill: ['rgba(0,0,0,0)', 'images/contenido2.png', '0px', '0px']
                 },
                 {
-                    type: 'image',
                     rect: ['2px', '0px', '1366px', '768px', 'auto', 'auto'],
-                    display: 'none',
+                    type: 'image',
                     id: 'contenido2Copy6',
+                    display: 'none',
                     clip: ['rect(0px 1366px 225.9140625px 788.390625px)'],
                     fill: ['rgba(0,0,0,0)', 'images/contenido2.png', '0px', '0px']
                 },
                 {
                     rect: ['1188', '699', 'auto', 'auto', 'auto', 'auto'],
+                    id: 'atras',
                     display: 'none',
-                    type: 'rect',
                     cursor: ['pointer'],
-                    id: 'atras'
+                    type: 'rect'
                 }
             ],
             symbolInstances: [
@@ -647,8 +647,8 @@ var symbols = {
                 ["style", "top", '0px'],
                 ["style", "display", 'none'],
                 ["style", "background-position", [202.6875,0], {valueTemplate:'@@0@@px @@1@@px'} ],
-                ["style", "clip", [79.8828125,211.5078125,216.9296875,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
-                ["style", "left", '0px']
+                ["style", "clip", [79.8828125,211.5078125,151.71240234375,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
+                ["style", "left", '2px']
             ],
             "${_bg2}": [
                 ["style", "top", '0px'],
