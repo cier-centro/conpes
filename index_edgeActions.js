@@ -742,11 +742,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_revisar_slide10}", "click", function(sym, e) {
-         sym.stop("slide_3");
-
-      });
-      //Edge binding end
+      
 
       Symbol.bindElementAction(compId, symbolName, "${_arregloCopy}", "click", function(sym, e) {
          sym.stop("slide_2");
