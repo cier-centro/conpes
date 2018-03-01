@@ -171,8 +171,8 @@ AdobeEdge.bootstrapCallback(function(compId) {
                   }
                 }else{
                   errores=errores+1
-                  sym.$("bad"+i).css({top: y, left: x});
-                  sym.$("bad"+i).show();
+                  //sym.$("bad"+i).css({top: y, left: x});
+                  //sym.$("bad"+i).show();
                 }
               }
               //$(this).attr('disabled','disabled');

@@ -155,8 +155,8 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
 			}else{
 			//console.log("esta chequeado "+($(this).attr("id"))+" y el valor temporal es "+ValorTemp+" incorrecto");
 			errores=errores+1
-			sym.$("bad"+i).css({top: y, left: x});
-			sym.$("bad"+i).show();
+			//sym.$("bad"+i).css({top: y, left: x});
+			//sym.$("bad"+i).show();
 			}
 			}else{
 			var radioBCheck= $("#radioB_"+i).is(":checked");
@@ -165,14 +165,16 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
 			sym.$("ok"+i).css({top: yb, left: xb});
 			sym.$("ok"+i).show();
 			}else{
-			sym.$("bad"+i).css({top: yb, left: xb});
-			sym.$("bad"+i).show();
+			//sym.$("bad"+i).css({top: yb, left: xb});
+			//sym.$("bad"+i).show();
 			errores=errores+1
 			}
 			}else{
 			errores=errores+1
-			sym.$("bad"+i).css({top: y, left: x});
-			sym.$("bad"+i).show();
+			//sym.$("bad"+i).css({top: y, left: x});
+			//sym.$("bad"+i).show();
+
+         
 			}
 			}
 			//$(this).attr('disabled','disabled');

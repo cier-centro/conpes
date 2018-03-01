@@ -171,8 +171,8 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
 			}
 			}else{
 			errores=errores+1
-			sym.$("bad"+i).css({top: y, left: x});
-			sym.$("bad"+i).show();
+			//sym.$("bad"+i).css({top: y, left: x});
+			//sym.$("bad"+i).show();
 			}
 			}
 			//$(this).attr('disabled','disabled');
